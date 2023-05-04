@@ -1,4 +1,5 @@
 # Dette er et litt interessant eksperiment.
+Blir det mye  lese så se på hver overskrift til det er interessant innhold
 
 Til nå har alle rapporter og annet innhold blitt skrevet i f.ek.s odf eller .docx.  
 Nå vil jeg prøve å skrive dokumentet i markdown, for å se hva som er mulig  
@@ -60,5 +61,90 @@ F.eks. med csh ligger det c og c++ i bunn så her kan en nesten skrive c-kode di
 
 # Historie
 Mange av de ulike CLI har lang historie, og prøver å alltid være bakoverkompatible. Med linux er det lettere å forlate en mtode fra tidligere når det finnes en "ny og bedre" metode.
-et
+et slikt eksempel er ifconfig som setter opp informasjon om nettverkskort som er forlatt og byttet ut med ip. En ekvivalent til  Windows er ipconfig som lever i beste velgående.
+ip er en vanskeligere kommando å benytte med langt mindre hjelp, og på den måten "dårligere" men om en lærer seg ip så har en et langt kraftigere verktøy.
+Det fine med ulike os, for fra nå av for enkelhtsskyld velges det å si linux er et OS slik Windows er et OS er at når en lærer et så lærer en på sett og vis et annet, spesielt om de ulike OS deler filosofier.
+
+I dag er det rart linux er så ukjent siden 95% - 99% av alle OS i dag er linux, sel når en vet hvor stor Windows er. Fo å si det slik må en strekke dette med linux litt.
+Adroid på slike telefoner er en linux-gren, mens IOS til Appple er mer en Unix, men det kunne like gjerne vært linux. Når en tenkter på alt av apparter som TC, kjøeskap, kalkulatorer, vidftestyring, varmestyring,
+flyplasser, busser med inforskjermer, "smart"-klokker og så mye annet alle benytter linux, da forstår en litt mer hvorfor det er så mye som nesten hundre prosent linux overalt.
+Likevel er det ukkjent for mange.
+
+# Hvorfor linux
+Om en vil drive seriøst eller utføre mye uten restriksjoner. Restriksjoner betyr her uten at OS hindrer deg i å utføre en oppgave) da velger en IX Unix eller Linux.
+Med Windows er det en rekke detaljer som ikke kan gjøres, slik det er med Apple iphone. Med OSX som betyr både OS versjon 10 men ogs OS basert på IX er det mindre restriksjoner.
+Ved å dra det litt langt kan en si OSX er linux (NB her får jeg nok litt pepper) men poenget er at kmmandoer en bruker i IX er like, ikke at alt er linux.
+BSD, FreeBSD er typer Unix men for meg som "slutttbruker" er det større variasjoner mellom ulike linuxdistribusjoner enn mellom en mskin med Unix og Linux, så for enkelhtssksyl la oss si det er linux.
+For å si det er IX er litt tungvindt. Fra starten av (se på nett om du finner årstaller / dato) het det ikke linux eller lus torvalds IX / UX men noe annet.
+OG i dag heter det faktisk ikke linux men GNU linux. Gnu er all programvaren som utgjør omperativsystemet og linmnux er kjernen.
+
+Ig dag er GNU delen mer ukjent, men spesielt på lisensdelen er GNU viktig. Det at noe er åpen kildekode eller på engelsk Open Source som free/fri 
+programvare, og litt med fri som gratis programvare, men ikke nødvendigvis, er en filosofi til GNU
+Derrfo heter en av de kjente lisensene GPL og LGPL eller GNU (General Public License og LGPL er Lesser GPL). Innenfor GPL er det en rekke restriksjoner og føringer som gjør at linux har blitt så populært.
+OG langt obvergår alle andre OS eller systemer som har det en kan tenke på som Proprietære lisenser, og har restriskoner for sluttbruker.
+
+På grunn av denne åpne modellen er linux tilgjengelig overal, hvem som helst kan fikse på noe med linux og så gi denne ut videre. Om lisensen er GPL må en ta med kredit på opprinnelig forfatte
+legge ut egene versjon med samme lisenstype. En kan med andre ord ikke ta noe fra andre, modifisere det å så gi ette ut med andre premisser enn en har fått innholdet selv. 
+På denne mpåten sikrer en at noe som finnes alltid er tilgjengelig, og om opprinnelig forfatter lar være å utvikle noe, så kan hvem som helst andre hente det fram og videreutvikle det.
+
+I dag er svært mye av programvaren med slike lisenser, og det har vært en hard kamp å kjempe for denne modellen. Igjen søk på nett om du vil vite mer.
+KAmepen for OSS startet på tidlig 90-tall (muligens litt før pga GNU) og pågår fortsatt. I dag har mage store organisasjoner tatt i bruk OSS-programvare Open Source Software)
+Og kanskje kjenner du til VLC eller VideoLan Codek. Nå finnes VLC på omtrent alt av enheter som kan spille av video eller vise et bilde og det er fordi dette er lisensiert med GPL.
+
+# GPL
+Å nevne GPL uten å ta med en annen person som har hatt stor betyding i tilleg til Torvalds er Richard M. Stallmansom på tidlig 80-tallet ville lage et operativsystem.
+Stallman var godt kjent med Unix og det meste innenfor Unix var både kostbart og lukket programvare, så med idene om å lage som som er fritt tilgjengelig kom på plass omtrent samtidig med Microsoft startet med sin DOS-satsing
+og med en helt annen filosofi. MS sin filosofi gjøre ulike eiere og topppersonell ekstremt rtike på penger. slik at det fortsatt i dag er blant de rikeste i verden, mens Stallmans filosofi hadde en langt lavere inntektsgivende situasjon.
+
+I dag er det artig å se det er langt mer verdier i åpen programvare enn i lukket programvare, og faktisk tar i dag også militæret i bruk OSS framfor egenutvikler lukker programvare, slik at alle argumenter mot dette er i ferd med å visne hen.
+Uansett da Gnu hadde vært i bruk en ca 10 års periode dukket linus opp med sin kjerne og GNU programvaren, slik at en kunne lage et operativsystem ut av dette. Det er artig å tenke på Lius kunne havnet på laget med Apple,
+og at det var ulike filosofier som gjøre dette gikk i en annen retning.
+
+# Linux Linus og GIT
+HVoran lager en en linuxkjerne som skal være stabil... Jo da må en lage et system som har kontroll på det som lages. Da fant Linus ut at eksisterende programvare ikke kunne gjøre det 
+som er ønsket, slik at f.eks. CVS, Mercury eller SVN for å nevne noen systemer ikke var god nok. Linus lagde like gjerne GIT for å ta vare på alle endringer i liux-kjernen og i dag bruker
+"alle git" selv dette er skrevet med git på github. Framfor i Word. Litt for gøy og litt for å ta "vare" på alt underveis.
+Det en kan se det er en del enkeltpersoner opp gjennom tiden somhar fått enorm betyding for hvordan livene med teknologi leves i dag.
+
+# Et lite sprang til WWW eller HTML eller HTTP
+På 90 tallt ble internett "revolusjonert" fra slik det var før 90 og etter 90. Da dukker WWW opp eller det en i dag tenkter på som internett. var med å lage html for Cern. Let på nett for mange flere detaljer.
+Da de på Cern ville ha et dokumentsystem som gjorde det langt lettere å holde rede på alt mulig og kommunisere med hverandre dukket html opp. Det var ikke denne personen som strengt tatt fant opp HTML da det fantes SGML som HTM er hentet fra fra lang til tidlbake.
+Det som derimot er en "fellesnevner for personen nevnt over er at de kjente til dattidens teknologi og var i stand å lage noe fra dette, uten å kopiere eksisterende systemer. De gjorde dette for at det skulle være fritt tilgjengelig
+og at hvem som helst skal kunne både bidre og endre på det. Dette kan virke rart å få til, og være litt anarki-aktig, men det virker likevel, pga en rekke styringsmekanismer. En er at "ingen"er interessert i å "ødelegge" noe, en vil hele tiden endre på det for å få det bedre,
+når lisensmodellen tillater det og krever at din endring leveres ut med samme lisens, så kan ingen ta arbeidet, lukke det og så tjene på det selv, en måp dele eet videre. Dersom noen har ødelagt noe, kan alle se dette og si det er ikke godt nok og så endre på det,
+slik at sluttproduktet blir bra. Slik er det bla. med linux, og de ulike distribusjonene er ulike verdier og filosofier.
+Den jeg kjenner langt mest til er Debian og delvis Redhat. Redhat har og har hatt en filosofi som gjøre den mer utilgjengelig ffor alle, men i berdiftsmarkeedet er den mer utbredt. De lover litt som MS support til sine "kjøpere",
+men de må også gi ut mye med GPL da de har hentet fra GPL, men alt annet kan de lukke om de øsnker.
+
+Debien i motsatt ende har den helt motsatte filosofien. Der skal alt være åpent og om det ikke er det blir det merket tydelig, og så skal alt være stabilt og gjennomprøvd. Dette fører til litt saktere utvikling, men svært sjelden feil på OS,
+dette fører ofte til svært stabile systemer og med lite eller ingen restriksjoner så blir det utbredd. Muligens er Debian den linuxdistribusjnen som har bettydd mes for linux til nå, og om en tenker på Android eller Ubuntu eller Raspberry OS så har alle utspring fra Debian og slik debian til enhver tide er bygget opp, slik er disse andre systemene bygget opp.Igjn om du vil gramve videre så søk på nett, men denne gangen litt tips. Ta med ii søkeordene linux distribution wikipedia så kan du see litt av bildet
+velger å være litt snill. HEr er lenken jeg regner med di ville funnet med det "presise" søøket. https://en.wikipedia.org/wiki/Linux_distribution. Fint å tenke på søk på engelsk er ofte presist innhold og omfattende. Like så med tysk. Når du søker på norsk får du ofte mye bra, men manglende, og så er det ferre som bidrar. Og om du lurer, ja det er linux og OSS i bunn.
+
+# Oppgaven skulle handle om CLI, men her er det lite så langt
+Dette dokumentet skal ikke vise så mye CLI annet enn som vedlegg eller lenker til kode. Mye av koden er kommentert og kan brukes slik den er.  
+Målet er at koden skal virke om du kopierer den til egene maskin og med rett programvare eller OS.
+Hvordan det lenkes når alt er på github er et av eksperimentene jeg vil utføre, men som tips i scriptmappen ligger mange cli og script.
+
+Her er kun en smakebit.
+Til info dette dokumentet er ikke noe som nødvendigvis leveres ut til elevene, men info som lærer kan gi elever i mindre posjoner, evt være med å lage en video sammen med elever om de øsner det. 
+et er heller ikke noe som skal leses suksessivt, og overskriftene skal si om du vil lese videre eller ikke. Om ikke overskriften er dekkende skal første setning under hver overskrift hjelpe deg.
+
+# CLI i Windows
+og hvordan gjøre dette i Windows så brukes CMD eller powershell. Nå er fokus CLI med batch og cmd
+For å lære noe må en hvite hvordan en finner dokumentasjon og hjelp.
+I Window er kommandoen help et godt utgangspunkt så prøv denne.
+Så er det slik at de fleste kommandoer svarer på hjel med følgende argument og parameter. /?, -?, -h og /h på linux er de --help og man kommando som gjelder.
+Dersom det ikke finnes hjelp f.eks. med kommandoen msinfo32 /? så kan det hende du sendes av gårde til en nettside, og på søk på nett kan en nesten skrive navnet på hvilken osom helt kokommando 
+og så si help, howto, documentation eller liknnde og så kommer en til kilden, wikipediartikker, stackoverflow, limewire, geeksforgekks o.l. og der er det ofte god og strukturert hjelp.
+Nå slik det har vært en stud vil mange ta i bruk GPT, ChatGPT eller liknende AI-systemer og selv om det kan være forlokkende og enkelt i starten er det ikke alltid det beste valget.
+Det å spandere litt mer tid, lese artikkler, prøve å finne kilden, gjerne se en vide eller anner er langt bedre, og langt riktigere. men uansett det å jobbe med CLI uten å kunne kommandoer eller måter en benytter det på er krevende.
+Derfor er målet nå å gi deg mange ord du kan søke videre på, og en del kommandoer.
+Her er noen kommandoer. cd, md, dir, help, net, ping ipconfig, more, find, findstr, rout, copy, mode, del, tree, ... Mange av disse finner du med help og trykke enter.
+Gi deg selv oppgaven du skal lære deg 5 "nye" kommandoer hver dag fra listen fra help. Her er en du kan prøve deg på. Velg skrivebordert i Windows. Finn ut hvor det er på din PC (hint ditt brukernavn og Desktop)
+start opp cmd naviger til mappen du lagde på skrivebordet ..\...\...\ .... Dekstop\minmappe (NB ikke mllomrom eller æ ø å i filnavnet virker litt, men lurt å læ være disse og det har MS også forstått. Med XP gjorde de mange slike tabber og noen lever videre i dag)
+Nå i denne mappen via CMD gjør følgende. md eller mkdir minhjelpelistemappe (du kan endre nanvnet siden) inni denne mappen som du navigerer til med cd minhjelpelistemappe skriver NB bruk noe som heter TAB-completion eller navigere med TABUlatortasten (virker bedre i linux enn i Windows) Du bruker TAB slik skriv cda min og trykk TAB så får du hjelp
+
+nå er du i mappen ..\.\Desktop\minhjelpelistemappe og du bruker kommandoen dir. Mappen er tom, men ikke så lenge. Skriv dette i mappen når du er i cmd. Her vi du for første gang så langt se at CLI er bedre enn grafisk modus. Til nå kunne du laget alt med Windows utfosrker eller explorer.exe. Skriv kommandoen help >> minhejlperapport.txt Du har nå laget en fil som var innholdet du kunne se på skjerm med help. Denne kan åpnes i notsiboken slik. Elelr i Word om du øsnker det. NB med CLI bør du ha en bedre editor. gå til ninite.com og dinn programmer du vil bruk. Ikke bli overrasket om mye er er OSS. Bla er Notepad++ eller Visual Studio Code noe du kan benytte og VScode har pythion i bunn så alt mulig rart kan gjøres med utvidelser. Notepad++ har også myr. e
+
+
 
