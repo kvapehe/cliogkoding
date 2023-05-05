@@ -1,10 +1,15 @@
 # cliogkoding
 Denne er opprinnelig til en oppgave som skal leveres inn.  
-Den vil ogsaa tjene som et lagersted for ulike script og koding.  
+Den vil også tjene som et lagersted for ulike script og koding.  
 This is so far in Norwegian, but may later be written in English.
 
 
-## Se seksjonen innlevering uder
+## Se seksjonen innlevering under
+Etter litt info på engelsk for evt bruker så finner en lenkene til oppgaver nederst på denne siden.
+Ellers så er dette et sted en kans starte. Selve prosjektdokumentet er i Markdown istedenfor Word docx.
+Prosjektnotatet er i docx og mange vedlegg er i docxe  eller pdf. Zip-fil som er referert til inneholder alt som 
+ble levert 2023-05-05 og denne siden lever nå videre og er dynamisk oppdatert.
+https://github.com/kvapehe/cliogkoding/tree/main/innlevering
 
 ## The whole idea behind this repository it to publish, own work and potentially even others work.
 The plan is to include inside the source code the potentially used sources.
@@ -21,28 +26,26 @@ There er several issues for students under 18 yerars of age to use such tools as
 taken into cosideration
 
 
-# So what is this repository about. Whell the general idea is to use CLI-tool in different OS and envitonments.
+# The general idea is to use CLI-tool in different OS and environments.
 
 For now, python, bash, batch/cmd, powershell might be included.
 There is nothing new on the page if you are looking for a script to do a job. It is merely my own playground.
 
 
 ## The focus is about using cli-tools in both scripts and on command line to achieve some goals.
-Feel fre to explore the different folders tos find scripts., and this page for any futre updates.
+Feel free to explore the different folders to find scripts., and this page for future updates.
 
 
 # Innlevering
-Det leveres digitalt en zip-fil i rett program for innlevering.
-Denne zip-fil er en versjon av denne siden / dette innholdet på en gitt dato, og denne siden lever videre, både med tanke på å korrigere skrivefeil eller strukturendringer.
-På den måten får en litt i pose og sekk.
-Innlevering innholder også en lenke til andre steder, f.eks. der en hjemmeside ligger eller der ulike vedlegg eller mengder anndre resurser finnes.
-Disse finnes også i denne plasseringen på github under:
+Det er levert en ZIP-fil med innleveringsdokumentene. ZIP-fil er fra 2023-05-05, og en kopi finnes her
+Når github er dynamisk kan en konstant korrigere og endre på innholdet til dette blir vurdert, og på den måten er en versjon lvert innen tidsfristen mens aen annen og mye bedre versjon, konstant blir endret på. Det meste av endringene består av å rette skrivefeil, men kanskje legge til noen figurer eller gjøre dokumentet mindre kjedelig.
 
+Her er noen lenker til innleveringen.  
 https://github.com/kvapehe/cliogkoding/  
-ZIP fil på github: 
+ZIP fil på github:   
 Prosjektet på folk.ntnu: https://folk.ntnu.no/pettehei/2023_05_05_innlevering_prosjekt/  
-Og strengt tatt  skal det være nok å ha denne for å få tak i alt innholdet.
-Mappen for innlevering er her:
-https://github.com/kvapehe/cliogkoding/blob/main/innlevering/innlevering001.md
+
+Og strengt tatt  skal det være nok å ha denne for å få tak i alt innholdet.  
+Mappen for innlevering er her: https://github.com/kvapehe/cliogkoding/blob/main/innlevering/innlevering001.md  
 
 2023-05-05
