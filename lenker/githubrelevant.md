@@ -1,3 +1,6 @@
+# Velge rett lisens til eget arbeid.
+Det er lurt å bruke litt tid på dette og gjøre deg kjent på området.
+
 Når en legger ut arbeid alle kan se er det greit å definere en lisens innholdet føgler.
 På denne måten kan en som forfatter styre bruken
 Lisensen som er valgt er en MIT-lisens men den "snille" versjone som ikke legger ved restriksjoner.
