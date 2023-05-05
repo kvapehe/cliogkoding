@@ -1,5 +1,21 @@
 # Dette er et litt interessant eksperiment.
+
 Blir det mye  lese så se på hver overskrift til det er interessant innhold
+Dette dokumentet er nook ikke så brukervenlig, og tjener mer som vedlegg til elever som vil vite mer, grunnlagg til å lage powerpoint, grunnlag 
+til å legge ut info på en nettside eller ganske enkelt en referanse som lærer kan benytte. For min del som underviser i dette, så handler det om å lese gjennom alt,
+velg ut litt og litt tema, la elevene prøvbe seg fram med ulike kommandoer og oppfordre de til å dele kommandoer som de finner ut av.
+Det handler om å bruke en LMS slik som itslearing aktiv og la elevene selv legge ut info til alle, eller ganske enkelt å opprette et dokument på framapad.org
+som på et vis likner på google docs, men der alt er skrevet md markdown. Her er et slikt eksempel om en vil se en bruk av framapad
+https://annuel2.framapad.org/p/kvaelektronikk. Denne ble opprettet for en VG3-klasse og elevene oppretter når det måtte være slike dynamiske doument, og så deles lenker i f.eks. discord eller
+itslearning. Om en ikke lager en bruker på framapd, så lever denne kun i 265 dager om en ikke endrer på noe. Om en har statiske dokumenter ingen endrer på da forsvinner de,
+og det er kasnkje like greit. Lenen over er det planen alle elever på elektronikk får anvr for, siden det er en del av dokumentasjon til et prosjekt klassene har vørt gjennom og som elever nå leder på egenhånd.
+Her var målet læærer skal ikke vite noe som helt, skal ikke kunne noe av innholdet og skal ikke legge føringer. Det lærer kan gjøre er å komme med forslag og innspil til elevene og så kan de velge å lage det eller ikke.
+Noe som er artig, flere elever jobber med dette på egene fritid uten å se på det som lekse, og da er mye oppnådd.
+
+# Hurtigversjonen om du ikke orker lese så mye og vil komme rett på sak
+Bruk denne lenken og les på engelsk: https://www.howtogeek.com/168896/10-useful-windows-commands-you-should-know/
+
+# Hvorfor dette valget
 
 Til nå har alle rapporter og annet innhold blitt skrevet i f.ek.s odf eller .docx.  
 Nå vil jeg prøve å skrive dokumentet i markdown, for å se hva som er mulig  
@@ -187,8 +203,90 @@ Det å benytte objekter kan være en stor fordel, for til nå har kommandoene fo
 men konseptet med objekter gjør at en kan kombinere kommandoer enkelt. *HEr er to versjoner. for å vise serienummeret på din datamskin. Om du har en bærbar PC fra en produesent som Dell, Lenovo, HP o.l.
 så har de med stor sannsylnighet skrevt innserienummeret, prosduksjonsnummer, modellnummer o.l. Nå skal du få en CMD-kommando (som er delvis utgått, men tror den virker med W10 og kasnkje med W11)
 Og så skal du få en tilsvarende med Powershell.
+Det er ikke alt jeg kan her så her er søket jeg brukte for å finne info, og så er det bare å se gjennom noen av treffene. NB se tidligere kilder som limewire, ggeks, so o.l. for dukker de opp er innholdet ofte bra.
+Søket: powershell windows serial number Fant svaret hos howtogeek.com (enda en god kilde) så jeg vet det er riktig svar her CMD versjonen: wmic bios get serialnumber eller wmic baseboard get Product (denne viser hovekortet som er i datamskinen)
+Kanskje du vil ha informsjon om harddisken eller annet i mskinen: wmic diskdrive get model,name,serialnumber. Du ser ksnkje nå et mønster. Tips se på linjene under.
+wmic bios get serialnumber  
+wmic baseboard get Product  
+wmic diskdrive get model,name,serialnumber  
+Kommandoen wmic (let på nett) spør maskinen bios, (systemet før OS), hovedkortet (HW ovedfkort, dvs deler av maskinen rapporterer til *OS hva som finnes. NB denne lærte jeg np underveis) og diskdrive, som gir informsjon om lagringsmedia.
+Ordet diskdrive er nå misvisende da en SSD (solid Stae "disk" ikke lenger er en disk men et slags minne. Kalles ofte NAND-minne (såk på nett eller om du kans litt elektronikk så skjønner du hva det er) Men Windows har da kalt det disse ordene så da bruker en de. Og dersom du lurer noe liknende finnes i linux.En kommando jeg har glemt oppi dette og finnes også i linux netstat -an. Du får nå se "alt" om din tilgang til internett
+Var innom del tidligere. Her er en nettside som omhandler del https://www.howtogeek.com/742224/how-to-delete-files-and-folders-using-command-prompt-on-windows-10/ OG HER NOEN ANDRE NYTTIGE KOMMANDOER. nb IKKE cli, MEN KANS STARTES FRA cli MED ARGUMENTER OM EN VIL, OG MANGE AV KOMMANDOEN STØTTER >> OM DU VIL LAGE EN RAPPORT AV INNHOLDET. https://www.howtogeek.com/164484/10-useful-system-tools-hidden-in-windows/
+ oG IGJEN VÆRT FORSIKTEG MED NOEN AV KOMMANDOEN. dE KAN  gjøre stor skade om deu er uforsiktig.
+ 
+og Powershellversjonene. Get-WmiObject win32_bios | select Serialnumber. NB virker ikke med CMD. Her må du velge WIN+Q og så ordet power4shell eller du må endre på standard shell i Windows.
+Kommandoen for å starte powershell fra CMD om du vil det er powershell, men det er ikke så lurt, for du mister llitt av egenskapene til programmet powershell. Det virker så det er et valg du tar selv.
+Med Powershell så kan vi prøve å lage like kommandoer som wmic
+Get-WmiObject win32_bios | select Serialnumber eller prøv denne og se forskjellen mellom wmic og powershell som nå benytter objekter. Du kan om du vil hente objektet fra powershell rett inn i python, og MS har laget en powershell som er OSS.
+Lenken dit er: Try the new cross-platform PowerShell https://aka.ms/pscore6 ak.ms er forresten en spesiell adresse som MS bruker ofte. microsoft.com betyr kommersiell og er ofte i USA. us er lik vår .no, men MS mener de er så store at de kan brke .ms,sli ken bruker .as i norge for å indikere et akseselskap. .as er forresten Amerivcan Samoa og slik domene salg av toppdomener er en stor industri på denne øyen. I starten fantes dfet ikke mange domener slik at .net, .org, com, gov o.l var de som fantes i tillegg til mage lands domener.
+.de er tyskland, england er litt rar med .co.uk, .or.uk o.l. Litt slik som i USE men gkun to tegn istedenfor tre tegn. I dag finnes det flere 1000-vis av domeneendelser, og IANA er et sted å lete om du vil se mer på det..
 
+*Årsaken til det hele tiden hopeese fra CLI til andre deler er at mange kommandoer du lærer underveis kan benyttes for å nå disse stedene, hente ut info, lage rapporter o.l. for du vil snart sa at kommandoene ikke nødvendigvis er avgrenset til å kjøre på egen maskin men fort kan brukes lokalt i nettverket eller på internett. 
 
+Fær en går videre i powershell kan en ikke benytte /? slik som med CMD her er denne byttet til -? og ellers er mye likt. Annen måte å vise hjelp på, og mer tettere koblet mot lik hjelp på en nettside. er har MS lært en lekse ved at det en finner et sted skal ha samme type informasjon og lik oppbygging ale andre teder. Ofte har det vært lsik at om en finner informasjon må en eksperimentere litt for å skrive den riktig et annet sted. wmic er en slik tjeneste som virker "nesten" ofte. Med poweshell er dette eleiminert,
+når en ført kan kommandoene. Selv er det litt nytt, og vnaskelig å kiunne om en ikke bruker chat sheet (et annet ord som er lutrt å lære seg) Nå er det etterhvert så mange ord så kasnkje en ordliste (uten forklaring er lurt å ta med)
+
+# CLI med powershell
+Starte powershell med WIN+Q powershell (gjerne som administrator om du lnsker det,og  du er forsiktig)
+Nå kan det være lurt å legge innhjelp eller bruke hjelp på nett.
+"Get-Help Get-WmiObject -Online" or Update-Help eller go to https://go.microsoft.com/fwlink/?LinkID=113337.
+Powershell kaller forresten kommandoene for CMDlet eller commandlet og det er slags små scriptprogrammer. Om du finner de på datamsiken så er dette omtrent ren teksfil med kommandoer inni. Disse kommandoene er kamuflerte og ikke bergnet for sluttbruker,
+det er mer kompliserte en det GET, SET kommandoene powershell er bygget opp på. I powershell kan du bruke TAB mye mer enn i CMD, men ikke fullt så mye som i linux med zsh eller bash
+
+Get-WmiObject win32_bios | select Serialnumber
+Get-WmiObject win32_bios
+Get-WmiObject win32_baseboard
+Get-WmiObject win32_diskdrive
+Med videre kommandoer som over med | og så neste ord kan en filtrere. NB nå virker ikke |, >> slik som tidligere, istedenfor har powershell en rekke kommandoer som kan lage ulike typer rappporter, sortert ulikt, filtrert o.l.
+Viser en sli kommando sp en kan se måten dette gjøres.
+Denne f.eks. 
+Get-WmiObject win32_diskdrive |select mod* Da slipper en se hele listen, som "alltid er formattert fint, mye bedre enn med wmic.
+Her er noen tips om hvordan finne kommandoer og hvordan skrive kommandoene. Disse ble oppdaget underveis og benytttet
+REMARKS
+    To see the examples, type: "get-help Get-WmiObject -examples".
+    For more information, type: "get-help Get-WmiObject -detailed".
+    For technical information, type: "get-help Get-WmiObject -full".
+    For online help, type: "get-help Get-WmiObject -online"
+Dette er en verdifull internettresurs for powershell: https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-diskdrive
+Get-WmiObject -Query "ASSOCIATORS OF {Win32_DiskDrive.DeviceID='\\.\PHYSICALDRIVE0'} WHERE ResultClass=Win32_PnPEntity" Her er en mer avansert kommandolinje, så la oss plukke den fra hverandre litt.
+Kasnkje du kjenner den i gjen fra listen over.
+Mer powershell og nå strater det å likne på programmering
+$filter = "name like '%"+$_Application+"%'"
+$result = Get-WmiObject win32_process -Filter "$filter"
+Om en vil se innholdet i variablene så skriv f.eks. $result, og det dukker opp 100-vis a linjer som en naturligvis vil ta vare på i en rapport.
+Med powershell bør en vanligvis benytte linje to under framfor linje 1. Slik som med wmic i CMD så forsvinner wmi også med pwershell.
+Om du vil vite mer så søk på nett. MS har valgt å la begge kommandoene vise og virke noenlunde likt så stort sett er det nok på bytte fra 
+Get-WmiObject til Get-CimInstance og fortsette som tidligere. Her er nok et eksempel før en savlutter powershell eksempler for denne gang.
+Get-WmiObject   Win32_logicaldisk -Filter 'DeviceId = "C:"' | Select-Object DeviceID, FreeSpace
+Get-CimInstance Win32_logicaldisk -Filter 'DeviceId = "C:"' | Select-Object DeviceID, FreeSpace
+DeviceID   FreeSpace
+--------   ---------
+C:       14188314624
+Get-WmiObject til Get-CimInstance og fortsette som tidligere
+
+# Veien videre
+Kanskje en vil se python nå, men for å unngå dokumentet blir evig langt er planen å nå referere til det meste med vedlegg og eksterne filer. Før det kan det være nyttig med CLI i linux bash
+Og knaskje en CMD-fil i Windows.
+Kildekoden er laget og er dokumentert, så her kommer det kun noe om "hver benyttede kommando i batch / cmd
+@eche off. Slå av utskrift til skjerm og @ slår av vising av at en slå av echo.
+Fra nå må en skrive echo hver gang en vil ha noe til skjerm. echo er litt som print
+for løkke med batch er litt komplisert så her må en bruker for /? for å få hjelp.
+for i kommanodline srives slik for /l %i og så liknder det på for andre steder. og avsluttes med DO istedenfor {} som i andre språk.
+for i bacht må skrivs slik som et av få steder for /l %%i for å virke. Dette kan det være vanskelig å fortå om en ikke leser dokumentasjonen nøye og ksnkje finner eksempler på nett, eller ser en video.
+goto er omtrent eneste måten en kan hoppe rundt i programmet med batch. if og while er litt rduseert, og if bryr seg om noe som kalles ERRORLEVEL mer en en test. alti batch rapporterer en kode der 0 er alt OK, -1 er noe feil og tall over 0 en kode en kan teste på.
+f.eks kan en se om en fil finnes. omm svaret er jep, det gjør den får en en gitt kode, men den er ikke så viktig, for det er viktitere om den ikke finnes. da kan en søket IF NOT EXISTS istedenfor if I EXISTS,
+og m svaret er -1 gikk noe galt, og en kan gå videre derfra. Vedleggene nå viser ikke så mye om errorlevel og IF, for å redusere alt nytt, men søk på nett etter eksempler, finn et tema og se om det finnes noe.
+Det er en mengde sider med slik informsjon, og igjen, se på eksemplene her og få hint om hva du kan søke videre etter. Og tips. Å lære seg scriptprogrammering er ikke gjort på en dag eller uke. Det er noe en gjør hele tiden slik at en får det inn i fingrene,
+og så er det lurt å bruke det når du skal gjøre noe enkelt framfor å dobbelklikke ppå en fil og åpne den i notepad, eller velge gi nytt navn eller slette en fil med utforsker. bruk CMD eller Powershell og prøv på det samme der.
+:: og REM er kommentarer. REM betyr remark, og :: er en label som er tom. Det er best å benytte den udokumenterte metoden :: siden denne er rasekere. REM vil kjøre hele linjen etter REM og er det mye tekst tar dette tid.
+REM vil gå gjennom linjen, men likevel ignoreree innholdet da det er en kommentar.
+Utobver det er det ikke så mye mer i CMD shell-script, selv om dyktige programmerere kan gjøre mye ut av disse boggeblokkene.
+
+bash-shell script er derimot mye mer avnaserte selv om også bash er minimalistisk. bash er så bra at en kan lage "grafiske" menyer i bash og la bruker benytte både piltaster og mus, men det beste med shell i linux
+er at en kans la scriptet være etpythonscrip og få all den ekstra funksjonaliteten eller et c-program som er perfekt med csh eller perl som er både avansert og litt vanskelig eller php som egentlig er for dynamiske nettsider.
+språet php har en egen modus for cli kalt php-cli og da kan en bruke scipt eller programmer som skal lage nettsider direkte i operativsystemet.
+Ingen av disse blir vist her, kun nevnt slik at du kan, ja, som du allerde visse søke opp på nett selv. Søke på nett legg merke til google ikke benyttes, for det er en rekke andre søkemotoer og metoder, bli kjent med ddc eller duckduckgo
+og bang-kommandoer bang er noe som er i bash og tar med ! les om bash bang, ddc bang o.ll og du blir kjent med en ny verden. !alfabet eller !g er to eksempler, og det finnes mange 1000 andre bang-kommandoer.
 
 
 
