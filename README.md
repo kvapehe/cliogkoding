@@ -25,7 +25,7 @@ https://annuel2.framapad.org/p/kvaelektronikk.  og https://wokwi.com/projects/36
 Dette eksemplet er tatt med for å vise styrken og svakheten med dynamiske dokument. Det kan hele tiden endres, men også forbedres. Elevene på VG3 har   
 begynnt å sette pris på dette og så lenge det ikke er identifiserbart eller senistivt materiale, og vi har filosofi om å dele alt er dette "perfekt"  
 
-
+[innlevering](./innlevering/innlevering001.md)
 
 
 # cliogkoding
