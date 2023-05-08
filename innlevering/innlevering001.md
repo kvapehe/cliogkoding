@@ -1,16 +1,22 @@
 # Dette er et litt interessant eksperiment.
 
-Blir det mye  lese så se på hver overskrift til det er interessant innhold
-Dette dokumentet er nook ikke så brukervenlig, og tjener mer som vedlegg til elever som vil vite mer, grunnlagg til å lage powerpoint, grunnlag 
-til å legge ut info på en nettside eller ganske enkelt en referanse som lærer kan benytte. For min del som underviser i dette, så handler det om å lese gjennom alt,
-velg ut litt og litt tema, la elevene prøvbe seg fram med ulike kommandoer og oppfordre de til å dele kommandoer som de finner ut av.
-Det handler om å bruke en LMS slik som itslearing aktiv og la elevene selv legge ut info til alle, eller ganske enkelt å opprette et dokument på framapad.org
-som på et vis likner på google docs, men der alt er skrevet md markdown. Her er et slikt eksempel om en vil se en bruk av framapad
-https://annuel2.framapad.org/p/kvaelektronikk. Denne ble opprettet for en VG3-klasse og elevene oppretter når det måtte være slike dynamiske doument, og så deles lenker i f.eks. discord eller
-itslearning. Om en ikke lager en bruker på framapd, så lever denne kun i 265 dager om en ikke endrer på noe. Om en har statiske dokumenter ingen endrer på da forsvinner de,
-og det er kasnkje like greit. Lenen over er det planen alle elever på elektronikk får anvr for, siden det er en del av dokumentasjon til et prosjekt klassene har vørt gjennom og som elever nå leder på egenhånd.
-Her var målet læærer skal ikke vite noe som helt, skal ikke kunne noe av innholdet og skal ikke legge føringer. Det lærer kan gjøre er å komme med forslag og innspil til elevene og så kan de velge å lage det eller ikke.
-Noe som er artig, flere elever jobber med dette på egene fritid uten å se på det som lekse, og da er mye oppnådd.
+Blir det mye  lese så se på hver overskrift til det er interessant innhold (Eksperimenterer med github og TOC innholdsfortegnelse)  
+Dette dokumentet er nok ikke så brukervenlig, og tjener mer som vedlegg til elever som vil vite mer, grunnlaggtil å lage powerpoint, grunnlag  
+til å legge ut info på en nettside eller ganske enkelt en referanse som lærer kan benytte. For min del som underviser i dette, så handler det om å lese gjennom alt,  
+velg ut litt og litt tema, la elevene prøve seg fram med ulike kommandoer og oppfordre de til å dele kommandoer som de finner ut av.  
+langt mer enn de å følge et striks opplegg. Tenk på de demonstrasjonen vi har hatt u nderveis i kurset, det kan godt hende det er et manuskript bak, med det fikk aldri vi se.  
+
+Det handler om å bruke en LMS slik som itslearing aktivt og la elevene selv legge ut info til alle, eller ganske enkelt å opprette et dokument på framapad.org  
+som på et vis likner på google docs, men der alt er skrevet med markdown. Her er et slikt eksempel om en vil se en bruk av framapad  
+https://annuel2.framapad.org/p/kvaelektronikk. Denne ble opprettet for en VG3-klasse og elevene oppretter når det måtte være slike dynamiske dokument, og så deles lenker i f.eks. discord eller  
+itslearning. Om en ikke lager en bruker på framapd, så lever denne kun i 365 dager om en ikke endrer på noe. 
+Om en har statiske dokumenter ingen endrer på da forsvinner de,  og det er kasnkje like greit. 
+
+Lenken over er det planen alle elever på elektronikk får ansvar for, siden det er en del av dokumentasjon til et prosjekt klassene har vært gjennom og som elever nå leder på egenhånd.  
+Her var målet lærer skal ikke vite noe som helst, skal ikke kunne noe av innholdet og skal ikke legge føringer (bommer naturligvis alltid litt på dette, spesielt om det er tidsfrister inni bildet 17. mai er en slik frist.).
+
+Det lærer kan gjøre er å komme med forslag og innspil til elevene og så kan de velge å lage det eller ikke.  
+Noe som er artig, flere elever jobber med dette på egene fritid uten å se på det som lekse, og da er mye oppnådd.  
 
 # Hurtigversjonen om du ikke orker lese så mye og vil komme rett på sak
 Bruk denne lenken og les på engelsk: https://www.howtogeek.com/168896/10-useful-windows-commands-you-should-know/
