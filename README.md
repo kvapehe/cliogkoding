@@ -19,6 +19,12 @@ Lenke til [Vedlegg](.vedlegg) Lenke til framapad som eksempel, intill det evt er
 - Vedlegg er ikke påkrevet for selv oppgaven utover at det er lagt med bår som referanse og som noe en kan sjekke innlevert oppgave mot.  
 - Framapad som er en tjeneste, som er genial å benytte med slikt dynamisk innhold er litt på sidelinjen pr dd, men her er et eksepel på bruk av framapad for et annet prosjekt    
 
+### Sidenotis som begrunner valg av denne dynamiske måten å utføre oppgaven  
+Eksternt eksempel som viser framapad og deretter prosjektet/produktet. VG3 elever har denne i gang ilp. 1 - 2 dager nå.  
+https://annuel2.framapad.org/p/kvaelektronikk.  og https://wokwi.com/projects/363989160791454721?font=20, men den siste lenker er tilgjengelig fra framapad.  
+Dette eksemplet er tatt med for å vise styrken og svakheten med dynamiske dokument. Det kan hele tiden endres, men også forbedres. Elevene på VG3 har   
+begynnt å sette pris på dette og så lenge det ikke er identifiserbart eller senistivt materiale, og vi har filosofi om å dele alt er dette "perfekt"  
+
 
 
 
