@@ -1,3 +1,27 @@
+# Notis. Denne er levert som innlevering i inspera. 
+Tanken med denne dynamiske siden er å rette en del skrivefeil og evt legge til flere eksempler under script.
+Det er siden på github som er den aktive og mest oppdaterte til enhver tid, og det er som hjelpt til den innleverte versjonen.
+Da det er mulig å levere ne nettside / dynamisk innhold så er dette det beste stedet å finne altl Som skrevet under, naviger til de ulike stedene med lenker i dokumentene.
+MAppen vedlegge inneholder alle relevante vedlegg, både som zip-file som er levert, men også dokumenter som kan åpnes fra nettstedet.
+bla, prosjektrapport, øving 3, forprosjekt o.l.
+Nå med nytt innhold er faren for nye skrivefeil, så skal prøve å redusere dette. Om det er usikkert når innhold er lagt inn så er dette git, så en finner revisjoner der.
+Det som er i zip-fil er eksakt likt det som er levert i inspera.
+
+## Gå til innleveringer 
+(NB det er mulig en må velge lenker og si åpne i ny arkfane for enkelhtsskyld midterste musknapp klikk på lenke slår aldri feil)  
+Om en er lei av å lese introduksjoner, så er det her hurtiglenker til innlevering, script og vedlegg, ellers  
+så oppfordres det til å bla gjennom i prosjektet, og om du bruker ny vising i github er dette blitt mye letttere  
+Innleveringsdokumenter: MD-type og ikke Word / PDF [Innlevering](./innlevering)  
+Script: .sh, .bat, .cmd, .py ... og annet [Script](./script)  
+Vedlegg: Zip-fil, muligens med utpakket innhold, da er det .pdf, .docx, annet.   
+Lenke til [Vedlegg](.vedlegg) Lenke til framapad som eksempel, intill det evt er benyttet i dette prosejktet.   
+- Vedlegg er bla, forprosjekt, øving 3, evt referanser, cheat sheet om det er aktuelt o.l.  
+- Vedlegg er ikke påkrevet for selv oppgaven utover at det er lagt med bår som referanse og som noe en kan sjekke innlevert oppgave mot.  
+- Framapad som er en tjeneste, som er genial å benytte med slikt dynamisk innhold er litt på sidelinjen pr dd, men her er et eksepel på bruk av framapad for et annet prosjekt    
+
+
+
+
 # cliogkoding
 Denne er opprinnelig til en oppgave som skal leveres inn.  
 Den vil også tjene som et lagersted for ulike script og koding.  
