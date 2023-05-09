@@ -6,11 +6,11 @@ Litt beskrivelse for hvert script.
 ### Tilbake til toppen
 - [README](../README.md)
 ### Innlevering
-- [innlevering](../innlevering001.md)
-- [innlevering del 2](../innlevering002_lite_tekst_noe_kode.md)
+- [innlevering](../innlevering/innlevering001.md)
+- [innlevering del 2](../innlevering/innlevering002_lite_tekst_noe_kode.md)
 ### Scripteksempler
 - [Script](./README.md)
-- [Script (Linux) Bash](./bash01.cmd) Notis, her må du bruke tilbaketasten da .sh ikke støtter hyperlenker. Blir evt endret til .md med code-boks etterhvert
+- [Script (Linux) Bash](./bash01.cmd) Notis, her må du bruke tilbaketasten da .sh ikke støtter hyperlenker. Blir evt endret til .md med code-boks etterhvert. Litt flere lenker under
 - [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) 
 - [Script (Dos/Win/cmd) Batch 2](./batch02.cmd) 
 - [Script (Win python) Python 1](./python01.py) NB ikke klar enda
