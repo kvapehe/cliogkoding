@@ -1,4 +1,13 @@
 # Dette er et litt interessant eksperiment.
+## Navigasjon: (manuell foreløpig)
+### Tilbake til toppen
+- [README](../README.md)
+### Innlevering
+- [innlevering](./innlevering001.md)
+- [innlevering del 2](./innlevering002_lite_tekst_noe_kode.md)
+### Scripteksempler
+- [Script](../script/README.md)
+
 
 Blir det mye  lese så se på hver overskrift til det er interessant innhold (Eksperimenterer med github og TOC innholdsfortegnelse)  
 Dette dokumentet er nok ikke så brukervenlig, og tjener mer som vedlegg til elever som vil vite mer, grunnlaggtil å lage powerpoint, grunnlag  

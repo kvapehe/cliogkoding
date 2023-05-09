@@ -1,4 +1,13 @@
 # Intensjoen med dokumentet
+## Navigasjon: (manuell foreløpig)
+### Tilbake til toppen
+- [README](../README.md)
+### Innlevering
+- [innlevering](./innlevering001.md)
+- [innlevering del 2](./innlevering002_lite_tekst_noe_kode.md)
+### Scripteksempler
+- [Script](../script/README.md)
+
 I dette dokumentet er tanken å vise en del kommandoer , fra de helt enkle til mer avanserte.
 
 Hvorfr gjøre det slik. Noen ganger er det lettere å finne ut av noe om du ser det du leter etter, og andre ganger er en metode å teste det du finner.

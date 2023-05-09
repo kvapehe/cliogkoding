@@ -1,5 +1,13 @@
 # Notis. Denne er levert som innlevering i inspera. 
 ### Vis på egen nettsideadresse https://kvapehe.github.io/cliogkoding/
+## Navigasjon: (manuell foreløpig)
+### Innlevering
+- [innlevering](./innlevering/innlevering001.md)
+- [innlevering del 2](./innlevering/innlevering002_lite_tekst_noe_kode.md)
+### Scripteksempler
+- [Script](./script/README.md)
+
+
 Tanken med denne dynamiske siden er å rette en del skrivefeil og evt legge til flere eksempler under script.
 Det er siden på github som er den aktive og mest oppdaterte til enhver tid, og det er som hjelpt til den innleverte versjonen.
 Da det er mulig å levere ne nettside / dynamisk innhold så er dette det beste stedet å finne altl Som skrevet under, naviger til de ulike stedene med lenker i dokumentene.
