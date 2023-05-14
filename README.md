@@ -1,5 +1,6 @@
 # Notis. Denne er levert som innlevering i inspera. 
-### Vis på egen nettsideadresse https://kvapehe.github.io/cliogkoding/
+### Vis på egen nettsideadresse  
+### https://kvapehe.github.io/cliogkoding/
 ## Navigasjon: (manuell foreløpig)
 ### Innlevering
 - [innlevering](./innlevering/innlevering001.md)
