@@ -16,7 +16,7 @@ Litt beskrivelse for hvert script.
 - [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) 
 - [Script (Dos/Win/cmd) Batch 2](./batch02.cmd) 
 - [Script (Win python) Python 1](./python01.py) 
-- - [Script (Win python) Python 1 versjon b](./python01b.py) 
+- [Script (Win python) Python 1 versjon b](./python01b.py) 
 <!-- - [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda -->
 
