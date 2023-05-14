@@ -173,6 +173,11 @@ et er heller ikke noe som skal leses suksessivt, og overskriftene skal si om du 
 og hvordan gjøre dette i Windows så brukes CMD eller powershell. Nå er fokus CLI med batch og cmd
 For å lære noe må en hvite hvordan en finner dokumentasjon og hjelp.
 I Window er kommandoen `help` et godt utgangspunkt så prøv denne.
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="http://vikinc.net/thepenisstrong_med.png>
+</picture>
 
 Så er det slik at de fleste kommandoer svarer på hjelp med følgende argument og parameter. /?, -?, -h og /h på linux er det --help og man kommando som gjelder.
 Dersom det ikke finnes hjelp f.eks. med kommandoen msinfo32 /? så kan det hende du sendes av gårde til en nettside, og på søk på nett kan en nesten skrive navnet på hvilken osom helt kokommando 
