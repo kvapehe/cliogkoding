@@ -1,7 +1,7 @@
 # Dette er et litt interessant eksperiment.
 ## Navigasjon: (manuell foreløpig)
 ### Tilbake til toppen
-- [README](../README.md)
+- [Hovedsiden](../README.md)
 ### Innlevering
 - [innlevering](./innlevering001.md)
 - [innlevering del 2](./innlevering002_lite_tekst_noe_kode.md)
