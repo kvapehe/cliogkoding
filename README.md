@@ -1,16 +1,26 @@
 # Notis. Denne er levert som innlevering i inspera. 
+(En langt tidligere utgave)
 ### Vis på egen nettsideadresse  
 ### https://kvapehe.github.io/cliogkoding/
-## Navigasjon: (manuell foreløpig)
+
+## Navigasjon: (manuell foreløpig, muligens den må forbli manuell)
 ### Innlevering
 - [innlevering](./innlevering/innlevering001.md)
 - [innlevering del 2](./innlevering/innlevering002_lite_tekst_noe_kode.md)
 ### Scripteksempler
 - [Script](./script/README.md)
+### Bakgrunnsinformasjon for selve nettstedet
+- Se nedesrst på siden om du ønsker å vite litt mer om nettstedet som er laget  
+  Dette er et eksperiment, ved å benytte github til "alt" og ikke bruke en ordinær Wordfil som dokumentasjon  
+### Framapadsiden som lenker hit
+- [Framapad CLI og koding](https://annuel2.framapad.org/p/cliogkoding)
 
 
+# Velkommen til denne intrduksjonssiden
 Tanken med denne dynamiske siden er å rette en del skrivefeil og evt legge til flere eksempler under script.
-Det er siden på github som er den aktive og mest oppdaterte til enhver tid, og det er som hjelpt til den innleverte versjonen.
+Det er siden på github som er den aktive og mest oppdaterte til enhver tid, og det er som hjelp til den innleverte versjonen.
+Med den innleverte versjonen er det en rekke skrivefeil og tungt stoff. DEt er også lite bilder eller annet som gjør det lett å lese.
+Dette er et forsøk på å rette litt opp i det, og det vil fortsatt være mange skrivefeil, som rettes kontinuerlig, lenge etter innleveringsfristen.
 Da det er mulig å levere ne nettside / dynamisk innhold så er dette det beste stedet å finne altl Som skrevet under, naviger til de ulike stedene med lenker i dokumentene.
 MAppen vedlegge inneholder alle relevante vedlegg, både som zip-file som er levert, men også dokumenter som kan åpnes fra nettstedet.
 bla, prosjektrapport, øving 3, forprosjekt o.l.
@@ -24,18 +34,18 @@ så oppfordres det til å bla gjennom i prosjektet, og om du bruker ny vising i 
 Innleveringsdokumenter: MD-type og ikke Word / PDF [Innlevering](./innlevering)  
 Script: .sh, .bat, .cmd, .py ... og annet [Script](./script)  
 Vedlegg: Zip-fil, muligens med utpakket innhold, da er det .pdf, .docx, annet.   
-Lenke til [Vedlegg](.vedlegg) Lenke til framapad som eksempel, intill det evt er benyttet i dette prosejktet.   
+Lenke til [Vedlegg](./vedlegg/) Lenke til framapad som eksempel, inntil det evt er benyttet i dette prosejktet.   
 - Vedlegg er bla, forprosjekt, øving 3, evt referanser, cheat sheet om det er aktuelt o.l.  
-- Vedlegg er ikke påkrevet for selv oppgaven utover at det er lagt med bår som referanse og som noe en kan sjekke innlevert oppgave mot.  
-- Framapad som er en tjeneste, som er genial å benytte med slikt dynamisk innhold er litt på sidelinjen pr dd, men her er et eksepel på bruk av framapad for et annet prosjekt    
+- Vedlegg er ikke påkrevet for selve oppgaven utover at det er lagt med som referanse og som noe en kan sjekke innlevert oppgave mot.  
+- Framapad som er en tjeneste, som er genial å benytte med slikt dynamisk innhold og er litt på sidelinjen pr dd. [Framapad CLI og koding](https://annuel2.framapad.org/p/cliogkoding)
 
 ### Sidenotis som begrunner valg av denne dynamiske måten å utføre oppgaven  
-Eksternt eksempel som viser framapad og deretter prosjektet/produktet. VG3 elever har denne i gang ilp. 1 - 2 dager nå.  
-https://annuel2.framapad.org/p/kvaelektronikk.  og https://wokwi.com/projects/363989160791454721?font=20, men den siste lenker er tilgjengelig fra framapad.  
+Eksternt eksempel som viser framapad og deretter prosjektet/produktet. VG3 elever har denne våren 2023.  
+Framapad: https://annuel2.framapad.org/p/kvaelektronikk med Simuleringsnettsiden https://wokwi.com/projects/364411374536975361?font=20
+Video fra bruk av prosjektet i virkeligheten er også tilgjengelig på forespørsel.
+
 Dette eksemplet er tatt med for å vise styrken og svakheten med dynamiske dokument. Det kan hele tiden endres, men også forbedres. Elevene på VG3 har   
 begynnt å sette pris på dette og så lenge det ikke er identifiserbart eller senistivt materiale, og vi har filosofi om å dele alt er dette "perfekt"  
-
-[innlevering](./innlevering/innlevering001.md)
 
 
 # cliogkoding
@@ -51,7 +61,10 @@ Prosjektnotatet er i docx og mange vedlegg er i docxe  eller pdf. Zip-fil som er
 ble levert 2023-05-05 og denne siden lever nå videre og er dynamisk oppdatert.
 https://github.com/kvapehe/cliogkoding/tree/main/innlevering
 
-## The whole idea behind this repository it to publish, own work and potentially even others work.
+# Information in English.
+Incase a non Norwegian reader / user sees this page here is some information. The scripts are written in English,  
+and they try to show som programming examples in different languages. Mostly for educational use.
+### The whole idea behind this repository it to publish, own work and potentially even others work.
 The plan is to include inside the source code the potentially used sources.
 If anyone sees their own work with not a proper credit, let me know so I can fix it.
 
@@ -88,4 +101,8 @@ Prosjektet på folk.ntnu: https://folk.ntnu.no/pettehei/2023_05_05_innlevering_p
 Og strengt tatt  skal det være nok å ha denne for å få tak i alt innholdet.  
 Mappen for innlevering er her: https://github.com/kvapehe/cliogkoding/blob/main/innlevering/innlevering001.md  
 
-2023-05-05
+# Bakgrunnsinformasjon om selve gihubsidene
+- [Bakgrunnsinformasjon](./PAGE-NAME.md)
+
+Initial 2023-05-05
+Last edited 2023-05-14
