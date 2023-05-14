@@ -173,40 +173,63 @@ et er heller ikke noe som skal leses suksessivt, og overskriftene skal si om du 
 og hvordan gjøre dette i Windows så brukes CMD eller powershell. Nå er fokus CLI med batch og cmd
 For å lære noe må en hvite hvordan en finner dokumentasjon og hjelp.
 I Window er kommandoen `help` et godt utgangspunkt så prøv denne.
+
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
  <img alt="YOUR-ALT-TEXT" src="http://vikinc.net/thepenisstrong_med.png>
 </picture>
 
-Så er det slik at de fleste kommandoer svarer på hjelp med følgende argument og parameter. /?, -?, -h og /h på linux er det --help og man kommando som gjelder.
-Dersom det ikke finnes hjelp f.eks. med kommandoen msinfo32 /? så kan det hende du sendes av gårde til en nettside, og på søk på nett kan en nesten skrive navnet på hvilken osom helt kokommando 
+
+Så er det slik at de fleste kommandoer svarer på hjelp med følgende argument og parameter. `/?, -?, -h` og `/h` på linux er det `--help` og `man` kommando som gjelder.
+Dersom det ikke finnes hjelp f.eks. med kommandoen `msinfo32 /?` så kan det hende du sendes av gårde til en nettside, og på søk på nett kan en nesten skrive navnet på hvilken osom helt kokommando 
 og så si help, howto, documentation eller liknnde og så kommer en til kilden, wikipediartikker, stackoverflow, limewire, geeksforgekks o.l. og der er det ofte god og strukturert hjelp.
+
 Nå slik det har vært en stud vil mange ta i bruk GPT, ChatGPT eller liknende AI-systemer og selv om det kan være forlokkende og enkelt i starten er det ikke alltid det beste valget.
-Det å spandere litt mer tid, lese artikkler, prøve å finne kilden, gjerne se en vide eller anner er langt bedre, og langt riktigere. men uansett det å jobbe med CLI uten å kunne kommandoer eller måter en benytter det på er krevende.
+Det å spandere litt mer tid, lese artikkler, prøve å finne kilden, gjerne se en video eller annet er langt bedre, og langt riktigere. men uansett det å jobbe med CLI uten å kunne kommandoer eller måter en benytter det på er krevende.
+
 Derfor er målet nå å gi deg mange ord du kan søke videre på, og en del kommandoer.
-Her er noen kommandoer. cd, md, dir, help, net, ping ipconfig, more, find, findstr, rout, copy, mode, del, tree, type, ... Mange av disse finner du med help og trykke enter.
+Her er noen kommandoer. `cd, md, dir, help, net, ping ipconfig, more, find, findstr, rout, copy, mode, del, tree, type,` ... Mange av disse finner du med help og trykke enter.
+
 Gi deg selv oppgaven du skal lære deg 5 "nye" kommandoer hver dag fra listen fra help. Her er en du kan prøve deg på. Velg skrivebordert i Windows. Finn ut hvor det er på din PC (hint ditt brukernavn og Desktop)
-start opp cmd naviger til mappen du lagde på skrivebordet ..\...\...\ .... Dekstop\minmappe (NB ikke mllomrom eller æ ø å i filnavnet virker litt, men lurt å læ være disse og det har MS også forstått. Med XP gjorde de mange slike tabber og noen lever videre i dag)
-Nå i denne mappen via CMD gjør følgende. md eller mkdir minhjelpelistemappe (du kan endre nanvnet siden) inni denne mappen som du navigerer til med cd minhjelpelistemappe skriver NB bruk noe som heter TAB-completion eller navigere med TABUlatortasten (virker bedre i linux enn i Windows) Du bruker TAB slik skriv cda min og trykk TAB så får du hjelp
 
-nå er du i mappen ..\.\Desktop\minhjelpelistemappe og du bruker kommandoen dir. Mappen er tom, men ikke så lenge. Skriv dette i mappen når du er i cmd. Her vi du for første gang så langt se at CLI er bedre enn grafisk modus. Til nå kunne du laget alt med Windows utfosrker eller explorer.exe. Skriv kommandoen help >> minhejlperapport.txt Du har nå laget en fil som var innholdet du kunne se på skjerm med help. Denne kan åpnes i notsiboken slik. Elelr i Word om du øsnker det. NB med CLI bør du ha en bedre editor. gå til ninite.com og dinn programmer du vil bruk. Ikke bli overrasket om mye er er OSS. Bla er Notepad++ eller Visual Studio Code noe du kan benytte og VScode har pythion i bunn så alt mulig rart kan gjøres med utvidelser. Notepad++ har også mange utvidelser, og det er greit å ha begge.
+## En oppgave å starte med
+Start opp `cmd` naviger til mappen du lagde på skrivebordet `..\...\...\` ... `Dekstop\minmappe`  
+(NB ikke mllomrom eller æ ø å i filnavnet virker litt, men lurt å læ være disse og det har MS også forstått. Med XP gjorde de mange slike tabber og noen lever videre i dag)
 
-Annet som en kan tenke på fra ninite. winmerge, notepad++, putty, 7-zip, vlc, windirstat, python, visual studio code er alle programmer du kan hente fra nitnite. Fakstisk er det lurt åå bli litt kjent på niite.com og sf.net når du er i gang.
+Nå i denne mappen via `CMD` gjør følgende. `md` eller `mkdir minhjelpelistemappe` (du kan endre nanvnet siden) inni denne mappen som du navigerer til med `cd minhjelpelistemappe` Når du skriver kan du bruke noe som heter TAB-completion eller navigere med TABULATOR-tasten (virker bedre i linux enn i Windows) Du bruker TAB slik skriv `cd min` og trykk `TAB` så får du hjelp.
+
+Nå er du i mappen `..\.\Desktop\minhjelpelistemappe` og du bruker kommandoen `dir`. Mappen er tom, men ikke så lenge. Skriv dette i mappen når du er i `cmd`. Her vil du for første gang så langt se at CLI er bedre enn grafisk modus. Til nå kunne du laget alt med Windows utfosrker eller explorer.exe. Skriv kommandoen `help >> minhejlperapport.txt` Du har nå laget en fil som var innholdet du kunne se på skjerm med help. Denne kan åpnes i notsiboken slik `notepad minhejlperapport.txt` Eller i Word om du øsnker det. NB med CLI bør du ha en bedre editor. Derfor gå til https://ninite.com og finn programmer du vil bruke. 
+
+## Hjelpeprogrammer i CLI-verden
+Ikke bli overrasket om mye er er OSS. Bla er `Notepad++` eller `Visual Studio Code` noe du kan benytte og `VS-code` har `python` i bunn så alt mulig rart kan gjøres med utvidelser. `Notepad++` har også mange utvidelser, og det er greit å ha begge.
+
+Annet som en kan tenke på fra `ninite. winmerge, notepad++, putty, 7-zip, vlc, windirstat, python, visual studio code` er alle programmer du kan hente fra ninite. 
+
+Fakstisk er det lurt å bli litt kjent på `niite.com og sf.net` når du er i gang.
 Og vil du ta det helt ut og nesten gjøre ant i CLI kan du leke med chockolatey. da skriver du f.eks. choco firefox og så legges Firefox automagisk inn på din datamaskin med Windows OS. sæk på nett om du er interessert.
 
-Nå har du som "del av kurset laget og brukt dine første CLI-kommandoer, og du burde starte med help så slipper du å lese mye av det over eller "huske" kommandoene. Nå når du har sett en 10 15 kommandoer så finnes noe liknende i linux,
-så da kan en utføre liknende oppgaver der. Men disse kommandoene er "kjedlige" og lite "automagiske slik de er nå. En må ta de med i batch-programmer for å få mer gøy med de. Er du dyktig å programmere kan du legge kommndoene opå din egen USB-penn og så kjøre de på ulike mmaskiner
-bet et tastetrykk. NB pass på sikkerheten både din egene som bruker noe du har hos andre, men også dfor de som tillater du bruker din  "magiseke" USB-penn andre steder.
-HEr skal du få en kommando som er "kraftig om du har en bærbar PC. NB for å få tilgang på alle kommandoer må du sarte CMD med Administratorrettigheter. (Dette er fordi det må være sikkerhetsrestriksjoner) Du skal få et scipt en cli line som nesten kan hente ut passordet på alle trådløse nettverk maskinen din eller maskinen du kjører kommandoen på er tilkoblet eller har vært tilkoblet. Du får ikke alt da det er en sikkerhetsrisiko, men om du slev kan lese litt hjelp finner du ut av det selv.
-Kommandoen netsh som kiun finnes i Windows og tildigere kun i W7 og nyere er nå nesten standerverktøy for mange brukere som bruker trådløse tilkoblinger. Det er mulig med andre kommandoer, men netsh gir skikkelig god og presis teknisk informasjon.
-HJer er den interaktivt. da skriver du en kommando trykker ENTEr for hver gang. 
+## Klar for neste steget i CLI-verden
+Nå har du som "del av kurset laget og brukt dine første CLI-kommandoer, og du burde starte med help så slipper du å lese mye av det over eller "huske" kommandoene. Nå når du har sett en 10 - 15 kommandoer så finnes noe liknende i linux.
+
+
+Du kan utføre liknende oppgaver i linux som i Windows. Men disse kommandoene er "kjedlige" og lite "automagiske slik de er nå. En må ta de med i `batch`-programmer for å få mer gøy med de. Er du dyktig å programmere kan du legge kommndoene på din egen USB-penn og så kjøre de på ulike mmaskiner
+met et tastetrykk. NB pass på sikkerheten både din egen som bruker noe du har hos andre, men også for de som tillater du bruker din  "magiseke" USB-penn andre steder.
+
+
+Her skal du få en kommando som er "kraftig om du har en bærbar PC. NB for å få tilgang på alle kommandoer må du sarte CMD med Administratorrettigheter. (Dette er fordi det må være sikkerhetsrestriksjoner) 
+
+Du skal få et scipt en cli line som nesten kan hente ut passordet på alle trådløse nettverk maskinen din eller maskinen du kjører kommandoen på er tilkoblet eller har vært tilkoblet. Du får ikke alt da det er en sikkerhetsrisiko, men om du selv kan lese litt hjelp finner du ut av det.
+Kommandoen `netsh` som kun finnes i Windows og tildigere kun i W7 og nyere er nå nesten standardverktøy for mange brukere som bruker trådløse tilkoblinger. Det er mulig med andre kommandoer, men `netsh` gir skikkelig god og presis teknisk informasjon.
+Her er den interaktivt. da skriver du en kommando trykker ENTER for hver gang. 
+```cmd
 netsh
 wlan
 (help)
 show
 profiles
 (help) ...
+```
 ... Mer får du ikke. Nå får du en annen versjon av samme kommando
 netsh wlan show profiles >> minnettverksprofilllistemedwlan.txt
 Regner med du forstsatt er i samme mappe som tidligere, om ikke så naviger dit. OG NB husk du er Administrator eller superbruker eller på linux (root) slik at det er få restriksjoner om du gjør noe feil.
