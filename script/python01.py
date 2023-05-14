@@ -108,8 +108,6 @@ def milliDegreeCelciusToDdegreeCelcius(zone_temp_raw2):
   
   if (  debug == 1 ):
   
-    # Now prints the
-    
     print("\n===== Debug milli temperature is printed with lots of decimals:", end=" ")
     print((zone_temp_raw2))
     print(type(zone_temp_raw2))
@@ -138,7 +136,6 @@ def milliDegreeCelciusToDdegreeCelcius(zone_temp_raw2):
   return zone_temp_raw2
 
 
-
 # Splitting the integer part and the remainder like so // and % in c++
 # Also converting to the , decimal point for presentation 5.45 -> 5,54
 def degreenumber(zone_temp_raw2):
@@ -157,7 +154,7 @@ def degreenumber(zone_temp_raw2):
 
 def degreeSymbol():
 
-  # Finally befor presentation, lets handle the unit for the temperature.
+  # Finally before presentation, lets handle the unit for the temperature.
   # Degree symbols: With unicode there are defined symbols, but you may mix the degree and a C to produce
   # something simlar to the degC. Below are three methods to create the symbols neccesary.
   # The preferred method for readability is the degreesymbol1 version, although degreesymbol2 is the same
@@ -194,7 +191,7 @@ def printValuesToUser(zone_temp_raw2, wholetemperature, remainderpartasint):
     print((  math.floor(zone_temp_raw2)  ))
     print(remainderpartasint)
 
-  # All values aer numbers of type int64 and may be easilly changed. The presentation looks like an entire string sentence
+  # All values are numbers of type int64 and may be easilly changed. The presentation looks like an entire string sentence
   # There is no need to handle decimals as the math earlier has done that.
   print("\n======================================\n" \
     f" The system temperature is: {wholetemperature},{remainderpartasint} {degreesymbol1}." \
