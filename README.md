@@ -2,7 +2,7 @@
 (En langt tidligere utgave)
 ### Vis på egen nettsideadresse  
 ### https://kvapehe.github.io/cliogkoding/
-
+NB bruk åpåne i ny arkfane om du vil ha en ny "side"
 ## Navigasjon: (manuell foreløpig, muligens den må forbli manuell)
 ### Innlevering
 - [innlevering](./innlevering/innlevering001.md)
