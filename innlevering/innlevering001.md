@@ -189,7 +189,8 @@ Nå slik det har vært en stud vil mange ta i bruk GPT, ChatGPT eller liknende A
 Det å spandere litt mer tid, lese artikkler, prøve å finne kilden, gjerne se en video eller annet er langt bedre, og langt riktigere. men uansett det å jobbe med CLI uten å kunne kommandoer eller måter en benytter det på er krevende.
 
 Derfor er målet nå å gi deg mange ord du kan søke videre på, og en del kommandoer.
-Her er noen kommandoer. `cd, md, dir, help, net, ping ipconfig, more, find, findstr, rout, copy, mode, del, tree, type,` ... Mange av disse finner du med help og trykke enter.
+Her er noen kommandoer. `cd, md, dir, help, net, ping ipconfig, more, find, findstr, route print, copy, mode, del, tree, type,` ...  
+Mange av disse finner du med help og trykke enter.
 
 Gi deg selv oppgaven du skal lære deg 5 "nye" kommandoer hver dag fra listen fra help. Her er en du kan prøve deg på. Velg skrivebordert i Windows. Finn ut hvor det er på din PC (hint ditt brukernavn og Desktop)
 
@@ -222,7 +223,7 @@ Her skal du få en kommando som er "kraftig om du har en bærbar PC. NB for å f
 Du skal få et scipt en cli line som nesten kan hente ut passordet på alle trådløse nettverk maskinen din eller maskinen du kjører kommandoen på er tilkoblet eller har vært tilkoblet. Du får ikke alt da det er en sikkerhetsrisiko, men om du selv kan lese litt hjelp finner du ut av det.
 Kommandoen `netsh` som kun finnes i Windows og tildigere kun i W7 og nyere er nå nesten standardverktøy for mange brukere som bruker trådløse tilkoblinger. Det er mulig med andre kommandoer, men `netsh` gir skikkelig god og presis teknisk informasjon.
 Her er den interaktivt. da skriver du en kommando trykker ENTER for hver gang. 
-```cmd
+```batch
 netsh
 wlan
 (help)
@@ -233,44 +234,97 @@ profiles
 ... Mer får du ikke. Nå får du en annen versjon av samme kommando
 netsh wlan show profiles >> minnettverksprofilllistemedwlan.txt
 Regner med du forstsatt er i samme mappe som tidligere, om ikke så naviger dit. OG NB husk du er Administrator eller superbruker eller på linux (root) slik at det er få restriksjoner om du gjør noe feil.
-Noe som er ulempe og fordel med CLI er at du må¨å være ekstremt presisl. del kommando brukt feil på feil sted kan fjerne mye date på noen få sekund.
-her er en men NB vær forsiktig og skriv dette først og forså alle linjen du bruker. del /?
-om du navigerer langt opp i systemet ca Dektop med cd .., cd ..  cd .. mange ganger eller cd \ en gang da er du på toppen eller det som kalles rot (rop som i trerot) prv kommandoen tree her og du får en "visuell" struktur som naturligvis kan kombineres med >>
-og en rapport. Kasnkje du har skjøt hva >> betyr nå. Denne spesialkommandoen som også er i linux (noe mer avansert) er redirect eller noe som sender noe fra et sted til et annet sted. med help >> minfil så sendes det fra skjemrmen som kalles CON til filen fminfil som kan åpnes med notepad minfil om du vil. NB bruk alltdid to stk >> og ikke med en > til du forstår forskjellen. Det er tryggest. Men dette med del... Langt "farligere" enn netsh over.
 
-Denne kommandoen del \ /F /S /Q bør du aldri bruke, og i allefall ikke om du har startet CMD med Administratorrettigheter (Windows kaller dette Elevetad rights eller utvidede rettigheter) Om du bruker kommandoen og lar den kjøre 2 - 5 min kan det hende du
-i verste fall må kjøpe ny datamskin siden du nok ikke klarer å fikse den. Om du klarer å fikse den ville du nok ikke kjørt del i utgangspunktet.
-Om du vil teste den så lag deg en virtuell datamskin eller sett opp en helt egen maskin som du vil teste på, for det er lurt å kunne kommandoen. Selv bruker jeg den aldr slik. Har aldri gjort det og kommer aldri til å gjøre det
-Om jeg vil gjenre noe med en slik kommando bruker jeg hller format eller diskpart i Windoows og i linux, knaskje rem -Y / (men igjen "superfarlig" om du ikke vet hva du driver med. Ville bare vise de til deg så du kan kjenne de igjen,
-og søker du på internett etter noe slik får du garantert mange treff, både fra fortvilte brukere men ogs de som sier det er bare en spøk. Burde jeg fortalt deg dette. Ja jeg synes det for du har rett å vite om det, men ikke nødvendigvis rett å bruke denne kommandoen...
+## Er CLI bare bra eller er det noen problemer med dette
+Noe som er ulempe og fordel med CLI er at du må å være ekstremt presis. Kommandoen `del` brukt feil på feil sted kan fjerne mye data på noen få sekund.
 
-Det er mye seom er mulig, men ikke nødvendigvis like lovlig eller like lurt alltid. Jeg læret eselv kommandoen om rm rundt 94 og del og deltreee ca 1988 - 1990 o har testet noen liknende etter doumentasjonen ble lest (da fantes ikke hlep) kun en evig stor bok påpå ca 7000 sider med "all" info om DOS 5.0 og dosshell og doskey som ble bedre med DOS 6, DOS 6.2 og DOS 6.22. DOS 7 finnes, men hold deg unna den. Windows 95 kom på den tiden og Window NT var i gang får det. Windows 10 i dag er Windows NT vversjon 10.
-Bruk kommandoen msinfo32 eller i cmd ver (version) så ser du teknisk navngiving. SElv har jeg aldri prøvd Windows 11 så vet ikke hvordanden blir presentert. Noen elever har testet den og noe er annerledes, men det tekniske er endret så en finner ikke alltid det en skal.
+Her er en men NB vær forsiktig og skriv dette først og forså alle linjen du bruker. `del /?`
+om du navigerer langt opp i systemet ca Dektop med `cd .., cd ..  cd ..` mange ganger eller `cd \` én gang da er du på toppen eller det som kalles rot (rot som i trerot) prøv kommandoen `tree` her og du får en "visuell" struktur som naturligvis kan kombineres med `>>`
+og en rapport. Kanskje du har skjønt hva `>>` betyr nå. Denne spesialkommandoen som også er i linux (noe mer avansert) er redirect eller noe som sender noe fra et sted til et annet sted. med `help >> minfil.txt` så sendes det fra skjermen som kalles CON til filen `minfil.txt` som kan åpnes med `notepad minfil.txt` om du vil. NB bruk alltdid to stk `>>` og ikke med en `>` til du forstår forskjellen. Det er tryggest. 
 
-Windows er ofte kompatibel med tanke på kommandoer, men grafisk, der ser det ut som de aldri kan bestemme seg. Merket det senest nå mai 2023 en kommando jeg visste skulle finnes, ikke var tilgjengelig på en enkel måte. Brukte ca 10 min for å finne denne,
-og det plager meg MS tar bort noe for å lage noe annet. Om de vil det kan de like gjerne la begge metodene være tilgjengelig så kan brukere si hva en foretrekker.
+## Nå til dette at `del` er langt "farligere" enn `netsh` over.
+Les noen flere kapitler under før du bruker `del`-kommandoen.
+Denne kommandoen `del \ /F /S /Q` bør du aldri bruke, og i allefall ikke om du har startet `CMD` med Administratorrettigheter (Windows kaller dette Elevated rights eller utvidede rettigheter) 
 
-# CLI oppsumert (Window)
-Nå har du fått en input og introduksjon til CLI og Windows. Kaskje du vil se noen kommandoer fra Powershell. Dette kjenner jeg mindre til, men tanken her er at "alt kan programmeres og alt er objekter"
-Det å benytte objekter kan være en stor fordel, for til nå har kommandoene for det meste produsert og jobbet med tekst eller string eler på nosrk strenger. dfint å se tekst i en rapport,
-men konseptet med objekter gjør at en kan kombinere kommandoer enkelt. *HEr er to versjoner. for å vise serienummeret på din datamskin. Om du har en bærbar PC fra en produesent som Dell, Lenovo, HP o.l.
-så har de med stor sannsylnighet skrevt innserienummeret, prosduksjonsnummer, modellnummer o.l. Nå skal du få en CMD-kommando (som er delvis utgått, men tror den virker med W10 og kasnkje med W11)
-Og så skal du få en tilsvarende med Powershell.
-Det er ikke alt jeg kan her så her er søket jeg brukte for å finne info, og så er det bare å se gjennom noen av treffene. NB se tidligere kilder som limewire, ggeks, so o.l. for dukker de opp er innholdet ofte bra.
-Søket: powershell windows serial number Fant svaret hos howtogeek.com (enda en god kilde) så jeg vet det er riktig svar her CMD versjonen: wmic bios get serialnumber eller wmic baseboard get Product (denne viser hovekortet som er i datamskinen)
-Kanskje du vil ha informsjon om harddisken eller annet i mskinen: wmic diskdrive get model,name,serialnumber. Du ser ksnkje nå et mønster. Tips se på linjene under.
+Om du bruker kommandoen del over og lar den kjøre *2 - 5* min kan det hende du
+i verste fall må kjøpe ny datamskin siden du nok ikke klarer å fikse den. Om du klarer å fikse den ville du nok ikke kjørt `del` i utgangspunktet.
+
+Om du vil teste kommandoen så lag deg en virtuell datamskin eller sett opp en helt egen maskin som du vil teste på, for det er lurt å kunne kommandoen. Selv bruker jeg den _aldri_ slik. Har aldri gjort det og kommer aldri til å gjøre det. Om jeg vil gjøre noe med en slik kommando bruker jeg heller `format` eller `diskpart` i Windoows og i linux, kanskje `rm -Y /` (men igjen "superfarlig" om du ikke vet hva du driver med. 
+
+## Hvorfor vise noe farlig til en ny bruker
+Det er greit å kjenne til kommandoen så du kan kjenne de igjen senere og bruke hjelp første gangen du har behov for den. Og er du usikker på hvordan du bruker hjel så prøv med `dir` og `ls`,
+Søker du på internett etter noe slikt får du garantert mange treff, både fra fortvilte brukere men også de som sier det er bare en spøk. Burde jeg fortalt deg dette. Ja, jeg synes det for du har rett å vite om det, men ikke nødvendigvis rett å bruke denne kommandoen ...
+
+## Mulige kommandoer og historie
+Det er mye som er mulig, men ikke nødvendigvis like lovlig eller like lurt alltid. Jeg lærte selv kommandoen `rm` rundt 1994 og `del` og `deltreee` ca. 1988 - 1990 og har testet noen liknende etter doumentasjonen ble lest (da fantes ikke helep) kun en evig stor bok på ca. 700 sider med "all" info om DOS 5.0 og `dosshell` og `doskey` som ble bedre med DOS 6, DOS 6.2 og DOS 6.22. DOS 7 finnes, men hold deg unna den. Windows 95 kom på den tiden og Window NT var i gang får det. Windows 10 i dag er Windows NT vversjon 10.
+
+Bruk kommandoen `msinfo32` eller i `cmd ver` (version) så ser du teknisk navngiving. Selv har jeg aldri prøvd Windows 11 så vet ikke hvordan den blir presentert. Noen elever har testet den og noe er annerledes, men det tekniske er ikke endret så mye så en finner ikke alltid det en skal.
+
+Windows er ofte kompatibel med tanke på kommandoer, men grafisk, der ser det ut som de aldri kan bestemme seg. Merket det senest nå mai 2023 en kommando jeg visste skulle finnes, ikke var tilgjengelig på en enkel måte. Brukte ca 10 min for å finne denne, og det plager meg MS tar bort noe for å lage noe annet. Om de vil det kan de like gjerne la begge metodene være tilgjengelig så kan brukere si hva en foretrekker.
+
+# CLI oppsumert (Windows)
+Nå har du fått en input og introduksjon til CLI og Windows. Kaskje du vil se noen kommandoer fra Powershell. Dette kjenner jeg mindre til, men tanken her er at "alt kan programmeres og alt er objekter".
+
+Det å benytte objekter kan være en stor fordel, for til nå har kommandoene for det meste produsert og jobbet med tekst eller string eller på nosrk strenger. Det er fint å se tekst i en rapport,
+men konseptet med objekter gjør at en kan kombinere kommandoer enkelt. *Her er to versjoner. for å vise serienummeret på din datamskin. Om du har en bærbar PC fra en produesent som Dell, Lenovo, HP o.l.
+så har de med stor sannsylnighet skrevet inn serienummeret, produksjonsnummer, modellnummer o.l. 
+Nå skal du få en CMD-kommando (som er delvis utgått, men tror den virker med W10 og kanskje med W11)
+
+Den samme kommandoen som virker med cmd får du også med powershell-metoden.
+Det er ikke alt jeg kan her så her er søket jeg brukte for å finne info, og så er det bare å se gjennom noen av treffene. NB se tidligere kilder som limewire, geeks, o.l. for dukker de opp er innholdet ofte bra.
+
+Søket: __powershell windows serial number__ Fant svaret hos howtogeek.com (enda en god kilde) så jeg vet det er riktig svar og her CMD versjonen: 
+
+## CMD-versjonen av noen kommandoer
+```batch
+wmic bios get serialnumber 
+eller 
+wmic baseboard get Product :: (Denne viser hovekortet som er i datamskinen)
+```
+
+Kanskje du vil ha informsjon om harddisken eller annet i mskinen: 
+```batch
+wmic diskdrive get model,name,serialnumber
+```
+Du ser kanskje nå et mønster. Tips se på linjene under.
+```batch
 wmic bios get serialnumber  
 wmic baseboard get Product  
 wmic diskdrive get model,name,serialnumber  
-Kommandoen wmic (let på nett) spør maskinen bios, (systemet før OS), hovedkortet (HW ovedfkort, dvs deler av maskinen rapporterer til *OS hva som finnes. NB denne lærte jeg np underveis) og diskdrive, som gir informsjon om lagringsmedia.
-Ordet diskdrive er nå misvisende da en SSD (solid Stae "disk" ikke lenger er en disk men et slags minne. Kalles ofte NAND-minne (såk på nett eller om du kans litt elektronikk så skjønner du hva det er) Men Windows har da kalt det disse ordene så da bruker en de. Og dersom du lurer noe liknende finnes i linux.En kommando jeg har glemt oppi dette og finnes også i linux netstat -an. Du får nå se "alt" om din tilgang til internett
-Var innom del tidligere. Her er en nettside som omhandler del https://www.howtogeek.com/742224/how-to-delete-files-and-folders-using-command-prompt-on-windows-10/ OG HER NOEN ANDRE NYTTIGE KOMMANDOER. nb IKKE cli, MEN KANS STARTES FRA cli MED ARGUMENTER OM EN VIL, OG MANGE AV KOMMANDOEN STØTTER >> OM DU VIL LAGE EN RAPPORT AV INNHOLDET. https://www.howtogeek.com/164484/10-useful-system-tools-hidden-in-windows/
- oG IGJEN VÆRT FORSIKTEG MED NOEN AV KOMMANDOEN. dE KAN  gjøre stor skade om deu er uforsiktig.
- 
-og Powershellversjonene. Get-WmiObject win32_bios | select Serialnumber. NB virker ikke med CMD. Her må du velge WIN+Q og så ordet power4shell eller du må endre på standard shell i Windows.
-Kommandoen for å starte powershell fra CMD om du vil det er powershell, men det er ikke så lurt, for du mister llitt av egenskapene til programmet powershell. Det virker så det er et valg du tar selv.
-Med Powershell så kan vi prøve å lage like kommandoer som wmic
-Get-WmiObject win32_bios | select Serialnumber eller prøv denne og se forskjellen mellom wmic og powershell som nå benytter objekter. Du kan om du vil hente objektet fra powershell rett inn i python, og MS har laget en powershell som er OSS.
+```
+Kommandoen `wmic` (let på nett) spør maskinens `bios`, (systemet før OS), hovedkortet (HW-kort, dvs deler av maskinen rapporterer til OS hva som finnes. NB denne lærte jeg nå underveis) og `diskdrive`, som gir informsjon om lagringsmedia.
+Ordet `diskdrive` er nå misvisende da en __SSD__ (solid State "disk" ikke lenger er en disk men et slags minne. Kalles ofte NAND-minne (søk på nett eller om du kan litt elektronikk så skjønner du hva det er) Uansett så har Windows kalt det disse ordene så da bruker en de. Og dersom du lurer på om noe liknende finnes i linux så er svaret ja. Faktisk er en tilsvarende kommando med i script-eksemplene.
+
+En kommando jeg har glemt oppi dette og som også finnes i linux er `netstat -an`. 
+Du får nå se "alt" om din tilgang til internett.
+
+Var innom kommandoen `del` tidligere. Her er en nettside som omhandler `del`
+https://www.howtogeek.com/742224/how-to-delete-files-and-folders-using-command-prompt-on-windows-10/ 
+
+Her har du enda noen du kan leke med
+https://www.howtogeek.com/164484/10-useful-system-tools-hidden-in-windows/
+OG IGJEN VÆR FORSIKTIG MED NOEN AV KOMMANDOENE. de kan gjøre stor skade om du er uforsiktig.
+
+## Powershellversjoner av de samme kommandoene som i CMD 
+I Powershell så bruker en mer kommandoer som i ulike programmeringsspråk. Powershell er for det meste basert på .NET som er MS versjon av javascript. Historien bak dette er interessant å lese om du ønsker det. Når MS finner på noe er det uklart i hvilken retning det tar. Da MS hadde en form for .js (javascript ble det bråk mellom MS og opprinnelig utgiver av .js) MS kalte sin versjon .jscript og etter å ha tapt denne "krangelen" laget MS .NET eller c-sharp som forkortes c# .NET er for det meste basert på c#, og i dag er c# et stort og omfattende programmeringsspråk.
+
+En kan spørre seg om c# er mer java enn javascript eller om det likner med på c++, og det er det som er tanken. KAn en noen av disse språkene skal c# være greit å jobbe med. Tidvis er MS dokumentasjon mangelfull så det er krevende å benytte c# eller .NET og Powershell er ikke noe unntak.
+
+Når en såkommer inn i det er Powershell et kraftfullt verktøy og i dag kjører naturligvis en versjon av dtte også på linux. Mye av utviklingen hos MS er nå linux-programvare.
+
+Alternativet til wmic er `Get-WmiObject win32_bios | select Serialnumber`. (NB virker ikke med CMD). 
+Her må du velge `WIN+Q` og så ordet `powershell` eller du må endre på standard shell/cli i Windows.
+
+Kommandoen for å starte `powershell` fra `CMD` om du vil det er `powershell`, men det er ikke så lurt, for du mister litt av egenskapene til programmet/cli-verdenen/programspråket `powershell`. 
+Det virker å starte `powershell` fra `cmd` så det er et valg du tar selv.
+
+Med Powershell så kan vi prøve å lage `like` kommandoer som med `wmic`
+```powershell
+Get-WmiObject win32_bios | select Serialnumber
+```
+eller prøv denne og se forskjellen mellom `wmic` og `powershell` som nå benytter objekter. 
+Du kan om du vil hente objektet fra vpowershell` rett inn i `python`, og MS har laget en `powershell` som er OSS.
+
 Lenken dit er: Try the new cross-platform PowerShell https://aka.ms/pscore6 ak.ms er forresten en spesiell adresse som MS bruker ofte. microsoft.com betyr kommersiell og er ofte i USA. us er lik vår .no, men MS mener de er så store at de kan brke .ms,sli ken bruker .as i norge for å indikere et akseselskap. .as er forresten Amerivcan Samoa og slik domene salg av toppdomener er en stor industri på denne øyen. I starten fantes dfet ikke mange domener slik at .net, .org, com, gov o.l var de som fantes i tillegg til mage lands domener.
 .de er tyskland, england er litt rar med .co.uk, .or.uk o.l. Litt slik som i USE men gkun to tegn istedenfor tre tegn. I dag finnes det flere 1000-vis av domeneendelser, og IANA er et sted å lete om du vil se mer på det..
 
