@@ -5,8 +5,8 @@
 NB bruk åpne i ny arkfane om du vil ha en ny "side"
 ## Navigasjon: (manuell foreløpig, muligens den må forbli manuell)
 ### Innlevering
-- [innlevering](./innlevering/innlevering001.md)
-- [innlevering del 2](./innlevering/innlevering002_lite_tekst_noe_kode.md)
+- [Innlevering](./innlevering/innlevering001.md)
+- [Innlevering del 2](./innlevering/innlevering002_lite_tekst_noe_kode.md)
 ### Scripteksempler
 - [Script](./script/README.md)
 ### Bakgrunnsinformasjon for selve nettstedet
