@@ -3,17 +3,52 @@ title: "PAGE-TITLE"
 permalink: /URL-PATH
 
 # En side
-Hvor haner du ...
-Og posting ...
+Hvor havner du ...  
+Og posting ...  
 
-Noe info  i eksperimentet  
+## I tillegg en rekke lenker som er benyttet underveis for å lage eksemplene.
+Det er ikke så mange lenker som er relevant for selv oppgaven. Det er mer litt info om det som er benyttet underveis for å komme i mål.
+https://stackoverflow.com/questions/62044046/typeerror-can-only-concatenate-tuple-not-str-to-tuple-problem-with-widgets  
+https://researchdatapod.com/how-to-solve-python-typeerror-can-only-concatenate-tuple-not-str-to-tuple/  
+
+https://theprogrammingexpert.com/python-degree-symbol/  
+https://www.w3schools.com/python/module_math.asp  
+https://www.w3schools.com/python/ref_math_degrees.asp#gsc.tab=0&gsc.q=degree%20symbol  
+https://www.w3schools.com/charsets/ref_html_utf8.asp  
+https://www.w3schools.com/charsets/ref_utf_letterlike.asp  
+https://www.w3schools.com/charsets/tryit.asp?deci=8451  
+https://www.w3schools.com/python/trypython.asp?filename=demo_ref_math_remainder2  
+
+
+
+https://stackoverflow.com/questions/62044046/typeerror-can-only-concatenate-tuple-not-str-to-tuple-problem-with-widgets  
+https://researchdatapod.com/how-to-solve-python-typeerror-can-only-concatenate-tuple-not-str-to-tuple/  
+https://duckduckgo.com/?t=ffab&q=python+remainder&ia=web  
+https://duckduckgo.com/?t=ffab&q=pythoin+degree+symbol&ia=web&iax=qa  
+https://theprogrammingexpert.com/python-degree-symbol/  
+https://www.w3schools.com/python/module_math.asp  
+https://www.w3schools.com/python/ref_math_degrees.asp#gsc.tab=0&gsc.q=degree%20symbol  
+https://www.w3schools.com/charsets/ref_html_utf8.asp  
+https://www.w3schools.com/charsets/ref_utf_letterlike.asp  
+https://www.w3schools.com/charsets/tryit.asp?deci=8451  
+https://www.w3schools.com/python/trypython.asp?filename=demo_ref_math_remainder2  
+
+
+https://duckduckgo.com/?t=ffab&q=python+return+multiple+values+from+function&ia=web&iax=qa  
+https://stackoverflow.com/questions/26996903/python-return-multiple-variables-from-a-function  
+https://realpython.com/python-return-statement/  
+https://theprogrammingexpert.com/python-degree-symbol/  
+https://python.plainenglish.io/comprehensions-in-python-write-shorter-for-loops-8b13c61a5eb5  
+
+
+# Noe info til selve eksperimentet med å lage en slik dynamisk side
   
 Mye på en gang, kramdown, rabit hole, jekyll og sikkert noe mer.  
 github har mye på gang, enkel presntert, men litt mer arbeid å få til om en ikke følger instruksjoner riktig.  
 Eneste målet er en nettside som kan vises, der sluttbruker kan finne fram, og der TOC er benyttet.  
 Eneste agenda er å vise noen prosjektfiler...  
   
-Lenker til browser TAB nå.  
+Lenker til sider som var oppe i nettleser da nettsiden ble laget rundt starten av mai og framover
 https://jekyllrb.com/docs/step-by-step/01-setup/  
 https://nzrunner.github.io/home-assistant/github/2023/03/28/github-pages-and-jekyll-frustration-central.html  
 https://github.com/nzrunner/home-assistant/blob/master/README.md  
@@ -48,18 +83,18 @@ https://kramdown.gettalong.org/
 $ cd PARENT-FOLDER  
 $ git init REPOSITORY-NAME  
 > Initialized empty Git repository in /Users/octocat/my-site/.git/  
-# Creates a new folder on your computer, initialized as a Git repository  
+### Creates a new folder on your computer, initialized as a Git repository  
 $ cd REPOSITORY-NAME  
-# Changes the working directory  
+#### Changes the working directory  
 $ mkdir docs  
-# Creates a new folder called docs  
+#### Creates a new folder called docs  
 $ cd docs  
 $ git checkout --orphan gh-pages  
-# Creates a new branch, with no history or contents, called gh-pages, and switches to the gh-pages branch  
+### Creates a new branch, with no history or contents, called gh-pages, and switches to the gh-pages branch  
 $ git rm -rf .  
-# Removes the contents from your default branch from the working directory  
+### Removes the contents from your default branch from the working directory  
 $ jekyll new --skip-bundle .  
-# Creates a Jekyll site in the current directory  
+### Creates a Jekyll site in the current directory  
 gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins  
 domain: my-site.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com  
 url: https://my-site.github.io  # the base hostname and protocol for your site, e.g. http://example.com  
@@ -70,7 +105,8 @@ git commit -m 'Initial GitHub pages site with Jekyll'
   
 $ git remote add origin https://github.com/USER/REPOSITORY.git  
 $ git push -u origin BRANCH  
-  
+
+## Og helt til slutt litt mer om jekyll "nettsidelager"
 https://jekyllrb.com/docs/posts/  
 https://nzrunner.github.io/home-assistant/github/2023/03/28/github-pages-and-jekyll-frustration-central.html  
 https://nzrunner.github.io/home-assistant/github/2023/03/28/github-pages-and-jekyll-frustration-central.html
