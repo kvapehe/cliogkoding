@@ -36,7 +36,8 @@ Noe som er artig er at flere elever jobber med dette på egen fritid uten å se 
 # Hurtigversjonen 
 (Om du ikke orker lese så mye og vil komme rett på sak)
 Bruk denne lenken og les på engelsk:  
-https://www.howtogeek.com/168896/10-useful-windows-commands-you-should-know/
+https://www.howtogeek.com/168896/10-useful-windows-commands-you-should-know/  
+På denne siden finner du garantert flere lenker å følge. Når interessen er trigget kan en lett svi av timesvis og dagevis med å lære seg litt om cli.
 
 # Hvorfor dette valget
 
@@ -262,7 +263,7 @@ Bruk kommandoen `msinfo32` eller i `cmd ver` (version) så ser du teknisk navngi
 
 Windows er ofte kompatibel med tanke på kommandoer, men grafisk, der ser det ut som de aldri kan bestemme seg. Merket det senest nå mai 2023 en kommando jeg visste skulle finnes, ikke var tilgjengelig på en enkel måte. Brukte ca 10 min for å finne denne, og det plager meg MS tar bort noe for å lage noe annet. Om de vil det kan de like gjerne la begge metodene være tilgjengelig så kan brukere si hva en foretrekker.
 
-# CLI oppsumert (Windows)
+# CLI cmd, wmic og powershell (Windows)
 Nå har du fått en input og introduksjon til CLI og Windows. Kaskje du vil se noen kommandoer fra Powershell. Dette kjenner jeg mindre til, men tanken her er at "alt kan programmeres og alt er objekter".
 
 Det å benytte objekter kan være en stor fordel, for til nå har kommandoene for det meste produsert og jobbet med tekst eller string eller på nosrk strenger. Det er fint å se tekst i en rapport,
@@ -325,77 +326,142 @@ Get-WmiObject win32_bios | select Serialnumber
 eller prøv denne og se forskjellen mellom `wmic` og `powershell` som nå benytter objekter. 
 Du kan om du vil hente objektet fra vpowershell` rett inn i `python`, og MS har laget en `powershell` som er OSS.
 
-Lenken dit er: Try the new cross-platform PowerShell https://aka.ms/pscore6 ak.ms er forresten en spesiell adresse som MS bruker ofte. microsoft.com betyr kommersiell og er ofte i USA. us er lik vår .no, men MS mener de er så store at de kan brke .ms,sli ken bruker .as i norge for å indikere et akseselskap. .as er forresten Amerivcan Samoa og slik domene salg av toppdomener er en stor industri på denne øyen. I starten fantes dfet ikke mange domener slik at .net, .org, com, gov o.l var de som fantes i tillegg til mage lands domener.
-.de er tyskland, england er litt rar med .co.uk, .or.uk o.l. Litt slik som i USE men gkun to tegn istedenfor tre tegn. I dag finnes det flere 1000-vis av domeneendelser, og IANA er et sted å lete om du vil se mer på det..
+Lenken dit er: __Try the new cross-platform PowerShell https://aka.ms/pscore6__ _aka.ms_ er forresten en spesiell adresse som MS bruker ofte. __microsoft.com__ betyr kommersiell og er ofte i USA. _us_ er lik vår _.no_, men MS mener de er så store at de kan brke _.ms_ (Montserrat), slik en bruker _.as_ i Norge for å indikere et akseselskap. _.as_ er forresten Amerivcan Samoa og slike domene salg av toppdomener er en stor industri på denne øyen. 
+
+I starten fantes det ikke mange domener slik at `.net, .org, com, gov` o.l var de som fantes i tillegg til mange lands domener. `.de` er Tyskland, England er litt rar med `.co.uk`, `.or.uk` o.l. Litt slik som i USA men kun to tegn istedenfor tre tegn. I dag finnes det flere 1000-vis av domeneendelser, og IANA er et sted å lete om du vil se mer på det..
 
 *Årsaken til det hele tiden hopeese fra CLI til andre deler er at mange kommandoer du lærer underveis kan benyttes for å nå disse stedene, hente ut info, lage rapporter o.l. for du vil snart sa at kommandoene ikke nødvendigvis er avgrenset til å kjøre på egen maskin men fort kan brukes lokalt i nettverket eller på internett. 
 
-Fær en går videre i powershell kan en ikke benytte /? slik som med CMD her er denne byttet til -? og ellers er mye likt. Annen måte å vise hjelp på, og mer tettere koblet mot lik hjelp på en nettside. er har MS lært en lekse ved at det en finner et sted skal ha samme type informasjon og lik oppbygging ale andre teder. Ofte har det vært lsik at om en finner informasjon må en eksperimentere litt for å skrive den riktig et annet sted. wmic er en slik tjeneste som virker "nesten" ofte. Med poweshell er dette eleiminert,
-når en ført kan kommandoene. Selv er det litt nytt, og vnaskelig å kiunne om en ikke bruker chat sheet (et annet ord som er lutrt å lære seg) Nå er det etterhvert så mange ord så kasnkje en ordliste (uten forklaring er lurt å ta med)
+## En ulempe med Powershell
+Fær en går videre i powershell, så er det noen ulemper. En kan ikke benytte `/?` slik som med CMD her er denne byttet til `-?`, men det er ikke alle kommandoer som støtter dette. Powershell kaller også sine små korte program for CMD-let https://duckduckgo.com/?t=ffab&q=cmd-let&ia=web og ellers er mye likt. 
+
+Dette er en annen måte å vise hjelp på, og den er tettere koblet mot slik hjelp på en nettside vises. Her har MS lært en lekse ved at det en finner et sted skal ha samme type informasjon og lik oppbygging alle andre teder. Ofte har det vært slik at om en finner informasjon må en eksperimentere litt for å skrive den riktig et annet sted. `wmic` er en slik tjeneste som virker "nesten" ofte. Med poweshell er dette eleminert,
+når en først kan kommandoene. 
+
+Når powershellkommandoer er nytt, er det vanskelig å kunne om en ikke bruker chwat sheet (et annet ord som er lurt å lære seg) Nå er det etterhvert så mange ord så kasnkje en ordliste (uten forklaring er lurt å ta med) Ordlisten er ikke tatt med pr dd. Men den er på listen over det som kan dukke opp, det i tillegg til evt. cheat sheets.
 
 # CLI med powershell
 Starte powershell med WIN+Q powershell (gjerne som administrator om du lnsker det,og  du er forsiktig)
 Nå kan det være lurt å legge innhjelp eller bruke hjelp på nett.
 "Get-Help Get-WmiObject -Online" or Update-Help eller go to https://go.microsoft.com/fwlink/?LinkID=113337.
-Powershell kaller forresten kommandoene for CMDlet eller commandlet og det er slags små scriptprogrammer. Om du finner de på datamsiken så er dette omtrent ren teksfil med kommandoer inni. Disse kommandoene er kamuflerte og ikke bergnet for sluttbruker,
-det er mer kompliserte en det GET, SET kommandoene powershell er bygget opp på. I powershell kan du bruke TAB mye mer enn i CMD, men ikke fullt så mye som i linux med zsh eller bash
-
+Powershell kaller forresten kommandoene for CMDlet eller commandlet og det er slags små scriptprogrammer. Om du finner de på datamsiken så er dette omtrent ren teksfil med kommandoer inni. Disse kommandoene er kamuflerte og ikke bergnet for sluttbruker, de er mer kompliserte en det `GET, SET` kommandoene powershell er bygget opp på. 
+I `powershell` kan du bruke TAB mye mer enn i `CMD`, men ikke fullt så mye som i linux med `zsh` eller `bash`
+```powershell
 Get-WmiObject win32_bios | select Serialnumber
 Get-WmiObject win32_bios
 Get-WmiObject win32_baseboard
 Get-WmiObject win32_diskdrive
-Med videre kommandoer som over med | og så neste ord kan en filtrere. NB nå virker ikke |, >> slik som tidligere, istedenfor har powershell en rekke kommandoer som kan lage ulike typer rappporter, sortert ulikt, filtrert o.l.
-Viser en sli kommando sp en kan se måten dette gjøres.
+```
+Med videre kommandoer som over med `|` og så neste ord kan en filtrere. NB nå virker ikke `|, >>` slik som tidligere, istedenfor har powershell en rekke kommandoer som kan lage ulike typer rappporter, sortert ulikt, filtrert o.l.
+
+Viser en slik kommando som en kan se måten dette gjøres.
 Denne f.eks. 
-Get-WmiObject win32_diskdrive |select mod* Da slipper en se hele listen, som "alltid er formattert fint, mye bedre enn med wmic.
-Her er noen tips om hvordan finne kommandoer og hvordan skrive kommandoene. Disse ble oppdaget underveis og benytttet
+```powershell
+Get-WmiObject win32_diskdrive |select mod* 
+
+Get-WmiObject win32_diskdrive # (Denne blir uendelig lang men bare prøv) 
+```
+Da slipper en se hele listen, som "alltid er formattert fint, mye bedre enn med wmic.
+Her er noen tips om hvordan finne kommandoer og hvordan skrive kommandoene. 
+Disse ble oppdaget underveis og benytttet
+```powershell
 REMARKS
     To see the examples, type: "get-help Get-WmiObject -examples".
     For more information, type: "get-help Get-WmiObject -detailed".
     For technical information, type: "get-help Get-WmiObject -full".
     For online help, type: "get-help Get-WmiObject -online"
-Dette er en verdifull internettresurs for powershell: https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-diskdrive
-Get-WmiObject -Query "ASSOCIATORS OF {Win32_DiskDrive.DeviceID='\\.\PHYSICALDRIVE0'} WHERE ResultClass=Win32_PnPEntity" Her er en mer avansert kommandolinje, så la oss plukke den fra hverandre litt.
-Kasnkje du kjenner den i gjen fra listen over.
-Mer powershell og nå strater det å likne på programmering
+```    
+
+## Internettresurs til Powershell
+Dette er en verdifull internettresurs for powershell:  
+https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-diskdrive
+```powershell
+Get-WmiObject -Query "ASSOCIATORS OF {Win32_DiskDrive.DeviceID='\\.\PHYSICALDRIVE0'} WHERE ResultClass=Win32_PnPEntity" 
+```
+Her er en mer avansert kommandolinje, så la oss plukke den fra hverandre litt.
+Kanskje du kjenner den igjen fra listen over.
+
+Mer powershell og nå starter det å likne på programmering
+```powershell
 $filter = "name like '%"+$_Application+"%'"
 $result = Get-WmiObject win32_process -Filter "$filter"
-Om en vil se innholdet i variablene så skriv f.eks. $result, og det dukker opp 100-vis a linjer som en naturligvis vil ta vare på i en rapport.
-Med powershell bør en vanligvis benytte linje to under framfor linje 1. Slik som med wmic i CMD så forsvinner wmi også med pwershell.
+```
+Om en vil se innholdet i variablene så skriv f.eks. `$result`, og det dukker opp 100-vis a linjer som en naturligvis vil ta vare på i en rapport.
+
+Med `powershell` bør en vanligvis benytte linje to under framfor linje 1. Slik som med `wmic` i `CMD` så forsvinner `wmi` også med `powershell`.
+
 Om du vil vite mer så søk på nett. MS har valgt å la begge kommandoene vise og virke noenlunde likt så stort sett er det nok på bytte fra 
-Get-WmiObject til Get-CimInstance og fortsette som tidligere. Her er nok et eksempel før en savlutter powershell eksempler for denne gang.
+```powershell
+Get-WmiObject til Get-CimInstance
+```
+og fortsette som tidligere. Her er nok et eksempel før en savlutter powershell eksempler for denne gang.
+```powershell
 Get-WmiObject   Win32_logicaldisk -Filter 'DeviceId = "C:"' | Select-Object DeviceID, FreeSpace
 Get-CimInstance Win32_logicaldisk -Filter 'DeviceId = "C:"' | Select-Object DeviceID, FreeSpace
 DeviceID   FreeSpace
 --------   ---------
 C:       14188314624
 Get-WmiObject til Get-CimInstance og fortsette som tidligere
+```
 
 # Veien videre
-Kanskje en vil se python nå, men for å unngå dokumentet blir evig langt er planen å nå referere til det meste med vedlegg og eksterne filer. Før det kan det være nyttig med CLI i linux bash
-Og knaskje en CMD-fil i Windows.
-Kildekoden er laget og er dokumentert, så her kommer det kun noe om "hver benyttede kommando i batch / cmd
-@eche off. Slå av utskrift til skjerm og @ slår av vising av at en slå av echo.
-Fra nå må en skrive echo hver gang en vil ha noe til skjerm. echo er litt som print
-for løkke med batch er litt komplisert så her må en bruker for /? for å få hjelp.
-for i kommanodline srives slik for /l %i og så liknder det på for andre steder. og avsluttes med DO istedenfor {} som i andre språk.
-for i bacht må skrivs slik som et av få steder for /l %%i for å virke. Dette kan det være vanskelig å fortå om en ikke leser dokumentasjonen nøye og ksnkje finner eksempler på nett, eller ser en video.
-goto er omtrent eneste måten en kan hoppe rundt i programmet med batch. if og while er litt rduseert, og if bryr seg om noe som kalles ERRORLEVEL mer en en test. alti batch rapporterer en kode der 0 er alt OK, -1 er noe feil og tall over 0 en kode en kan teste på.
-f.eks kan en se om en fil finnes. omm svaret er jep, det gjør den får en en gitt kode, men den er ikke så viktig, for det er viktitere om den ikke finnes. da kan en søket IF NOT EXISTS istedenfor if I EXISTS,
-og m svaret er -1 gikk noe galt, og en kan gå videre derfra. Vedleggene nå viser ikke så mye om errorlevel og IF, for å redusere alt nytt, men søk på nett etter eksempler, finn et tema og se om det finnes noe.
-Det er en mengde sider med slik informsjon, og igjen, se på eksemplene her og få hint om hva du kan søke videre etter. Og tips. Å lære seg scriptprogrammering er ikke gjort på en dag eller uke. Det er noe en gjør hele tiden slik at en får det inn i fingrene,
-og så er det lurt å bruke det når du skal gjøre noe enkelt framfor å dobbelklikke ppå en fil og åpne den i notepad, eller velge gi nytt navn eller slette en fil med utforsker. bruk CMD eller Powershell og prøv på det samme der.
-:: og REM er kommentarer. REM betyr remark, og :: er en label som er tom. Det er best å benytte den udokumenterte metoden :: siden denne er rasekere. REM vil kjøre hele linjen etter REM og er det mye tekst tar dette tid.
-REM vil gå gjennom linjen, men likevel ignoreree innholdet da det er en kommentar.
-Utobver det er det ikke så mye mer i CMD shell-script, selv om dyktige programmerere kan gjøre mye ut av disse boggeblokkene.
+Kanskje en vil se python nå, men for å unngå dokumentet blir evig langt er planen å nå referere til det meste med vedlegg og eksterne filer. Før det kan det være nyttig med CLI i linux `bash`
+Og kanskje en `CMD`-fil i Windows.
 
-bash-shell script er derimot mye mer avnaserte selv om også bash er minimalistisk. bash er så bra at en kan lage "grafiske" menyer i bash og la bruker benytte både piltaster og mus, men det beste med shell i linux
-er at en kans la scriptet være etpythonscrip og få all den ekstra funksjonaliteten eller et c-program som er perfekt med csh eller perl som er både avansert og litt vanskelig eller php som egentlig er for dynamiske nettsider.
-språet php har en egen modus for cli kalt php-cli og da kan en bruke scipt eller programmer som skal lage nettsider direkte i operativsystemet.
-Ingen av disse blir vist her, kun nevnt slik at du kan, ja, som du allerde visse søke opp på nett selv. Søke på nett legg merke til google ikke benyttes, for det er en rekke andre søkemotoer og metoder, bli kjent med ddc eller duckduckgo
-og bang-kommandoer bang er noe som er i bash og tar med ! les om bash bang, ddc bang o.ll og du blir kjent med en ny verden. !alfabet eller !g er to eksempler, og det finnes mange 1000 andre bang-kommandoer.
+Kildekoden er laget og er dokumentert, så her kommer det kun noe om "hver benyttede kommando i `batch / cmd`
+`@eche off`. Slå av utskrift til skjerm og `@` slår av vising av at en slå av `echo.`
 
+Fra nå må en skrive `echo` hver gang en vil ha noe til skjerm. `echo` er litt som `print`
+`for` løkke med `batch` er litt komplisert så her må en bruke `for /?` for å få hjelp.
+`for` i kommanodline srives slik `for /l %i` og så likner det på for andre steder. og avsluttes med `DO` istedenfor `{}` som i andre språk.
 
+`for i bacth` må skrivs slik som et av få steder `for /l %%i` for å virke. Dette kan det være vanskelig å fortå om en ikke leser dokumentasjonen nøye og knskje finner eksempler på nett, eller ser en video.
+
+`goto` er omtrent eneste måten en kan hoppe rundt i programmet med `batch`. `if` og `while` er litt rduseert, og `if` bryr seg om noe som kalles `ERRORLEVEL` mer enn en test. alt i `batch` rapporterer en kode der `0` er alt OK, `-1` er noe feil og tall over 0 en kode en kan teste på.
+
+F.eks kan en se om en fil finnes. omm svaret er jep, det gjør den får en en gitt kode, men den er ikke så viktig, for det er viktigere om den ikke finnes. da kan en søke `IF NOT EXISTS` istedenfor `IF EXISTS`,
+og med svaret er `-1` gikk noe galt, og en kan gå videre derfra. 
+
+Vedleggene nå viser ikke så mye om `errorlevel og IF`, for å redusere alt nytt, men søk på nett etter eksempler, finn et tema og se om det finnes noe.
+
+# Avslutting og kort diskusjon
+Det er en mengde sider med informsjon fra dette prosjektet, og igjen, se på eksemplene her og få hint om hva du kan søke videre etter. Et viktig tips er: 
+
+Å lære seg script-programmering er ikke gjort på en dag eller uke. Det er noe en gjør hele tiden slik at en får det inn i fingrene, og så er det lurt å bruke det når du skal gjøre noe enkelt framfor å dobbelklikke på en fil og åpne den i notepad, eller velge gi nytt navn eller slette en fil med utforsker. bruk `CMD` eller `Powershell` og prøv på det samme der.
+`::` og `REM` er kommentarer. `REM` betyr remark, og `::` er en label som er tom. Det er best å benytte den udokumenterte metoden `::` siden denne er rasekere. `REM` vil kjøre hele linjen etter `REM` og er det mye tekst tar dette tid.
+
+`REM` vil gå gjennom linjen, men likevel ignoreree innholdet da det er en kommentar.
+Utover det er det ikke så mye mer i `CMD` shell-script, selv om dyktige programmerere kan gjøre mye ut av disse byggeblokkene.
+
+# Hva da med linux
+Den samme leksen som er vist over med altfor mange ord kan naturligvis gjentas for linux, `bash, csh, sh, zsh` og så videre. Det er ikke planen nå. Bruk det en kan fra `DOS / CMD` og lær noe tilsvarende i `bash shell`.
+Finn script på nett med navn `.sh` eller `.bash`, og se hvordan en benytter `if, for, while` o.l. 
+Omtrent alle filer en finner på en "linux"-maskin er tekstfiler, som syr sammen mengder av andre kommandoer.
+Start et `terminal`-vindu i linux og trykk på `TAB` noen ganger så ser du hva jeg mener.
+
+Du kan lett få spørsml om du vil se alle de 3000+ mulige kommandoene som er i operativsystemet.
+Ved å skrive `d` i kommandovinduet og trykke `TAB TAB` ble jeg spurt om jeg ville vise alle de 127 kommandoene som starter med bokstaven __d__. 
+Systemet jeg benyttet er en Raspberry pi som regnes som relativt moderat som linuxmaskin. 
+
+# Det er noen ulikheter mellom batch og bash
+Det er en del ulikheter mellom det å benytte cmd/batch og bash eller andre sh--terminaler/miljø. Det er letter å fokusere på likhetene og bruke disse til å lære seg noe nytt, enn å se alt er nytt og en forstår ikke noe i det hele tatt. Faktisk er de to miljøene så like at måten jeg selv lærte dette er å studere DOS en gang for lenge siden mye, så teste desto mer, så vise det til noen, så få tilbake noe fra de som fikk tips fra meg. Ofte er det den du viser det til som er flinkere enn deg selv og kan lære noe til deg selv. Slik er det ofte med elever som trigger på en oppgave. De lærer seg det på brøkdelen av tiden en selv bruker
+og det er langt mer avansert. Med pythonscriptet er det en elev som kom med ideen om å vise temperatursensoren, og så er det bare å spinne videre.
+
+Når det er sagt `bash`-shell script er mye mer avnaserte enn `cmd`-script selv om også `bash` er minimalistisk. `bash` er så bra at en kan lage "grafiske" menyer i `bash` og la bruker benytte både piltaster og mus, men det beste med shell i linux er at en kan la scriptet være et `pythonscript` og få all den ekstra funksjonaliteten eller et `c`-program som er perfekt med `csh` eller `perl` som er både avansert og litt vanskelig eller `php` som egentlig er for dynamiske nettsider.
+
+Språket `php` har en egen modus for cli kalt php-cli og da kan en bruke scipt eller programmer som skal lage nettsider direkte i operativsystemet. Ingen av disse blir vist her, kun nevnt slik at du kan, ja, som du allerde visse søke opp på nett selv. Søke på nett legg merke til ordet google ikke benyttes, for det er en rekke andre søkemotoer og metoder, bli kjent med `ddc` eller `duckduckgo` Da får du samme søketreff hver gang på alle maskiner du benytter. `ddc` har i tillegg bang-kommandoer. bang er noe som er i `bash` og tar med `!` les om `bash bang`. Når en benytter ddc bang o.l blir du kjent med en ny verden. `!alfabet` eller `!g` er to eksempler, og det finnes mange 1000 andre bang-kommandoer.
+
+Nå stemmer ikke teksten over helt. For `python`-script finnes i script-mappen og filene er godt kommentert. Det som stemmer er at det ikke blir skrevet så mye om pythen her på nettsiden.
+
+<details>
+<summary>Kjekt å ha</summary>
+Nå ville det vært kjekt om en fikk til TOC og navigering på sidene, samt muligens lege avsnitt som kan åpnes og lukkes
+Her er et midlertidig eksperiment med enda mer markdown.
+![Screenshot of rendered {% data variables.product.prodname_dotcom %} Markdown showing how triple backticks cause a code block to render in raw formatting. The block begins with "function test() {."](/assets/images/help/writing/fenced-code-block-rendered.png)
+
+![Screenshot of rendered {% data variables.product.prodname_dotcom %} Markdown showing how triple backticks cause a code block to render in raw formatting. The block begins with "function test() {."](../bilder/c3.png)
+
+</details>
 
 
 
