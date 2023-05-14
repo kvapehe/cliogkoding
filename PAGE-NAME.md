@@ -6,6 +6,40 @@ permalink: /URL-PATH
 Hvor havner du ...  
 Og posting ...  
 
+## Hovedsiden
+- [Hovedsiden](./README.md)
+
+## Kort fortalt hvordan githubsidene er laget.
+En kan benytte git og lagre alt lokalt på egen datamaskin og så bruke bla pull og push for å oppdatere github, eller en kan "skrive" direkte inn i github.
+Poenget med git er at alt en endrer på blir tatt vare på i mengder av revisjoner og versjoner. Git er et revisjonshåndteringssystem, som ble laget for å
+håndtere alle kildekodelinjene til linux kernel, og Linus Torvalds har naturligvis en stor del a æren for både git og linux.
+Komplett kildekode til alle versjoner av linuxkjerne finnes i git, men ikke nødvendigvis på github.
+
+### Nå om strukturen
+Det er en rekke "mapper" i dette prosjektet på github. Noen styrer hvordan nettsiden lages, andre er innholdet på nettsiden og atter andre er script,
+bilder, vedlegg o.l. Bruk denne lenken og utforsk selv. [Utforske hele området](./)
+
+Alle filer blir konstant og konsekvent lagret med commit changes, og lurt med en liten forklaring på det som er endret.
+
+Nettsiden blir håndtert litt annerledes, ved at selv nettsiden også har et prosjekt (repository) som oppdateres.
+Dette er fordi nettsiden kan leve helt på siden av det opprinnelige prosejektet /cliogkoding/ og kan befinne seg i en annen branch på github
+
+Git deler ofte repository i main og ulike branches slik at flere kan jobbe på det "samme" "samtidig". Da kan en ha flere versjoner av samme innhold, bli enig om det som er "best" å
+fortsette med og så benytte merge branch. For mye mer detaljer om git og github, lag deg en konto og prøv selv. Kan garantere deg mange timer med prøving og feiling.
+Innholdet du vil ta med er helt opp til deg.
+
+# Mengder av nyttige og unyttige lenker
+Noen av lenkene ble benyttet da prosejektet ble laget og det er flere som er til dokumentasjon på git og github.
+For min del er dette litt nytt selv om jeg har brukt git og github i mange år, så har jeg ikke laget noe stor prosjekt av dette.
+Til oppgaven kunne det være gøy å prøve noe nytt, og så er det mye lettere å ta elever med på en slik reise om de ønsker det.
+Dersom det er noe en lurer på så er alt samlet på et sted, om enn litt rotete sted naturligvis.
+
+## Lage nettsiden
+NB dette er ikke github repository med innholdet. Dette er selv nettsiden, som henter fra prosjektet.
+Lurt med litt info til dokumentasjon: https://docs.github.com/en/pages
+Github kaller det å benytte nettsider for GitHub Pages
+
+
 ## I tillegg en rekke lenker som er benyttet underveis for å lage eksemplene.
 Det er ikke så mange lenker som er relevant for selv oppgaven. Det er mer litt info om det som er benyttet underveis for å komme i mål.
 https://stackoverflow.com/questions/62044046/typeerror-can-only-concatenate-tuple-not-str-to-tuple-problem-with-widgets  
