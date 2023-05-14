@@ -41,8 +41,6 @@
 # resarch since a basic understanding of python was accuired before the script was written.
 
 
-
-
 # Import "neccesary libraries"
 # OS is need to let pythonreqquest data from the operating system
 # the math module is optional and only used to demonstrate some nice to know functions / methods
@@ -84,6 +82,7 @@ zone_temp_raw2 =      (os.popen("cat /sys/class/thermal/thermal_zone*/temp").rea
 ## zone_temp_raw1 = tuple(os.popen("vcgencmd measure_temp").read())
 
 
+# Examine the zone temp raw details, when the debug flag is active
 def investigateRawDetails():
 
   if (  debug == 1 ):
@@ -92,9 +91,6 @@ def investigateRawDetails():
     print("Raw Zone Temp in milli-Celcius:\t" + str(zone_temp_raw))
     # print("Raw Zone Temp in milli-Celcius:\n" + str(zone_temp_raw1)) # Commented since it only works if vcgencmd is avaialble
     print("Raw Zone Temp in milli-Celcius:\t" + (zone_temp_raw2) )
-
-
-investigateRawDetails() # Remove call to Raw details
 
 
 
@@ -221,6 +217,11 @@ def printValuesToUser(zone_temp_raw2, wholetemperature, remainderpartasint):
   return fail
 
 
+# ====================================== ======================================
+# Calling all the previously made functions
+
+# Examine the raw details. (Note this only works when the debug flacg is active)
+investigateRawDetails()
 
 # Get modified temperature value
 zone_temp_raw2 = milliDegreeCelciusToDdegreeCelcius(zone_temp_raw2)
@@ -228,8 +229,8 @@ zone_temp_raw2 = milliDegreeCelciusToDdegreeCelcius(zone_temp_raw2)
 # Create a decimal number with a ,
 wholetemperature, remainderpartasint = degreenumber(zone_temp_raw2)
 
-# Now creating the unt for degree. This is a unicode degreesymbol.
-# Visit the the function to se the details
+# Now creating the unit for degree. This is a unicode degreesymbol.
+# Visit the the function to see the details Returns two divverent symbols
 degreesymbol1,degreesymbol0 = degreeSymbol()
 
 
@@ -238,6 +239,9 @@ degreesymbol1,degreesymbol0 = degreeSymbol()
 # print was selected to give an idea what python may use a value (actually a str) from the os
 # And temperature value was simply chose as one of many 
 printValuesToUser(zone_temp_raw2, wholetemperature, remainderpartasint)
+
+# ====================================== ======================================
+
 
 
 
@@ -277,6 +281,9 @@ def tupleExample():
 if (  debug == 1 ):
   tupleExample()
 
+
+# ====================================== ======================================
+
 # and finally using ''' and """ could simplyfy all the comments, llike so.
 # This is a muliti line
 # comment, but actually that does not exist in python like the /** */, and /** */ in c++
@@ -302,4 +309,3 @@ END docstring text.
 if (  debug == 1 ):
   print(multilineDocString)
   
-
