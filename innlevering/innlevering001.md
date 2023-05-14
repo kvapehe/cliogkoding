@@ -3,51 +3,60 @@
 ### Tilbake til toppen
 - [Hovedsiden](../README.md)
 ### Innlevering
-- [innlevering](./innlevering001.md)
-- [innlevering del 2](./innlevering002_lite_tekst_noe_kode.md)
+- [Innlevering] *
+- [Innlevering del 2](./innlevering002_lite_tekst_noe_kode.md)
 ### Scripteksempler
 - [Script](../script/README.md)
 
-
+# Introduksjon
 Blir det mye  lese så se på hver overskrift til det er interessant innhold (Eksperimenterer med github og TOC innholdsfortegnelse)  
-Dette dokumentet er nok ikke så brukervenlig, og tjener mer som vedlegg til elever som vil vite mer, grunnlaggtil å lage powerpoint, grunnlag  
+Dette dokumentet er nok ikke så brukervenlig, og tjener mer som vedlegg til elever som vil vite mer, grunnlag til å lage powerpoint, grunnlag  
 til å legge ut info på en nettside eller ganske enkelt en referanse som lærer kan benytte. For min del som underviser i dette, så handler det om å lese gjennom alt,  
 velg ut litt og litt tema, la elevene prøve seg fram med ulike kommandoer og oppfordre de til å dele kommandoer som de finner ut av.  
 langt mer enn de å følge et striks opplegg. Tenk på de demonstrasjonen vi har hatt u nderveis i kurset, det kan godt hende det er et manuskript bak, med det fikk aldri vi se.  
 
-Det handler om å bruke en LMS slik som itslearing aktivt og la elevene selv legge ut info til alle, eller ganske enkelt å opprette et dokument på framapad.org  
-som på et vis likner på google docs, men der alt er skrevet med markdown. Her er et slikt eksempel om en vil se en bruk av framapad  
-https://annuel2.framapad.org/p/kvaelektronikk. Denne ble opprettet for en VG3-klasse og elevene oppretter når det måtte være slike dynamiske dokument, og så deles lenker i f.eks. discord eller  
-itslearning. Om en ikke lager en bruker på framapd, så lever denne kun i 365 dager om en ikke endrer på noe. 
-Om en har statiske dokumenter ingen endrer på da forsvinner de,  og det er kasnkje like greit. 
+## En alternativ tilnæriming til prosjekt
+Det handler om å bruke en LMS slik som itslearing aktivt og la elevene selv legge ut info til alle, eller ganske enkelt å opprette et dokument på https://framapad.org 
+som på et vis likner på google docs, men der alt er skrevet med markdown. For mer info om framapad og framasoft sin visjon følg denne lenken https://framasoft.org/en/association.  
+https://framasoft.org/ har en rekke filosofier og verder det kan være lurt å se mer på. Lykke til i din seøken etter mer kunnskap.
 
-Lenken over er det planen alle elever på elektronikk får ansvar for, siden det er en del av dokumentasjon til et prosjekt klassene har vært gjennom og som elever nå leder på egenhånd.  
-Her var målet lærer skal ikke vite noe som helst, skal ikke kunne noe av innholdet og skal ikke legge føringer (bommer naturligvis alltid litt på dette, spesielt om det er tidsfrister inni bildet 17. mai er en slik frist.).
+## Et eksempel på bruk
+Her er et slikt eksempel om en vil se en bruk av framapad https://annuel2.framapad.org/p/kvaelektronikk. Denne ble opprettet for en VG3-klasse og elevene oppretter 
+når det måtte være slike dynamiske dokument, og så deles lenker i f.eks. discord eller itslearning. Om en ikke lager en bruker på framapd, så lever denne kun i 365 dager om en ikke endrer på noe. 
+Om en har statiske dokumenter ingen endrer på da forsvinner de, og det er kasnkje like greit. (NB Det er naturligvis mulig å lage statiseke dokument om en logger inn med en bruker, men da forsvinner litt av vitsen
+med en så lav brukerterskel som mulig. Dersom en ikke kan noe om markdown, kan en bare sette i gang å skrive og bruke verktøene en får tildelt, og så kan en utvide kunnskapsnivået etterhvert.
+
+Lenken over er det planen alle elever på elektronikk får ansvar for, siden det er en del av dokumentasjon til et prosjekt klassene har vært gjennom og som elever nå leder på egenhånd. 
+Her var målet lærer skal ikke vite noe som helst, skal ikke kunne noe av innholdet og skal ikke legge føringer (bommer naturligvis alltid litt på dette, 
+spesielt om det er tidsfrister inni bildet 17. mai er en slik frist.).
 
 Det lærer kan gjøre er å komme med forslag og innspil til elevene og så kan de velge å lage det eller ikke.  
-Noe som er artig, flere elever jobber med dette på egene fritid uten å se på det som lekse, og da er mye oppnådd.  
+Noe som er artig er at flere elever jobber med dette på egen fritid uten å se på det som lekse, og da er mye oppnådd.  
 
-# Hurtigversjonen om du ikke orker lese så mye og vil komme rett på sak
-Bruk denne lenken og les på engelsk: https://www.howtogeek.com/168896/10-useful-windows-commands-you-should-know/
+# Hurtigversjonen 
+(Om du ikke orker lese så mye og vil komme rett på sak)
+Bruk denne lenken og les på engelsk:  
+https://www.howtogeek.com/168896/10-useful-windows-commands-you-should-know/
 
 # Hvorfor dette valget
 
-Til nå har alle rapporter og annet innhold blitt skrevet i f.ek.s odf eller .docx.  
-Nå vil jeg prøve å skrive dokumentet i markdown, for å se hva som er mulig  
+Til nå har alle rapporter og annet innhold blitt skrevet i f.ek.s odf eller .docx. 
+Nå vil jeg prøve å skrive dokumentet i markdown, for å se hva som er mulig å få til 
+Dette i tillegg til selve prosjektet som er ulike scriptfiler. Det er ofte slik at et prosejkt avler et annet, og ved å lage dette prosjektet er tanken det kan benyttes omigjen i en annen form.  
+Tanken er at Det som er på github også kan konverteres til Word om det er påkrtrevet. (NB har ikke testet enda, men regner med framapad blir involvert i den prosessen.)
 
-Tanken er at dette kan konverteres til Word om det er påkrtrevet.
-
-Det kan hende det er vnaskelig å llage innholdsfortegnelse med markdow, men tror det askal være mulig.
+Det kan hende det er vanskelig å lage innholdsfortegnelse med markdow, men tror det askal være mulig. (tja er det nå det på github?)
 
 Hvorfor gjøre det slik, vel det er en innleveringsfrist 2023-05-05 som skal overholdes. Der legges det inn en
 zip-fil med alt innhold, og så er det tanken å referere til dette stedet, slik at en evt kan bruke filen som er levert, til å peke hit.
 
-Her vil dokumentene, script, annet innhold bli kontinuerlig vedlikeholdt, enten dette er pga skrivefeil, eller nye ideer.
-Det kan hendee det bryter med retningslinjene for innleveringe, så naturligvis finnes det et statisk dokument i tilleg,
+Her vil dokumentene, script, annet innhold bli kontinuerlig vedlikeholdt, enten dette er pga. skrivefeil, eller nye ideer.
+Det kan hendee det bryter med retningslinjene for innlevering, så naturligvis finnes det et statisk dokument i tillegg,
 
-# Årsaken til å velg CLI er at det ville være gøy å vise elever eller andre dette
+# Årsaken til å velge CLI er at det ville være gøy
+Det er gøy å vise elever eller andre hvordan en kan utføre noe i CLI.  
 Det er altfor mange elever som ikke kan bruke tekstverktøy med en datamskin, på tross av at dette de siste 50 årene er
-det foretrkne verktøye for alle som aktivt jobber med en datamaskin. For å utdype dette litt må en definere hva en datamaskin er.
+det foretrkne verktøyet for alle som aktivt jobber med en datamaskin. For å utdype dette litt er det greit å definere hva en datamaskin er.
 
 ## Datamaskin
 En datamaskin er en enehet som har programvare laste inn på maskinen, detn har en mikroprosesser i motsetning til en mikrokontroller.  
@@ -163,8 +172,9 @@ et er heller ikke noe som skal leses suksessivt, og overskriftene skal si om du 
 # CLI i Windows
 og hvordan gjøre dette i Windows så brukes CMD eller powershell. Nå er fokus CLI med batch og cmd
 For å lære noe må en hvite hvordan en finner dokumentasjon og hjelp.
-I Window er kommandoen help et godt utgangspunkt så prøv denne.
-Så er det slik at de fleste kommandoer svarer på hjel med følgende argument og parameter. /?, -?, -h og /h på linux er de --help og man kommando som gjelder.
+I Window er kommandoen `help` et godt utgangspunkt så prøv denne.
+
+Så er det slik at de fleste kommandoer svarer på hjelp med følgende argument og parameter. /?, -?, -h og /h på linux er det --help og man kommando som gjelder.
 Dersom det ikke finnes hjelp f.eks. med kommandoen msinfo32 /? så kan det hende du sendes av gårde til en nettside, og på søk på nett kan en nesten skrive navnet på hvilken osom helt kokommando 
 og så si help, howto, documentation eller liknnde og så kommer en til kilden, wikipediartikker, stackoverflow, limewire, geeksforgekks o.l. og der er det ofte god og strukturert hjelp.
 Nå slik det har vært en stud vil mange ta i bruk GPT, ChatGPT eller liknende AI-systemer og selv om det kan være forlokkende og enkelt i starten er det ikke alltid det beste valget.
