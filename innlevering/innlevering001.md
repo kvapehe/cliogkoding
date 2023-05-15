@@ -323,8 +323,9 @@ Med Powershell så kan vi prøve å lage `like` kommandoer som med `wmic`
 ```powershell
 Get-WmiObject win32_bios | select Serialnumber
 ```
-eller prøv denne og se forskjellen mellom `wmic` og `powershell` som nå benytter objekter. 
-Du kan om du vil hente objektet fra vpowershell` rett inn i `python`, og MS har laget en `powershell` som er OSS.
+eller prøv denne og se forskjellen mellom `wmic` og `powershell` som nå benytter objekter.
+
+Du kan om du vil hente objektet fra `powershell` rett inn i `python`, og MS har laget en `powershell` som er OSS.
 
 Lenken dit er: __Try the new cross-platform PowerShell https://aka.ms/pscore6__ _aka.ms_ er forresten en spesiell adresse som MS bruker ofte. __microsoft.com__ betyr kommersiell og er ofte i USA. _us_ er lik vår _.no_, men MS mener de er så store at de kan brke _.ms_ (Montserrat), slik en bruker _.as_ i Norge for å indikere et akseselskap. _.as_ er forresten Amerivcan Samoa og slike domene salg av toppdomener er en stor industri på denne øyen. 
 
@@ -453,7 +454,7 @@ Språket `php` har en egen modus for cli kalt php-cli og da kan en bruke scipt e
 
 Nå stemmer ikke teksten over helt. For `python`-script finnes i script-mappen og filene er godt kommentert. Det som stemmer er at det ikke blir skrevet så mye om pythen her på nettsiden.
 
-__![Screenshot of rendered Markdown showing how triple backticks cause a code block to render in raw formatting. The block begins with "function test() {."][deff](https://docs.github.com/assets/images/help/writing/fenced-code-block-rendered.png)__  
+  
 ...
 
 <details>
@@ -471,4 +472,4 @@ ok
 
 
 
-[def]: https://docs.github.com/assets/images/help/writing/fenced-code-block-rendered.png
+
