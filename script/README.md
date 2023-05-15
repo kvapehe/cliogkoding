@@ -12,11 +12,11 @@ Litt beskrivelse for hvert script.
 - [Script Start her] * 
 - Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker.
 - Alternativt kan du velge md-versjonen av hvert script
-- [Script (Linux) Bash](./bash01.sh) [md-fil Bash](./bash01.sh) 
-- [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) [md-fil Batch 1](./batch01_cmd.md) 
-- [Script (Dos/Win/cmd) Batch 2](./batch02.cmd) [md-fil Batch 2](./batch02_cmd.md)
-- [Script (Win python) Python 1](./python01.py) [md-fil Python 1](./python01_py.md)
-- [Script (Win python) Python 1 versjon b](./python01b.py) [md-fil Python 1 versjon b](./python01b_py.md)
+- [Script (Linux) Bash](./bash01.sh) Alternativt vise som [md-fil Bash](./bash01_sh.md) 
+- [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) Alternativt vise som [md-fil Batch 1](./batch01_cmd.md) 
+- [Script (Dos/Win/cmd) Batch 2](./batch02.cmd) Alternativt vise som [md-fil Batch 2](./batch02_cmd.md)
+- [Script (Win python) Python 1](./python01.py) Alternativt vise som [md-fil Python 1](./python01_py.md)
+- [Script (Win python) Python 1 versjon b](./python01b.py) Alternativt vise som [md-fil Python 1 versjon b](./python01b_py.md)
 <!-- 
 - [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
