@@ -9,16 +9,19 @@ Litt beskrivelse for hvert script.
 - [Innlevering](../innlevering/innlevering001.md)
 - [Innlevering del 2](../innlevering/innlevering002_lite_tekst_noe_kode.md)
 ### Scripteksempler
-- [Script Start her](./README.md)
-- Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker. 
-<!--- Blir evt endret til .md med code-boks etterhvert. Litt flere lenker under -->
-- [Script (Linux) Bash](./bash01.sh) 
-- [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) 
-- [Script (Dos/Win/cmd) Batch 2](./batch02.cmd) 
-- [Script (Win python) Python 1](./python01.py) 
-- [Script (Win python) Python 1 versjon b](./python01b.py) 
-<!-- - [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
-- [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda -->
+- [Script Start her] * 
+- Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker.
+- Alternativt kan du velge md-versjonen av hvert script
+- [Script (Linux) Bash](./bash01.sh) [md-fil Bash](./bash01.sh) 
+- [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) [md-fil Batch 1](./batch01_cmd.md) 
+- [Script (Dos/Win/cmd) Batch 2](./batch02.cmd) [md-fil Batch 2](./batch02_cmd.md)
+- [Script (Win python) Python 1](./python01.py) [md-fil Python 1](./python01_py.md)
+- [Script (Win python) Python 1 versjon b](./python01b.py) [md-fil Python 1 versjon b](./python01b_py.md)
+<!-- 
+- [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
+- [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
+-->
+
 
 ## Litt mer info
 I praksis var planen å legge et og et script i mappen script og så skulle dette dynamisk dukke opp på hjemmesiden, slik det gjør i github  

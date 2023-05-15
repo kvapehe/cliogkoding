@@ -3,8 +3,8 @@
 ### Tilbake til toppen
 - [Hovedsiden](../README.md)
 ### Innlevering
-- [innlevering](./innlevering001.md)
-- [innlevering del 2](./innlevering002_lite_tekst_noe_kode.md)
+- [Innlevering](./innlevering001.md)
+- [Innlevering del 2] *
 ### Scripteksempler
 - [Script](../script/README.md)
 
