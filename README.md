@@ -31,11 +31,12 @@ Det som er i zip-fil er eksakt likt det som er levert i inspera.
 (NB det er mulig en må velge lenker og si åpne i ny arkfane for enkelhtsskyld midterste musknapp klikk på lenke slår aldri feil)  
 Om en er lei av å lese introduksjoner, så er det her hurtiglenker til innlevering, script og vedlegg, ellers  
 så oppfordres det til å bla gjennom i prosjektet, og om du bruker ny vising i github er dette blitt mye letttere  
-Innleveringsdokumenter: MD-type og ikke Word / PDF [Innlevering](./innlevering)  
+Innleveringsdokumenter: MD-type og ikke Word / PDF [Innlevering](./innlevering/innlevering001.md)  
 Script: .sh, .bat, .cmd, .py ... og annet [Script](./script)  
-Vedlegg: Zip-fil, muligens med utpakket innhold, da er det .pdf, .docx, annet.   
-Lenke til [Vedlegg](./vedlegg/) Lenke til framapad som eksempel, inntil det evt er benyttet i dette prosejktet.   
-- Vedlegg er bla, forprosjekt, øving 3, evt referanser, cheat sheet om det er aktuelt o.l.  
+ 
+Lenke til [Vedlegg som zip-fil](https://folk.ntnu.no/pettehei/2023_05_05_innlevering_prosjekt/2023_05_05_statisk_versjon_innlevert.zip)     
+
+- Innholdet i Vedlegg er bla, forprosjekt, øving 3, evt referanser, cheat sheet om det er aktuelt o.l.  
 - Vedlegg er ikke påkrevet for selve oppgaven utover at det er lagt med som referanse og som noe en kan sjekke innlevert oppgave mot.  
 - Framapad som er en tjeneste, som er genial å benytte med slikt dynamisk innhold og er litt på sidelinjen pr dd. [Framapad CLI og koding](https://annuel2.framapad.org/p/cliogkoding)
 
