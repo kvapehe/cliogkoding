@@ -453,7 +453,7 @@ Språket `php` har en egen modus for cli kalt php-cli og da kan en bruke scipt e
 
 Nå stemmer ikke teksten over helt. For `python`-script finnes i script-mappen og filene er godt kommentert. Det som stemmer er at det ikke blir skrevet så mye om pythen her på nettsiden.
 
-__![Screenshot of rendered {% data variables.product.prodname_dotcom %} Markdown showing how triple backticks cause a code block to render in raw formatting. The block begins with "function test() {."][deff](https://docs.github.com/assets/images/help/writing/fenced-code-block-rendered.png)__  
+__![Screenshot of rendered Markdown showing how triple backticks cause a code block to render in raw formatting. The block begins with "function test() {."][deff](https://docs.github.com/assets/images/help/writing/fenced-code-block-rendered.png)__  
 ...
 
 <details>
@@ -463,7 +463,7 @@ Her er et midlertidig eksperiment med enda mer markdown.
 
 
 
-![Screenshot of rendered {% data variables.product.prodname_dotcom %} Markdown showing how triple backticks cause a code block to render in raw formatting. The block begins with "function test() {."](../bilder/c3.png)
+![Screenshot of rendered Markdown showing how triple backticks cause a code block to render in raw formatting. The block begins with "function test() {."](../bilder/c3.png)
 
 </details>
 
