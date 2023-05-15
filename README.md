@@ -16,7 +16,7 @@ NB bruk åpne i ny arkfane om du vil ha en ny "side"
 - [Framapad CLI og koding](https://annuel2.framapad.org/p/cliogkoding)
 
 
-# Velkommen til denne intrduksjonssiden
+# Velkommen til denne introduksjonssiden
 Tanken med denne dynamiske siden er å rette en del skrivefeil og evt legge til flere eksempler under script.
 Det er siden på github som er den aktive og mest oppdaterte til enhver tid, og det er som hjelp til den innleverte versjonen.
 Med den innleverte versjonen er det en rekke skrivefeil og tungt stoff. DEt er også lite bilder eller annet som gjør det lett å lese.
