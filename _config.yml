@@ -3,6 +3,7 @@ theme: jekyll-theme-leap-day
 title: CLI og kodding hjemmeside
 description: Litt introduksjon til CLI, script og ulike programspråk
 markdown: kramdown
+show_downloads: true
 
 # theme: jekyll-theme-minimal
 # markdown: GFM
