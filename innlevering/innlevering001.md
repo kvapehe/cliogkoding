@@ -278,20 +278,26 @@ Søket: __powershell windows serial number__ Fant svaret hos howtogeek.com (enda
 
 ## CMD-versjonen av noen kommandoer
 ```batch
+
 wmic bios get serialnumber 
 eller 
 wmic baseboard get Product :: (Denne viser hovekortet som er i datamskinen)
+
 ```
 
 Kanskje du vil ha informsjon om harddisken eller annet i mskinen: 
 ```batch
+
 wmic diskdrive get model,name,serialnumber
+
 ```
 Du ser kanskje nå et mønster. Tips se på linjene under.
 ```batch
+
 wmic bios get serialnumber  
 wmic baseboard get Product  
 wmic diskdrive get model,name,serialnumber  
+
 ```
 Kommandoen `wmic` (let på nett) spør maskinens `bios`, (systemet før OS), hovedkortet (HW-kort, dvs deler av maskinen rapporterer til OS hva som finnes. NB denne lærte jeg nå underveis) og `diskdrive`, som gir informsjon om lagringsmedia.
 Ordet `diskdrive` er nå misvisende da en __SSD__ (solid State "disk" ikke lenger er en disk men et slags minne. Kalles ofte NAND-minne (søk på nett eller om du kan litt elektronikk så skjønner du hva det er) Uansett så har Windows kalt det disse ordene så da bruker en de. Og dersom du lurer på om noe liknende finnes i linux så er svaret ja. Faktisk er en tilsvarende kommando med i script-eksemplene.
@@ -345,7 +351,8 @@ Når powershellkommandoer er nytt, er det vanskelig å kunne om en ikke bruker c
 Starte powershell med WIN+Q powershell (gjerne som administrator om du lnsker det,og  du er forsiktig)
 Nå kan det være lurt å legge innhjelp eller bruke hjelp på nett.
 "Get-Help Get-WmiObject -Online" or Update-Help eller go to https://go.microsoft.com/fwlink/?LinkID=113337.
-Powershell kaller forresten kommandoene for CMDlet eller commandlet og det er slags små scriptprogrammer. Om du finner de på datamsiken så er dette omtrent ren teksfil med kommandoer inni. Disse kommandoene er kamuflerte og ikke bergnet for sluttbruker, de er mer kompliserte en det `GET, SET` kommandoene powershell er bygget opp på. 
+Powershell kaller forresten kommandoene for CMDlet eller commandlet og det er slags små scriptprogrammer. Om du finner de på datamsiken 
+så er dette omtrent ren teksfil med kommandoer inni. Disse kommandoene er kamuflerte og ikke bergnet for sluttbruker, de er mer kompliserte en det `GET, SET` kommandoene powershell er bygget opp på. 
 I `powershell` kan du bruke TAB mye mer enn i `CMD`, men ikke fullt så mye som i linux med `zsh` eller `bash`
 ```powershell
 Get-WmiObject win32_bios | select Serialnumber
@@ -353,39 +360,48 @@ Get-WmiObject win32_bios
 Get-WmiObject win32_baseboard
 Get-WmiObject win32_diskdrive
 ```
-Med videre kommandoer som over med `|` og så neste ord kan en filtrere. NB nå virker ikke `|, >>` slik som tidligere, istedenfor har powershell en rekke kommandoer som kan lage ulike typer rappporter, sortert ulikt, filtrert o.l.
+Med videre kommandoer som over med `|` og så neste ord kan en filtrere. NB nå virker ikke `|, >>` slik som tidligere, istedenfor har powershell en rekke kommandoer 
+som kan lage ulike typer rappporter, sortert ulikt, filtrert o.l.
 
 Viser en slik kommando som en kan se måten dette gjøres.
 Denne f.eks. 
 ```powershell
+
 Get-WmiObject win32_diskdrive |select mod* 
 
-Get-WmiObject win32_diskdrive # (Denne blir uendelig lang men bare prøv) 
+Get-WmiObject win32_diskdrive # (Denne blir "uendelig" lang men bare prøv) 
+
 ```
 Da slipper en se hele listen, som "alltid er formattert fint, mye bedre enn med wmic.
 Her er noen tips om hvordan finne kommandoer og hvordan skrive kommandoene. 
 Disse ble oppdaget underveis og benytttet
 ```powershell
+
 REMARKS
     To see the examples, type: "get-help Get-WmiObject -examples".
     For more information, type: "get-help Get-WmiObject -detailed".
     For technical information, type: "get-help Get-WmiObject -full".
     For online help, type: "get-help Get-WmiObject -online"
+
 ```    
 
 ## Internettresurs til Powershell
 Dette er en verdifull internettresurs for powershell:  
 https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-diskdrive
 ```powershell
+
 Get-WmiObject -Query "ASSOCIATORS OF {Win32_DiskDrive.DeviceID='\\.\PHYSICALDRIVE0'} WHERE ResultClass=Win32_PnPEntity" 
+
 ```
 Her er en mer avansert kommandolinje, så la oss plukke den fra hverandre litt.
 Kanskje du kjenner den igjen fra listen over.
 
 Mer powershell og nå starter det å likne på programmering
 ```powershell
+
 $filter = "name like '%"+$_Application+"%'"
 $result = Get-WmiObject win32_process -Filter "$filter"
+
 ```
 Om en vil se innholdet i variablene så skriv f.eks. `$result`, og det dukker opp 100-vis a linjer som en naturligvis vil ta vare på i en rapport.
 
@@ -393,16 +409,20 @@ Med `powershell` bør en vanligvis benytte linje to under framfor linje 1. Slik 
 
 Om du vil vite mer så søk på nett. MS har valgt å la begge kommandoene vise og virke noenlunde likt så stort sett er det nok på bytte fra 
 ```powershell
+
 Get-WmiObject til Get-CimInstance
+
 ```
 og fortsette som tidligere. Her er nok et eksempel før en savlutter powershell eksempler for denne gang.
 ```powershell
+
 Get-WmiObject   Win32_logicaldisk -Filter 'DeviceId = "C:"' | Select-Object DeviceID, FreeSpace
 Get-CimInstance Win32_logicaldisk -Filter 'DeviceId = "C:"' | Select-Object DeviceID, FreeSpace
 DeviceID   FreeSpace
 --------   ---------
 C:       14188314624
 Get-WmiObject til Get-CimInstance og fortsette som tidligere
+
 ```
 
 # Veien videre
