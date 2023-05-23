@@ -19,7 +19,7 @@
 - [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
 -->
-```batch
+```cmd
 @echo off
 :: Forklaringer på ulike linjer i kode er til slutt i programmet. Det sparer en for litt unødige kommentarer underveis.
 :: Ved å se på alle eksemplene vil en se mye kodelinjer er like og på den måte forstå hva koden gjør.
@@ -77,8 +77,7 @@ echo "dir %arg1% /s /b /a %arg2% |findstr "%arg2%" "
 dir %arg1% /b /a %arg2% |findstr "%arg2%"
 echo Data: dir %arg1% /s /b /a %arg2% |findstr "%arg2%"
 goto end
-```
-```cmd
+
 
 :end
 :: Det skjer ikke så mye her, men alltid lurt å ta med label end, very end er med bare for å ta med noe helt til slutt.
@@ -108,6 +107,7 @@ rem Det fleste program returnerer 0 når alt går bra. -1 om noe gikk galt og et
 :: 
 :: En versjon av programmet med langt mindre tekst er med som vedlegg.
 :: echo %ERRORLEVEL%
+
 :veryend
 :: Da var du ved veis ende. Da er det lurt å nullstille feilkoder, med mindre det skal returneres en kode.
 :: Poenget med en slik slutt er å renske kode og rydde i evt. variabler og utskrift til filsystemet, skjer eller evt skriver.
