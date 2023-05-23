@@ -1,4 +1,8 @@
-theme: jekyll-theme-minimal
-title: CLI and coding home page
-description: Dette er siden som viser CLI-koding og litt script
-markdown: GFM
+# _config.yml
+theme: jekyll-theme-leap-day
+title: CLI og kodding hjemmeside
+description: Litt introduksjon til CLI, script og ulike programspråk
+markdown: kramdown
+
+# theme: jekyll-theme-minimal
+# markdown: GFM
