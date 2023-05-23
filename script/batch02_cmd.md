@@ -19,7 +19,7 @@
 - [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
 -->
-```cmd
+```batch
 @echo off
 :: Forklaringer på ulike linjer i kode er til slutt i programmet. Det sparer en for litt unødige kommentarer underveis.
 :: Ved å se på alle eksemplene vil en se mye kodelinjer er like og på den måte forstå hva koden gjør.
