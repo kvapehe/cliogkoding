@@ -9,12 +9,12 @@ Litt beskrivelse for hvert script.
 - [Innlevering](../innlevering/innlevering001.md)
 - [Innlevering del 2](../innlevering/innlevering002_lite_tekst_noe_kode.md)
 ### Scripteksempler
-- [Script Start her] * 
 - Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker.
 - Alternativt kan du velge md-versjonen av hvert script
 - [Script (Linux) Bash](./bash01.sh) Alternativt vise som [md-fil Bash](./bash01_sh.md) 
 - [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) Alternativt vise som [md-fil Batch 1](./batch01_cmd.md) 
 - [Script (Dos/Win/cmd) Batch 2](./batch02.cmd) Alternativt vise som [md-fil Batch 2](./batch02_cmd.md)
+- [Script (Dos/Win/cmd) Batch 3](./batch03.cmd) Alternativt vise som [md-fil Batch 3](./batch03_cmd.md)
 - [Script (Win python) Python 1](./python01.py) Alternativt vise som [md-fil Python 1](./python01_py.md)
 - [Script (Win python) Python 1 versjon b](./python01b.py) Alternativt vise som [md-fil Python 1 versjon b](./python01b_py.md)
 <!-- 
@@ -24,9 +24,8 @@ Litt beskrivelse for hvert script.
 
 
 ## Litt mer info
-I praksis var planen å legge et og et script i mappen script og så skulle dette dynamisk dukke opp på hjemmesiden, slik det gjør i github  
-https://github.com/kvapehe/cliogkoding/edit/main/script/  
-Dette virket visst ikke så for hver endring så må denne filen også endres.
+Planen var å legge et og et script i mappen script og så skulle dette automtisk og dynamisk dukke opp på hjemmesiden, slik det 
+tilsynelatende gjør i github. Dette virket visst ikke så for hver endring må denne filen endres.
 
 Om noen ønsker å bidra så send en medling til eier av kvaphe og be om å få bidra, med ulike eksempler.  
-Nå avsluttes straks prosjektet for denne gang.
+
