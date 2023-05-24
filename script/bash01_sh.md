@@ -1,19 +1,20 @@
 # Script eksempler
+
 ## Navigasjon
 ### Tilbake til toppen
 - [Hovedsiden](../README.md)
 ### Innlevering
 - [Innlevering](../innlevering/innlevering001.md)
 - [Innlevering del 2](../innlevering/innlevering002_lite_tekst_noe_kode.md)
-### Scripteksempler
+### Script eksempler
 [Script](./README.md)  
 Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker.  
-Kildekodene er tenkt slik at de kan lastes ned og prøves på egen maskin.  
+Kildekodene er tenkt slik at de kan lastes ned å prøves på egen maskin.  
 Alternativt kan du velge md-versjonen av hvert script , som i tillegg viser utskrift til skjerm.  
 - [Script (Linux) Bash] * 
-- [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) Alternativt vise som [md-fil Batch 1](./batch01_cmd.md)  
+- [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) Alternativt vise som [md-fil Batch 1](./batch01_cmd.md)   
 - [Script (Dos/Win/cmd) Batch 2](./batch02.cmd) Alternativt vise som [md-fil Batch 2](./batch02_cmd.md)  
-- [Script (Dos/Win/cmd) Batch 3](./batch03.cmd) Alternativt vise som [md-fil Batch 3](./batch03_cmd.md)  
+- [Script (Dos/Win/cmd) Batch 3](./batch03.cmd) Alternativt vise som [md-fil Batch 3](./batch03_cmd.md)   
 - [Script (Win python) Python 1](./python01.py) Alternativt vise som [md-fil Python 1](./python01_py.md)  
 - [Script (Win python) Python 1 versjon b](./python01b.py) Alternativt vise som [md-fil Python 1 versjon b](./python01b_py.md)  
 <!-- 
@@ -21,6 +22,8 @@ Alternativt kan du velge md-versjonen av hvert script , som i tillegg viser utsk
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
 -->
 ### Bash shell script
+Sript demonstrerer nettverkshastigheten på et nettverkskort. Med variabelen INTERFACE velger en nettverkskortet 
+som skal testes. Hastighetsdata vises i en tabell.
 ```bash
 #!/bin/bash
 # Filename: fil2.sh

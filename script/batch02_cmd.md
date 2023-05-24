@@ -1,17 +1,19 @@
-# Retur fra script-eksempel
-## Navigasjon: (manuell foreløpig)
+# Script eksempler
+
+## Navigasjon
 ### Tilbake til toppen
 - [Hovedsiden](../README.md)
 ### Innlevering
 - [Innlevering](../innlevering/innlevering001.md)
 - [Innlevering del 2](../innlevering/innlevering002_lite_tekst_noe_kode.md)
-### Scripteksempler
-- [Script](./README.md)
-- Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker.
-- Alternativt kan du velge md-versjonen av hvert script
+### Script eksempler
+[Script](./README.md)  
+Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker.  
+Kildekodene er tenkt slik at de kan lastes ned å prøves på egen maskin.  
+Alternativt kan du velge md-versjonen av hvert script , som i tillegg viser utskrift til skjerm.  
 - [Script (Linux) Bash](./bash01.sh) Alternativt vise som [md-fil Bash](./bash01_sh.md)  
 - [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) Alternativt vise som [md-fil Batch 1](./batch01_cmd.md)   
-- [Script (Dos/Win/cmd) Batch 2] *   
+- [Script (Dos/Win/cmd) Batch 2] *  
 - [Script (Dos/Win/cmd) Batch 3](./batch03.cmd) Alternativt vise som [md-fil Batch 3](./batch03_cmd.md)   
 - [Script (Win python) Python 1](./python01.py) Alternativt vise som [md-fil Python 1](./python01_py.md)  
 - [Script (Win python) Python 1 versjon b](./python01b.py) Alternativt vise som [md-fil Python 1 versjon b](./python01b_py.md)  
@@ -19,6 +21,9 @@
 - [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
 -->
+### Batch script
+Sript demonstrerer hvordan en kan finne filer og dokumenter i cmd. Det krever at bruker oppgir mappe og filnavn.
+Script demonstrerer en rekke batchkommandoer som er nyttige å kjenne til.
 ```batch
 @echo off
 :: Forklaringer på ulike linjer i kode er til slutt i programmet. Det sparer en for litt unødige kommentarer underveis.
@@ -121,3 +126,8 @@ set ERRORLEVEL=0
 :showerrors
 echo %ERRORLEVEL%
 ```
+### Batch script utskrift til skjerm eksempel
+```batch
+```
+
+### Eksempel avsluttet
