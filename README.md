@@ -100,7 +100,7 @@ Når github er dynamisk kan en konstant korrigere og endre på innholdet til det
   [github cliogkoding innlevering](https://github.com/kvapehe/cliogkoding/blob/main/innlevering/innlevering001.md)  
   [github nettside innlevering](https://kvapehe.github.io/cliogkoding/innlevering/innlevering001.html)  
 
-# Bakgrunnsinformasjon om selve gihubsidene
+# Bakgrunnsinformasjon om selve gihub-sidene
 - [Bakgrunnsinformasjon](./bakgrunnsinformasjon.md)
 
 Initial 2023-05-05  
