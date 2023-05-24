@@ -10,7 +10,10 @@ Dette er et litt interessant eksperiment. Det går ut på å droppe en rapport i
 - [Script](../script/README.md)
 
 # Introduksjon
-Blir det mye  lese så se på hver overskrift til det er interessant innhold   
+Blir det mye  lese så se på hver overskrift til det er interessant innhold.   
+Da det er CLI og koding som på sett og vis er temaet, kand velge menyvalget Script om du ønsker det.  
+Det er helt klart innholdet i innleveringen kunne vært annerledes, men så er det dette med, hvorfor er teknologien og verden slik den er i dag. Det er litt kjekt å grave litt i dybden på dette og forsøke å forstå hvordan noe virker og hvorfor det "tilfeldigvis" ble slik det er nå.
+
 Dette dokumentet er nok ikke så brukervenlig, og tjener mer som vedlegg til elever som vil vite mer, grunnlag til å lage powerpoint, grunnlag  til å legge ut info på en nettside eller ganske enkelt en referanse som lærer kan benytte.  
 For min del som underviser i dette, så handler det om å lese gjennom alt, velge ut litt og litt tema, la elevene prøve seg fram med ulike kommandoer og oppfordre de til å dele kommandoer som de finner ut av, langt mer enn det å følge et striks opplegg.  
 Tenk på de demonstrasjonen vi har hatt underveis i kurset, det kan godt hende det er et manuskript bak, med det fikk aldri vi se. Interaktiv læring er noe jeg har sansen for, langt mer enn statiske powerpointdokumenter. 
@@ -40,7 +43,6 @@ https://www.howtogeek.com/168896/10-useful-windows-commands-you-should-know/
 På denne siden finner du garantert flere lenker å følge. Når interessen er trigget kan en lett svi av timesvis og dagevis med å lære seg litt om cli.
 
 ## Hvorfor dette valget
-
 Til nå har alle rapporter og annet innhold blitt skrevet i f.ek.s odf eller .docx. 
 Nå vil jeg prøve å skrive dokumentet i markdown, for å se hva som er mulig å få til 
 Dette i tillegg til selve prosjektet som er ulike scriptfiler. Det er ofte slik at et prosejkt avler et annet, og ved å lage dette prosjektet er tanken det kan benyttes omigjen i en annen form.  
@@ -60,9 +62,9 @@ Det er altfor mange elever som ikke kan bruke tekstverktøy med en datamskin, p�
 det foretrkne verktøyet for alle som aktivt jobber med en datamaskin. For å utdype dette litt er det greit å definere hva en datamaskin er.
 
 ### Datamaskin
-En datamaskin er en enehet som har programvare laste inn på maskinen, detn har en mikroprosesser i motsetning til en mikrokontroller.  
-Les på nett om denne forskjellen. Datamskinen ar minnetilgang og et lagringsoråde. Siden den har tilgang til slike resurser er naturlig   
-neste steg at maskinen har et operativsystem.
+En datamaskin er en enehet som har programvare lastet inn på maskinen, detn har en mikroprosesser i motsetning til en mikrokontroller.  
+Les på nett om denne forskjellen. Datamskinen har minnetilgang og et lagringsoråde. Siden den har tilgang til slike resurser er naturlig neste steg at maskinen har et operativsystem.  
+
 ### Operativsystem
 Operativsystem eller OS, er en litt uklar definisjon. At et operativsystem er MS DOS er kjent, at et annet er Windows er også delvis kjent, 
 men hvilket system bruker f.eks. en maski fra Machintosh. OSX er mer uklart som operativsystem det samme er IOS på Apple telefoner,
