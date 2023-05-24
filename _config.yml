@@ -1,5 +1,5 @@
 # _config.yml
-theme: jekyll-theme-hacking
+theme: jekyll-theme-hacker
 title: CLI og kodding hjemmeside
 description: Litt introduksjon til CLI, script og ulike programspråk
 markdown: gfm
