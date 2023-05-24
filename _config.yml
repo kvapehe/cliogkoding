@@ -1,9 +1,10 @@
 # _config.yml
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-hacking
 title: CLI og kodding hjemmeside
 description: Litt introduksjon til CLI, script og ulike programspråk
 markdown: gfm
 show_downloads: true
 
 # theme: jekyll-theme-minimal
+# theme: jekyll-theme-leap-day
 # markdown: GFM
