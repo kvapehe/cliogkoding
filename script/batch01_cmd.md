@@ -441,6 +441,45 @@ REM EXIT /B %ERRORLEVEL% :: En kan avslutte programmet og returnere koden
 ```
 ### Batch script utskrift til skjerm eksempel
 ```batch
+echo Litt av det som vises på skjerm
+
+echo.
+
+Dette "programmet" brukes som opplaering. Det kombinerer echo og kommentarer.
+Det som sendes til skjerm vises med echo. Det som er gjemt bak :: er kommentarer.
+Start "programmet" for aa se hva det gjor.
+
+=========================== =========================== ======================
+
+24.05.2023> set iprange1=129.241.56
+
+24.05.2023> set iprange2=192.168.1
+
+  Valgt IP-omraade er: 192.168.1.1 - 255
+=========================== =========================== ======================
+
+...
+...
+
+=========================== =========================== ======================
+
+Velkommen til mulitiping.
+Dette "programmet" utforer ping til en IP-range og starter paa
+IP-adresse 192.168.1.1 og slutter paa 192.168.1.255 som er broadcast BC.
+
+Dette eksempelet paa et script / program er ufarlig og kjorer i CMD.
+=========================== =========================== ======================
+Naa er siste sjanse aa avbryte med CTRL+C om du ikke vil kjore "programmet"
+Utkatalog:  C:\Users\bruker\ping\".\filreptest.txt"
+
+Pass paa ".\filreptest.txt"  med katalogplassering er et gyldig du har skriverettigheter.
+Press any key to continue . . .
+
+Ping av IP-adresser er i gang. Alt sendes til rapportfil saa det vises ikke noe paa skjerm.
+Det tar ca 3 minutt foer programmet er ferdig med alle IP-adressene.
+
+echo Det vises ikke mer på skjerm. Nå er programmet "stille" i en lang stund til alle IP-adresser er testet.
+
 ```
 
 ### Eksempel avsluttet

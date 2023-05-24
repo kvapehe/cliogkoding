@@ -21,6 +21,7 @@ Alternativt kan du velge md-versjonen av hvert script , som i tillegg viser utsk
 - [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
 -->
+## Python kode
 ```python
 #!/bin/python
 
@@ -162,3 +163,22 @@ printValuesToUser(zone_temp_raw2, wholetemperature, remainderpartasint)
 # ====================================== ======================================
 
 ```
+## Python utskrift til skjerm eksempel
+```python
+echo Utskrift til skjerm 01b
+
+======================================
+ The system temperature is: 55,84 ℃.
+ The system temperature is: 55,84 °C.
+
+ (
+  Alternatively use the variable
+  degreesymbol0 if the unicode
+  degree symbol is hard to read.
+ )
+======================================
+
+
+```
+
+### Eksempel avsluttet

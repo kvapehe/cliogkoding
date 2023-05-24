@@ -128,6 +128,7 @@ echo %ERRORLEVEL%
 ```
 ### Batch script utskrift til skjerm eksempel
 ```batch
+
 ```
 
 ### Eksempel avsluttet

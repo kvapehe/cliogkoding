@@ -128,6 +128,29 @@ echo end program
 ```
 ### Batch script utskrift til skjerm eksempel
 ```batch
+echo Dette er innholdet i rapportfilen. 
+
+Start ping:  
+23.05.2023 
+10:04
+3:60:Reply from 192.168.1.1: bytes=32 time<1ms TTL=64
+3:61:Reply from 192.168.1.2: bytes=32 time=1ms TTL=64
+3:56:Reply from 192.168.1.70: bytes=32 time=34ms TTL=64
+3:60:Reply from 192.168.1.80: bytes=32 time=1ms TTL=64
+3:63:Reply from 192.168.1.90: bytes=32 time<1ms TTL=64
+3:64:Reply from 192.168.1.100: bytes=32 time=2ms TTL=255
+3:60:Reply from 192.168.1.110: bytes=32 time<1ms TTL=128
+3:70:Reply from 192.168.1.120: bytes=32 time=39ms TTL=64
+3:48:Reply from 192.168.1.130: bytes=32 time<1ms TTL=64
+3:48:Reply from 192.168.1.140: bytes=32 time=32ms TTL=255
+3:80:Reply from 192.168.1.164: bytes=32 time=125ms TTL=64
+3:58:Reply from 192.168.1.173: bytes=32 time=393ms TTL=64
+   
+   
+End ping:  
+23.05.2023 
+10:53
+
 ```
 
 ### Eksempel avsluttet

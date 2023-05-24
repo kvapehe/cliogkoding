@@ -7,7 +7,7 @@ Her finnes det en del script.
 - [Innlevering](../innlevering/innlevering001.md)
 - [Innlevering del 2](../innlevering/innlevering002_lite_tekst_noe_kode.md)
 ### Script eksempler
-[Script](./README.md)  
+[Script] *  
 Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker.  
 Kildekodene er tenkt slik at de kan lastes ned å prøves på egen maskin.  
 Alternativt kan du velge md-versjonen av hvert script , som i tillegg viser utskrift til skjerm.  
@@ -23,9 +23,11 @@ Alternativt kan du velge md-versjonen av hvert script , som i tillegg viser utsk
 -->
 ## Info om de ulike script
 * Bash 01 er et script som demonstrerer en del koder i bash og viser ping med IP-adresser i en tabell
-* Batch 01 
-* * Bash 01 er et script som demonstrere en del koder i bash og viser temperaturen i en datamakin
-
+* Batch 01 viser ping av en rekke IP-adresser, med mye kommentarer og hjelp med batch-kommandoer.
+* Batch 02 er et script som leter etter en gitt fil på et Windows datasystem.
+* Batch 03 viser ping av en rekke IP-adresser, med langt mindre kommentarer og hjelp enn Batch 01.
+* Python 01 viser temperaturen i en datamskin og krever linux eller unix for å virke. Det fungerer også på Mac OSX-
+* Python 01b viser temperaturen i en datamskin og krever linux eller unix for å virke. Det fungerer også på Mac OSX-
 
 ## Litt mer info
 Planen var å legge et og et script i mappen script og så skulle dette automtisk og dynamisk dukke opp på hjemmesiden, slik det   tilsynelatende gjør i github. Dette virket visst ikke så for hver endring må denne filen endres.  
