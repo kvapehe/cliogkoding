@@ -1,20 +1,17 @@
-# Notis. Denne er levert som innlevering i inspera. 
-(En langt tidligere utgave)
-### Vis på egen nettsideadresse  
-### https://kvapehe.github.io/cliogkoding/
-NB bruk åpne i ny arkfane om du vil ha en ny "side"
-## Navigasjon: (manuell foreløpig, muligens den må forbli manuell)
+# Hovedsiden for CLI og koding
+Notis. Dette prosjektet er levert som innlevering i inspera. (En langt tidligere utgave)
+<!-- ### Vis på egen nettsideadresse  ### https://kvapehe.github.io/cliogkoding/
+NB bruk åpne i ny arkfane om du vil ha en ny "side" -->
 ### Innlevering
 - [Innlevering](./innlevering/innlevering001.md)
 - [Innlevering del 2](./innlevering/innlevering002_lite_tekst_noe_kode.md)
-### Scripteksempler
+### Script eksempler
 - [Script](./script/README.md)
 ### Bakgrunnsinformasjon for selve nettstedet
 - Se nedesrst på siden om du ønsker å vite litt mer om nettstedet som er laget  
-  Dette er et eksperiment, ved å benytte github til "alt" og ikke bruke en ordinær Wordfil som dokumentasjon  
+  Dette er et eksperiment, ved å benytte github til "alt", inkludert å generere en delvis dynamisk nettside.    
 ### Framapadsiden som lenker hit
 - [Framapad CLI og koding](https://annuel2.framapad.org/p/cliogkoding)
-
 
 # Velkommen til denne introduksjonssiden
 Tanken med denne dynamiske siden er å rette en del skrivefeil og evt legge til flere eksempler under script.
