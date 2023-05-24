@@ -1,6 +1,5 @@
 # Scriptsiden
-Her finnes pr dd en del script
-Litt beskrivelse for hvert script.
+Her finnes det en del script.
 
 ## Navigasjon: (manuell foreløpig)
 ### Tilbake til toppen
@@ -21,6 +20,10 @@ Litt beskrivelse for hvert script.
 - [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
 -->
+## Info om de ulike script
+* Bash 01 er et script som demonstrerer en del koder i bash og viser ping med IP-adresser i en tabell
+* Batch 01 
+* * Bash 01 er et script som demonstrere en del koder i bash og viser temperaturen i en datamakin
 
 
 ## Litt mer info
