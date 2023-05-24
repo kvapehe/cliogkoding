@@ -119,6 +119,8 @@ BSD, FreeBSD er typer Unix men for meg som "slutttbruker" er det større variasj
 For å si det er IX er litt tungvindt. Fra starten av (se på nett om du finner årstaller / dato) het det ikke linux eller lus torvalds IX / UX men noe annet.
 OG i dag heter det faktisk ikke linux men GNU linux. Gnu er all programvaren som utgjør omperativsystemet og linmnux er kjernen.
 
+<details>
+<summary>Litt om linux og gnu</summary>
 I dag er GNU delen mer ukjent, men spesielt på lisensdelen er GNU viktig. Det at noe er åpen kildekode eller på engelsk Open Source som free/fri 
 programvare, og litt med fri som gratis programvare, men ikke nødvendigvis, er en filosofi til GNU
 Derrfo heter en av de kjente lisensene GPL og LGPL eller GNU (General Public License og LGPL er Lesser GPL). Innenfor GPL er det en rekke restriksjoner og føringer som gjør at linux har blitt så populært.
@@ -131,7 +133,7 @@ På denne mpåten sikrer en at noe som finnes alltid er tilgjengelig, og om oppr
 I dag er svært mye av programvaren med slike lisenser, og det har vært en hard kamp å kjempe for denne modellen. Igjen søk på nett om du vil vite mer.
 KAmepen for OSS startet på tidlig 90-tall (muligens litt før pga GNU) og pågår fortsatt. I dag har mage store organisasjoner tatt i bruk OSS-programvare Open Source Software)
 Og kanskje kjenner du til VLC eller VideoLan Codek. Nå finnes VLC på omtrent alt av enheter som kan spille av video eller vise et bilde og det er fordi dette er lisensiert med GPL.
-
+</details>
 ### GPL
 Å nevne GPL uten å ta med en annen person som har hatt stor betyding i tilleg til Torvalds er Richard M. Stallmansom på tidlig 80-tallet ville lage et operativsystem.
 Stallman var godt kjent med Unix og det meste innenfor Unix var både kostbart og lukket programvare, så med idene om å lage som som er fritt tilgjengelig kom på plass omtrent samtidig med Microsoft startet med sin DOS-satsing
@@ -149,6 +151,8 @@ Det en kan se det er en del enkeltpersoner opp gjennom tiden somhar fått enorm 
 
 # Et lite sprang til WWW eller HTML eller HTTP
 På 90 tallt ble internett "revolusjonert" fra slik det var før 90 og etter 90. Da dukker WWW opp eller det en i dag tenkter på som internett. var med å lage html for Cern. Let på nett for mange flere detaljer.
+<details>
+<summary>Hva har Cern med OSS, linux og GNU å gjøre</summary>
 Da de på Cern ville ha et dokumentsystem som gjorde det langt lettere å holde rede på alt mulig og kommunisere med hverandre dukket html opp. Det var ikke denne personen som strengt tatt fant opp HTML da det fantes SGML som HTM er hentet fra fra lang til tidlbake.
 Det som derimot er en "fellesnevner for personen nevnt over er at de kjente til dattidens teknologi og var i stand å lage noe fra dette, uten å kopiere eksisterende systemer. De gjorde dette for at det skulle være fritt tilgjengelig
 og at hvem som helst skal kunne både bidre og endre på det. Dette kan virke rart å få til, og være litt anarki-aktig, men det virker likevel, pga en rekke styringsmekanismer. En er at "ingen"er interessert i å "ødelegge" noe, en vil hele tiden endre på det for å få det bedre,
@@ -160,6 +164,7 @@ men de må også gi ut mye med GPL da de har hentet fra GPL, men alt annet kan d
 Debien i motsatt ende har den helt motsatte filosofien. Der skal alt være åpent og om det ikke er det blir det merket tydelig, og så skal alt være stabilt og gjennomprøvd. Dette fører til litt saktere utvikling, men svært sjelden feil på OS,
 dette fører ofte til svært stabile systemer og med lite eller ingen restriksjoner så blir det utbredd. Muligens er Debian den linuxdistribusjnen som har bettydd mes for linux til nå, og om en tenker på Android eller Ubuntu eller Raspberry OS så har alle utspring fra Debian og slik debian til enhver tide er bygget opp, slik er disse andre systemene bygget opp.Igjn om du vil gramve videre så søk på nett, men denne gangen litt tips. Ta med ii søkeordene linux distribution wikipedia så kan du see litt av bildet
 velger å være litt snill. HEr er lenken jeg regner med di ville funnet med det "presise" søøket. https://en.wikipedia.org/wiki/Linux_distribution. Fint å tenke på søk på engelsk er ofte presist innhold og omfattende. Like så med tysk. Når du søker på norsk får du ofte mye bra, men manglende, og så er det ferre som bidrar. Og om du lurer, ja det er linux og OSS i bunn.
+</details>
 
 # Oppgaven skulle handle om CLI, men her er det lite så langt
 Dette dokumentet skal ikke vise så mye CLI annet enn som vedlegg eller lenker til kode. Mye av koden er kommentert og kan brukes slik den er.  
