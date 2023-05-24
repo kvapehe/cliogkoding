@@ -22,44 +22,58 @@ Alternativt kan du velge md-versjonen av hvert script , som i tillegg viser utsk
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
 -->
 ### Batch script
-Sript demonstrerer hvordan en kan finne filer og dokumenter i cmd. Det krever at bruker oppgir mappe og filnavn.
-Script demonstrerer en rekke batchkommandoer som er nyttige å kjenne til.
+Sript demonstrerer hvordan en kan finne filer og dokumenter i cmd. Script demonstrerer en rekke batchkommandoer 
+som er nyttige å kjenne til.  
+Scriptet krever tre argumenter: Mappen det skal letes i, søkeargumenter og noen av tegnene i filnavnent
+Et eksempel er dette `C:\mappe>dirfil.cmd .\ *color* co`. Her må en tilpasse søk etter det en har på egen datamaskin.
 ```batch
 @echo off
 :: Forklaringer på ulike linjer i kode er til slutt i programmet. Det sparer en for litt unødige kommentarer underveis.
 :: Ved å se på alle eksemplene vil en se mye kodelinjer er like og på den måte forstå hva koden gjør.
 
 echo.
+echo ==============================================================================================================
+echo.
 echo Dette programmet leter etter det du ønsker. (NB norske tegn er ikke lurt)
 echo Det vil så åpne et dokument med det som er funnet og plasseringen på maskinen.
 echo Det er noen begrensinger i programmet. Bla må du velge stedet det skal søkes fra, og 
 echo dersom det ikke gjøres brukes plasseringen du ser om du skriver cd uten noe bak. (cd)
-
 echo.
 :: Setter feilkode til -1 som betyr noe er galt. Denne rettes til slutt om en når :veryend
 set ERRORLEVEL=-1
 
 set arg1=%1
 set arg2=%2
-if %arg1% == "" (goto usage)
-if %arg2% == "" (goto usage)
+set arg3=%3
+:: if %arg1% == "" 
+if [%1]==[] goto usage
+if [%2]==[] goto usage
+if [%3]==[] goto usage
+:: if [%arg2]==[] (goto usage) :: (goto usage)
+::if %arg2% == "" (goto usage)
 goto start
 
 :: C:\Users\bruker
 :usage
-echo Eksempel på bruk: 
-echo dir ..\ /s /b /a f3*.tx* |findstr "f3"
+echo ==============================================================================================================
+echo. 
+echo Eksempel paa bruk:
+echo Pass paa det er minst et mellomrom mellom hvert argument.
+echo Det er tre parameter. Forste er plassering, andre er filnavn eller * og det tredje er del av filnavn.
 echo.
-echo Returnerer kasnkje dette:
-echo C:\Users\elev1\.arduino-create\arduino\windows-drivers\1.8.0\drivers\.git\objects\40\af396a0ea3c0919709e49a9d343514988f7e26
-echo C:\Users\elev1\.arduino-create\arduino\windows-drivers\1.8.0\drivers\.git\objects\41\a890d1131ef889b772d86c5c4d1803bea0df3c
-echo C:\Users\elev1\.arduino-create\arduino\windows-drivers\1.8.0\drivers\.git\objects\45\4de03e94366ab70843abf5f9f3056b84f6fb9c
+echo Eksempel " dir ..\ /s /b /a *f3*.tx* |findstr "f3" "
+echo Returnerer kanskje dette:
+echo C:\Users\elev1\.arduino-create\arduino\windows-drivers\1.8.0\drivers\.git\objects\40\af396a0ea3c0919709e49a9d343514988f7e26.tx
+echo C:\Users\elev1\.arduino-create\arduino\windows-drivers\1.8.0\drivers\.git\objects\41\a890d1131ef889b772d86c5c4d1803bea0df3c.tx2
+echo C:\Users\elev1\.arduino-create\arduino\windows-drivers\1.8.0\drivers\.git\objects\45\4de03e94366ab70843abf5f9f3056b84f6fb9c.txt
 echo i tillegg til det en leter etter f3.txt
 echo C:\Users\elev1\f3.txt
-echo aarsaken til resultatet er at teksten f3 finnes et sted i de tre ekemplene over og derfor maa en vaere presis med det en leter etter.
+echo.
+echo Aarsaken til resultatet er at teksten f3 finnes et sted i de tre ekemplene over og derfor maa en vaere presis med det en leter etter.
 echo Legg merke til norske tegn naa er unngaatt, og maate aa gjoere dette er aa kun skrive paa engelsk, siden det norske spraaket
 echo bruker de tre siste tegnene i alfabetet i stor grad.
-echo Her er argumentene du skrev inn: %arg1% og %arg2%
+echo Her er argumentene du skrev inn: %arg1%, %arg2% og %arg2%
+
 goto showerrors
 
 :start
@@ -73,15 +87,18 @@ rem bør unngås siden da leses hele linjen til endes og det er ikke nødvendig 
 :: sett rem foran hver kommentar, og lage en versjon med :: istedenfor rem. Da vil en se en mangedobling av hastigheten programmet kjører.
 :: Legg merke til Æ ø Å er benyttet nå når det er kommentarer. Disse linjen vises ikke, og en må redigere filen for å se de.
 :: Windows kan vise æ ø å om det er rett tegnsett, mens cmd vil slite med det om en ikke gjør noen triks.
-:: Knakje dette er rettet med W11.
-
-:: Selve programmet. Alt rundt styrer logikk eller er ekstra mas
+:: Kanskje dette er rettet med W11.
 
 echo Her er din kommando:
-echo "dir %arg1% /s /b /a %arg2% |findstr "%arg2%" "
-dir %arg1% /b /a %arg2% |findstr "%arg2%"
-echo Data: dir %arg1% /s /b /a %arg2% |findstr "%arg2%"
+echo Plassering: '%arg1%' filnavn '%arg2%' med evt * foran og bak sokeordet og detaljert del av filnavn '%arg3%'
+echo "dir %arg1%%arg2% /s /b /a  |findstr "%arg3%" "
+echo on
+dir %arg1%%arg2% /s /b /a  |findstr "%arg3%"
+@echo off
+echo "Data: dir %arg1%%arg2% /s /b /a |findstr "%arg3%" "
 goto end
+
+
 
 
 :end
@@ -96,7 +113,7 @@ rem Det fleste program returnerer 0 når alt går bra. -1 om noe gikk galt og et
 :: På den måten kan en styre hva som skjer etter programmet er utført.
 :: F.eks. er det ingen grun å åpne fil i notepad dersom noe gikk galt. Da blir filen tom og får et navn.
 :: Noen ganger bli programmer store. Dette er ca 100 linjer så det nærmer seg stort. da kan en benytte kommandoen call
-:: Når programmet som kjøres er avsluttet kan dette returnere ERRORLEVEL og så kan deette programmet som benyttet call fil.cmd teste på hva koden viser.
+:: Når programmet som kjøres er avsluttet kan dette returnere ERRORLEVEL og så kan dette programmet som benyttet call fil.cmd teste på hva koden viser.
 :: På denne måten kn en lage seg et delvis hirarkisk system.
 
 
@@ -112,10 +129,9 @@ rem Det fleste program returnerer 0 når alt går bra. -1 om noe gikk galt og et
 :: 
 :: En versjon av programmet med langt mindre tekst er med som vedlegg.
 :: echo %ERRORLEVEL%
-
 :veryend
 :: Da var du ved veis ende. Da er det lurt å nullstille feilkoder, med mindre det skal returneres en kode.
-:: Poenget med en slik slutt er å renske kode og rydde i evt. variabler og utskrift til filsystemet, skjer eller evt skriver.
+:: Poenget med en slik slutt er å renske kode og rydde i evt. variabler og utskrift til filsystemet, skjerm eller evt skriver.
 
 set ERRORLEVEL=0
 :: echo %ERRORLEVEL%
@@ -124,11 +140,78 @@ set ERRORLEVEL=0
 :: Å bruke print til skjerm er en velkjent feilsøkingsmetode en alltid bør benytte.
 
 :showerrors
-echo %ERRORLEVEL%
+echo.
+echo ==============================================================================================================
+echo.
+IF %ERRORLEVEL% ==  0 echo Avslutter: %ERRORLEVEL% Feilkode = 0 betyr alt er OK
+IF %ERRORLEVEL% == -1 echo Avslutter: %ERRORLEVEL% Feilkode = -1 betyr noe gikk galt underveis.
+
+EXIT /B %ERRORLEVEL% :: En kan avslutte programmet og returnere koden
+
+
 ```
-### Batch script utskrift til skjerm eksempel
+### Batch script utskrift til skjerm eksempel med feilmelding
 ```batch
+echo Her er det feil i programmet ved at ikke alle argumenter er tatt med
+==============================================================================================================
 
+Dette programmet leter etter det du °nsker. (NB norske tegn er ikke lurt)
+Det vil sÕ Õpne et dokument med det som er funnet og plasseringen pÕ maskinen.
+Det er noen begrensinger i programmet. Bla mÕ du velge stedet det skal s°kes fra, og
+dersom det ikke gj°res brukes plasseringen du ser om du skriver cd uten noe bak. (cd)
+
+==============================================================================================================
+
+Eksempel paa bruk:
+Pass paa det er minst et mellomrom mellom hvert argument.
+Det er tre parameter. Forste er plassering, andre er filnavn eller * og det tredje er del av filnavn.
+
+Eksempel " dir ..\ /s /b /a *f3*.tx* |findstr "f3" "
+Returnerer kanskje dette:
+C:\Users\elev1\.arduino-create\arduino\windows-drivers\1.8.0\drivers\.git\objects\40\af396a0ea3c0919709e49a9d343514988f7e26.tx
+C:\Users\elev1\.arduino-create\arduino\windows-drivers\1.8.0\drivers\.git\objects\41\a890d1131ef889b772d86c5c4d1803bea0df3c.tx2
+C:\Users\elev1\.arduino-create\arduino\windows-drivers\1.8.0\drivers\.git\objects\45\4de03e94366ab70843abf5f9f3056b84f6fb9c.txt
+i tillegg til det en leter etter f3.txt
+C:\Users\elev1\f3.txt
+
+Aarsaken til resultatet er at teksten f3 finnes et sted i de tre ekemplene over og derfor maa en vaere presis med det en leter etter.
+Legg merke til norske tegn naa er unngaatt, og maate aa gjoere dette er aa kun skrive paa engelsk, siden det norske spraaket
+bruker de tre siste tegnene i alfabetet i stor grad.
+Her er argumentene du skrev inn: ,  og
+
+==============================================================================================================
+
+Avslutter: -1 Feilkode = -1 betyr noe gikk galt underveis.
 ```
+### Batch script utskrift til skjerm eksempel når alt er OK
+```batch
+echo 
+C:\mappe>dirfil.cmd .\ *color* co
 
+==============================================================================================================
+
+Dette programmet leter etter det du °nsker. (NB norske tegn er ikke lurt)
+Det vil sÕ Õpne et dokument med det som er funnet og plasseringen pÕ maskinen.
+Det er noen begrensinger i programmet. Bla mÕ du velge stedet det skal s°kes fra, og
+dersom det ikke gj°res brukes plasseringen du ser om du skriver cd uten noe bak. (cd)
+
+Her er din kommando:
+Plassering: '.\' filnavn '*color*' med evt * foran og bak sokeordet og detaljert del av filnavn 'co'
+"dir .\*color* /s /b /a  |findstr "co" "
+
+C:\mappe>dir .\*color* /s /b /a    | findstr "co"
+C:\mappe\coloroutput - Kopi.bat
+C:\mappe\coloroutput.bat
+C:\mappe\coloroutput.bat.html
+C:\mappe\v2_coloroutput.exe
+C:\mappe\win10colors_a_ok.cmd
+C:\mappe\win10colors_b_ok.cmd
+C:\mappe\win10colors_b_ok.html
+C:\mappe\win10colors_ok.cmd
+"Data: dir .\*color* /s /b /a |findstr "co" "
+
+==============================================================================================================
+
+Avslutter: 0 Feilkode = 0 betyr alt er OK
+```
 ### Eksempel avsluttet

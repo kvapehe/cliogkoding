@@ -26,8 +26,8 @@ Alternativt kan du velge md-versjonen av hvert script , som i tillegg viser utsk
 * Batch 01 viser ping av en rekke IP-adresser, med mye kommentarer og hjelp med batch-kommandoer.
 * Batch 02 er et script som leter etter en gitt fil på et Windows datasystem.
 * Batch 03 viser ping av en rekke IP-adresser, med langt mindre kommentarer og hjelp enn Batch 01.
-* Python 01 viser temperaturen i en datamskin og krever linux eller unix for å virke. Det fungerer også på Mac OSX-
-* Python 01b viser temperaturen i en datamskin og krever linux eller unix for å virke. Det fungerer også på Mac OSX-
+* Python 01 viser temperaturen i en datamskin og krever linux eller unix for å virke. Det fungerer også på Mac OSX.
+* Python 01b viser temperaturen i en datamskin og krever linux eller unix for å virke. Det fungerer også på Mac OSX.
 
 ## Litt mer info
 Planen var å legge et og et script i mappen script og så skulle dette automtisk og dynamisk dukke opp på hjemmesiden, slik det   tilsynelatende gjør i github. Dette virket visst ikke så for hver endring må denne filen endres.  
