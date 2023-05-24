@@ -1,14 +1,17 @@
-# Retur fra script-eksempel
-## Navigasjon: (manuell foreløpig)
+# Script eksempler
+
+## Navigasjon
 ### Tilbake til toppen
 - [Hovedsiden](../README.md)
 ### Innlevering
 - [Innlevering](../innlevering/innlevering001.md)
 - [Innlevering del 2](../innlevering/innlevering002_lite_tekst_noe_kode.md)
-### Scripteksempler
-- [Script](./README.md)
-- Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker.
-- Alternativt kan du velge md-versjonen av hvert script
+### Script eksempler
+[Script](./README.md)  
+Notis, her må du bruke tilbaketasten da .sh, .cmd, .py ikke støtter hyperlenker.  
+Kildekodene er tenkt slik at de kan lastes ned å prøves på egen maskin.  
+Alternativt kan du velge md-versjonen av hvert script , som i tillegg viser utskrift til skjerm.  
+
 - [Script (Linux) Bash](./bash01.sh) Alternativt vise som [md-fil Bash](./bash01_sh.md)  
 - [Script (Dos/Win/cmd) Batch 1](./batch01.cmd) Alternativt vise som [md-fil Batch 1](./batch01_cmd.md)   
 - [Script (Dos/Win/cmd) Batch 2](./batch02.cmd) Alternativt vise som [md-fil Batch 2](./batch02_cmd.md)  
@@ -19,7 +22,7 @@
 - [Script (Linux python) Python 2](./python02.py) NB ikke klar enda 
 - [Script (OS uavhengig python) Python 3](./python03.py) NB ikke klar enda 
 -->
-### Python kode
+## Python kode
 ```python
 #!/bin/python
 
@@ -331,7 +334,7 @@ if (  debug == 1 ):
   
 
 ```
-# Python utskrift til skjerm eksempel
+## Python utskrift til skjerm eksempel
 ```python
 echo Utskrift til skjerm
 
@@ -348,4 +351,5 @@ echo Utskrift til skjerm
 
 
 ```
+
 ### Eksempel avsluttet

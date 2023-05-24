@@ -6,7 +6,8 @@ INTERFACE=wlan0
 echo
 echo
 echo ================================================================================================================
-echo Da skulle du være klar for et \"litt\" større program. Studer kildekoden og test programmet
+echo Da skulle du være klar for et \"litt\" større program. Bash i linux er en del kratigere enn cmd og batch
+echo i Windows. Powershell endrer noe på dette. Studer kildekoden og test programmet.
 echo Mange av de tipsene og den kunnskapen du nå har fått er oppsummert i dette programmet.
 echo
 echo ================================================================================================================
