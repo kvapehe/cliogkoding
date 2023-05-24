@@ -1,12 +1,10 @@
 layout: page
-title: "PAGE-TITLE"
-permalink: /URL-PATH
+title: "Bakgrunnsinformasjon"
+permalink: /bakgrunnsinformasjon.md
 
-# En side
-Hvor havner du ...  
-Og posting ...  
-
-## Hovedsiden
+# Bakgrunnsinformasjon
+Her er litt info om hvordan sidene er laget. En rekke lenker er tatt med slik at en kan finne tilbake til de senere.
+# Hovedsiden
 - [Hovedsiden](./README.md)
 
 ## Kort fortalt hvordan githubsidene er laget.
@@ -28,19 +26,19 @@ Git deler ofte repository i main og ulike branches slik at flere kan jobbe på d
 fortsette med og så benytte merge branch. For mye mer detaljer om git og github, lag deg en konto og prøv selv. Kan garantere deg mange timer med prøving og feiling.
 Innholdet du vil ta med er helt opp til deg.
 
-# Mengder av nyttige og unyttige lenker
+## Mengder av nyttige og unyttige lenker
 Noen av lenkene ble benyttet da prosejektet ble laget og det er flere som er til dokumentasjon på git og github.
 For min del er dette litt nytt selv om jeg har brukt git og github i mange år, så har jeg ikke laget noe stor prosjekt av dette.
 Til oppgaven kunne det være gøy å prøve noe nytt, og så er det mye lettere å ta elever med på en slik reise om de ønsker det.
 Dersom det er noe en lurer på så er alt samlet på et sted, om enn litt rotete sted naturligvis.
 
-## Lage nettsiden
+### Lage nettsiden
 NB dette er ikke github repository med innholdet. Dette er selv nettsiden, som henter fra prosjektet.
 Lurt med litt info til dokumentasjon: https://docs.github.com/en/pages
 Github kaller det å benytte nettsider for GitHub Pages
 
 
-## I tillegg en rekke lenker som er benyttet underveis for å lage eksemplene.
+### I tillegg en rekke lenker som er benyttet underveis for å lage eksemplene.
 Det er ikke så mange lenker som er relevant for selv oppgaven. Det er mer litt info om det som er benyttet underveis for å komme i mål.
 https://stackoverflow.com/questions/62044046/typeerror-can-only-concatenate-tuple-not-str-to-tuple-problem-with-widgets  
 https://researchdatapod.com/how-to-solve-python-typeerror-can-only-concatenate-tuple-not-str-to-tuple/  
@@ -75,12 +73,9 @@ https://theprogrammingexpert.com/python-degree-symbol/
 https://python.plainenglish.io/comprehensions-in-python-write-shorter-for-loops-8b13c61a5eb5  
 
 
-# Noe info til selve eksperimentet med å lage en slik dynamisk side
+## Noe info til selve eksperimentet med å lage en slik dynamisk side
   
-Mye på en gang, kramdown, rabit hole, jekyll og sikkert noe mer.  
-github har mye på gang, enkel presntert, men litt mer arbeid å få til om en ikke følger instruksjoner riktig.  
-Eneste målet er en nettside som kan vises, der sluttbruker kan finne fram, og der TOC er benyttet.  
-Eneste agenda er å vise noen prosjektfiler...  
+Mye på en gang, kramdown, rabit hole, jekyll og flere ukjente verktøy før dette prosjektet.Etter å ha brukt 2 - 3 ukers tid på prosjektet med lesing av dokumentasjon på github, så nærer nettsidene seg noenlunde ferdig. 
   
 Lenker til sider som var oppe i nettleser da nettsiden ble laget rundt starten av mai og framover
 https://jekyllrb.com/docs/step-by-step/01-setup/  
@@ -109,26 +104,38 @@ https://github.com/kvapehe/cliogkoding/wiki/Innlevering
 https://annuel2.framapad.org/p/kvavg2data02  
 https://duckduckgo.com/?t=ffab&q=jekyll+github+pages&ia=web  
   
-  
 https://kramdown.gettalong.org/  
-  
-	  
-	https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll  
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
+
+## Diverse git-kommandoer
+```bash  
 $ cd PARENT-FOLDER  
 $ git init REPOSITORY-NAME  
 > Initialized empty Git repository in /Users/octocat/my-site/.git/  
+```
 ### Creates a new folder on your computer, initialized as a Git repository  
+```bash  
 $ cd REPOSITORY-NAME  
+```
 #### Changes the working directory  
+```bash  
 $ mkdir docs  
+```
 #### Creates a new folder called docs  
+```bash  
 $ cd docs  
 $ git checkout --orphan gh-pages  
+```
 ### Creates a new branch, with no history or contents, called gh-pages, and switches to the gh-pages branch  
+```bash  
 $ git rm -rf .  
+```
 ### Removes the contents from your default branch from the working directory  
+```bash  
 $ jekyll new --skip-bundle .  
+```
 ### Creates a Jekyll site in the current directory  
+```bash  
 gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins  
 domain: my-site.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com  
 url: https://my-site.github.io  # the base hostname and protocol for your site, e.g. http://example.com  
@@ -139,8 +146,10 @@ git commit -m 'Initial GitHub pages site with Jekyll'
   
 $ git remote add origin https://github.com/USER/REPOSITORY.git  
 $ git push -u origin BRANCH  
-
+```  
 ## Og helt til slutt litt mer om jekyll "nettsidelager"
+Når en utfører actions og lager pages, da er det jekyll som tar over. Les om det på nett for langt mer informasjon.
+
 https://jekyllrb.com/docs/posts/  
 https://nzrunner.github.io/home-assistant/github/2023/03/28/github-pages-and-jekyll-frustration-central.html  
 https://nzrunner.github.io/home-assistant/github/2023/03/28/github-pages-and-jekyll-frustration-central.html

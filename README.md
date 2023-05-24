@@ -2,6 +2,7 @@
 Notis. Dette prosjektet er levert som innlevering i inspera. (En langt tidligere utgave)
 <!-- ### Vis på egen nettsideadresse  ### https://kvapehe.github.io/cliogkoding/
 NB bruk åpne i ny arkfane om du vil ha en ny "side" -->
+## Navigasjon
 ### Innlevering
 - [Innlevering](./innlevering/innlevering001.md)
 - [Innlevering del 2](./innlevering/innlevering002_lite_tekst_noe_kode.md)
@@ -9,12 +10,13 @@ NB bruk åpne i ny arkfane om du vil ha en ny "side" -->
 - [Script](./script/README.md)
 ### Bakgrunnsinformasjon for selve nettstedet
 - Se nedesrst på siden om du ønsker å vite litt mer om nettstedet som er laget  
-  Dette er et eksperiment, ved å benytte github til "alt", inkludert å generere en delvis dynamisk nettside.    
+  Dette er et eksperiment, som benytter github til "alt", inkludert å generere en delvis dynamisk nettside.    
 ### Framapadsiden som lenker hit
 - [Framapad CLI og koding](https://annuel2.framapad.org/p/cliogkoding)
 
-# Velkommen til denne introduksjonssiden
-Tanken med denne dynamiske siden er å rette en del skrivefeil og evt legge til flere eksempler under script.
+# Velkommen
+Velkomment til denne introduksjonssiden. Tanken med denne dynamiske siden er å rette en del skrivefeil og evt legge 
+til flere eksempler under script når de er testet og virker som de skal.  
 Det er siden på github som er den aktive og mest oppdaterte til enhver tid, og det er som hjelp til den innleverte versjonen.
 Med den innleverte versjonen er det en rekke skrivefeil og tungt stoff. DEt er også lite bilder eller annet som gjør det lett å lese.
 Dette er et forsøk på å rette litt opp i det, og det vil fortsatt være mange skrivefeil, som rettes kontinuerlig, lenge etter innleveringsfristen.
@@ -46,13 +48,13 @@ Dette eksemplet er tatt med for å vise styrken og svakheten med dynamiske dokum
 begynnt å sette pris på dette og så lenge det ikke er identifiserbart eller senistivt materiale, og vi har filosofi om å dele alt er dette "perfekt"  
 
 
-# cliogkoding
+## cliogkoding
 Denne er opprinnelig til en oppgave som skal leveres inn.  
 Den vil også tjene som et lagersted for ulike script og koding.  
 This is so far in Norwegian, but may later be written in English.
 
 
-## Se seksjonen innlevering under
+## Se seksjonen innleveringslenker under
 Etter litt info på engelsk for evt bruker så finner en lenkene til oppgaver nederst på denne siden.
 Ellers så er dette et sted en kans starte. Selve prosjektdokumentet er i Markdown istedenfor Word docx.
 Prosjektnotatet er i docx og mange vedlegg er i docxe  eller pdf. Zip-fil som er referert til inneholder alt som 
@@ -62,45 +64,45 @@ https://github.com/kvapehe/cliogkoding/tree/main/innlevering
 # Information in English.
 Incase a non Norwegian reader / user sees this page here is some information. The scripts are written in English,  
 and they try to show som programming examples in different languages. Mostly for educational use.
-### The whole idea behind this repository it to publish, own work and potentially even others work.
-The plan is to include inside the source code the potentially used sources.
+### The project idea
+The whole idea behind this repository it to publish, own work and potentially even others work.
 If anyone sees their own work with not a proper credit, let me know so I can fix it.
 
-It is an experiment to produce almost everything to this task, on github.
+It is an experiment to produce almost everything to this task, on github and github pages (the web site from github).
 The repository name is a wordplay on my name and the school I am currently associated with.
 
 The plan is to start using revisison histroy and source revision tool to a higher ecxtent, than earlier,
 and to familiarise my self more with git. Another plan is to inform and introduce new students and pupils to this tool.
 
 There are many political obsticals for students to use this type of SW, regarding GDPR etc.
-There er several issues for students under 18 yerars of age to use such tools as github, so this has to be remebered and 
-taken into cosideration
+There er several issues for students under 18 years of age using  tools like github, so this has to be remebered and 
+taken into cosideration.
 
+## CLI tools
+The general idea is to use CLI-tool in different OS and environments. For now, python, bash, batch/cmd, powershell are included.
+There is nothing new on the page if you are looking for a script to do a job. It is merely my own playground. and it may teach students some simple batch programming.
 
-# The general idea is to use CLI-tool in different OS and environments.
-
-For now, python, bash, batch/cmd, powershell might be included.
-There is nothing new on the page if you are looking for a script to do a job. It is merely my own playground.
-
-
-## The focus is about using cli-tools in both scripts and on command line to achieve some goals.
+### Focusare is CLI and scripts
+The focus is about using cli-tools in both scripts and on command line to achieve some goals.
 Feel free to explore the different folders to find scripts., and this page for future updates.
+End English information. The rest of the page is mainly in Norwegian.
 
-
-# Innlevering
+# Innleveringslenker
 Det er levert en ZIP-fil med innleveringsdokumentene. ZIP-fil er fra 2023-05-05, og en kopi finnes her
-Når github er dynamisk kan en konstant korrigere og endre på innholdet til dette blir vurdert, og på den måten er en versjon lvert innen tidsfristen mens aen annen og mye bedre versjon, konstant blir endret på. Det meste av endringene består av å rette skrivefeil, men kanskje legge til noen figurer eller gjøre dokumentet mindre kjedelig.
+Når github er dynamisk kan en konstant korrigere og endre på innholdet til dette blir vurdert, og på den måten er en versjon levert innen tidsfristen mens en annen og mye bedre versjon, konstant blir endret på. Det meste av endringene består av å rette skrivefeil, og kanskje legge til noen figurer eller gjøre dokumentet mindre kjedelig.
 
-Her er noen lenker til innleveringen.  
-https://github.com/kvapehe/cliogkoding/  
-ZIP fil på github:   
-Prosjektet på folk.ntnu: https://folk.ntnu.no/pettehei/2023_05_05_innlevering_prosjekt/  
+## Lenker til innleveringen.  
+- https://github.com/kvapehe/cliogkoding/  
 
-Og strengt tatt  skal det være nok å ha denne for å få tak i alt innholdet.  
-Mappen for innlevering er her: https://github.com/kvapehe/cliogkoding/blob/main/innlevering/innlevering001.md  
+- ZIP fil av innleveringen [Prosjektetfil](https://folk.ntnu.no/pettehei/2023_05_05_innlevering_prosjekt/2023_05_05_statisk_versjon_innlevert.zip)  
+- [Prosjektet på folk.ntnu](https://folk.ntnu.no/pettehei/2023_05_05_innlevering_prosjekt/)
+- I navigasjon er det lenke til selve innleveringen. Lenken finnes i tillegg her.  
+  [github cliogkoding innlevering](https://github.com/kvapehe/cliogkoding/blob/main/innlevering/innlevering001.md)  
+  [github nettside innlevering](https://kvapehe.github.io/cliogkoding/innlevering/innlevering001.html)  
 
 # Bakgrunnsinformasjon om selve gihubsidene
-- [Bakgrunnsinformasjon](./PAGE-NAME.md)
+- [Bakgrunnsinformasjon](./bakgrunnsinformasjon.md)
 
-Initial 2023-05-05
-Last edited 2023-05-14
+Initial 2023-05-05  
+~~Last edited 2023-05-14~~  
+Last edited 2023-05-24  
