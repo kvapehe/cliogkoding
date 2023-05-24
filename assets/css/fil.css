@@ -2,12 +2,15 @@
 https://github.com/pages-themes/hacker/blob/master/_sass/_default_colors.scss
 https://github.com/pages-themes/leap-day/blob/master/_sass/jekyll-theme-leap-day.scss
 */
+
+/*
 .container {
   /* width: 90%;
   max-width: $container-max-width;
-  */
+  * /
   margin: 0 auto;
 }
+*/
 
 /*
 @import "rouge-base16-dark";
