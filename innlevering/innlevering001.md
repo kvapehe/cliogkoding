@@ -1,6 +1,6 @@
 # Innleveringssiden
 Dette er et litt interessant eksperiment. Det går ut på å droppe en rapport i Word-format og heller lage en dynamisk side på nett. Målet er å se hvor avansert siden kan bli ved bruk av Markdown-kodin og verktøy på github. Dette målet er i tillegg til å lage et opplæringsverktø for CLI og koding.
-## Navigasjon: (manuell foreløpig)
+## Navigasjon
 ### Tilbake til toppen
 - [Hovedsiden](../README.md)
 ### Innlevering

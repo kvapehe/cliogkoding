@@ -1,5 +1,7 @@
-# Intensjoen med dokumentet
-## Navigasjon: (manuell foreløpig)
+# Intensjonen med dokumentet
+Her vises noen eksempler og litt annet. Denne siden er kun tatt med for å vise noe kode,
+uten at en må lese alle de andre sidene.
+## Navigasjon
 ### Tilbake til toppen
 - [Hovedsiden](../README.md)
 ### Innlevering
