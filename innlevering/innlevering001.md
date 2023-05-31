@@ -122,7 +122,7 @@ For å si det er IX er litt tungvindt. Fra starten av (se på nett om du finner 
 OG i dag heter det faktisk ikke linux men GNU linux. Gnu er all programvaren som utgjør omperativsystemet og linmnux er kjernen.
 
 <details>
-<summary>Litt om linux og gnu</summary>
+<summary>`Klikk for mer innhold`Litt om linux og gnu</summary>
 I dag er GNU delen mer ukjent, men spesielt på lisensdelen er GNU viktig. Det at noe er åpen kildekode eller på engelsk Open Source som free/fri 
 programvare, og litt med fri som gratis programvare, men ikke nødvendigvis, er en filosofi til GNU
 Derrfo heter en av de kjente lisensene GPL og LGPL eller GNU (General Public License og LGPL er Lesser GPL). Innenfor GPL er det en rekke restriksjoner og føringer som gjør at linux har blitt så populært.
@@ -154,7 +154,7 @@ Det en kan se det er en del enkeltpersoner opp gjennom tiden somhar fått enorm 
 # Et lite sprang til WWW eller HTML eller HTTP
 På 90 tallt ble internett "revolusjonert" fra slik det var før 90 og etter 90. Da dukker WWW opp eller det en i dag tenkter på som internett. var med å lage html for Cern. Let på nett for mange flere detaljer.
 <details>
-<summary>Hva har Cern med OSS, linux og GNU å gjøre</summary>
+<summary>`Klikk for mer innhold`Hva har Cern med OSS, linux og GNU å gjøre</summary>
 Da de på Cern ville ha et dokumentsystem som gjorde det langt lettere å holde rede på alt mulig og kommunisere med hverandre dukket html opp. Det var ikke denne personen som strengt tatt fant opp HTML da det fantes SGML som HTM er hentet fra fra lang til tidlbake.
 Det som derimot er en "fellesnevner for personen nevnt over er at de kjente til dattidens teknologi og var i stand å lage noe fra dette, uten å kopiere eksisterende systemer. De gjorde dette for at det skulle være fritt tilgjengelig
 og at hvem som helst skal kunne både bidre og endre på det. Dette kan virke rart å få til, og være litt anarki-aktig, men det virker likevel, pga en rekke styringsmekanismer. En er at "ingen"er interessert i å "ødelegge" noe, en vil hele tiden endre på det for å få det bedre,
@@ -484,7 +484,7 @@ Nå stemmer ikke teksten over helt. For `python`-script finnes i script-mappen o
 ...
 
 <details>
-<summary>Kjekt å ha</summary>
+<summary>`Klikk for mer innhold`Kjekt å ha</summary>
 Nå ville det vært kjekt om en fikk til TOC og navigering på sidene, samt muligens lege avsnitt som kan åpnes og lukkes
 Her er et midlertidig eksperiment med enda mer markdown.
 
