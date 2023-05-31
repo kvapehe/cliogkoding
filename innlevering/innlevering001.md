@@ -136,6 +136,7 @@ I dag er svært mye av programvaren med slike lisenser, og det har vært en hard
 KAmepen for OSS startet på tidlig 90-tall (muligens litt før pga GNU) og pågår fortsatt. I dag har mage store organisasjoner tatt i bruk OSS-programvare Open Source Software)
 Og kanskje kjenner du til VLC eller VideoLan Codek. Nå finnes VLC på omtrent alt av enheter som kan spille av video eller vise et bilde og det er fordi dette er lisensiert med GPL.
 </details>
+
 ### GPL
 Å nevne GPL uten å ta med en annen person som har hatt stor betyding i tilleg til Torvalds er Richard M. Stallmansom på tidlig 80-tallet ville lage et operativsystem.
 Stallman var godt kjent med Unix og det meste innenfor Unix var både kostbart og lukket programvare, så med idene om å lage som som er fritt tilgjengelig kom på plass omtrent samtidig med Microsoft startet med sin DOS-satsing
@@ -153,6 +154,7 @@ Det en kan se det er en del enkeltpersoner opp gjennom tiden somhar fått enorm 
 
 # Et lite sprang til WWW eller HTML eller HTTP
 På 90 tallt ble internett "revolusjonert" fra slik det var før 90 og etter 90. Da dukker WWW opp eller det en i dag tenkter på som internett. var med å lage html for Cern. Let på nett for mange flere detaljer.
+
 <details>
 <summary>`Klikk for mer innhold`Hva har Cern med OSS, linux og GNU å gjøre</summary>
 Da de på Cern ville ha et dokumentsystem som gjorde det langt lettere å holde rede på alt mulig og kommunisere med hverandre dukket html opp. Det var ikke denne personen som strengt tatt fant opp HTML da det fantes SGML som HTM er hentet fra fra lang til tidlbake.
