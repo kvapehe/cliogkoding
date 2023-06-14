@@ -153,3 +153,12 @@ Når en utfører actions og lager pages, da er det jekyll som tar over. Les om d
 https://jekyllrb.com/docs/posts/  
 https://nzrunner.github.io/home-assistant/github/2023/03/28/github-pages-and-jekyll-frustration-central.html  
 https://nzrunner.github.io/home-assistant/github/2023/03/28/github-pages-and-jekyll-frustration-central.html
+
+[![Deploy static content to Pages](https://github.com/kvapehe/cliogkoding/actions/workflows/static.yml/badge.svg)](https://github.com/kvapehe/cliogkoding/actions/workflows/static.yml)
+
+
+[![Deploy static content to Pages](https://github.com/kvapehe/cliogkoding/actions/workflows/static.yml/badge.svg?event=deployment_status)](https://github.com/kvapehe/cliogkoding/actions/workflows/static.yml)
+
+Use `Control + Shift + m` to toggle the `tab` key moving focus. Alternatively, use `esc` then `tab` to move to the next interactive element on the page.
+
+Attach files by dragging & dropping, selecting or pasting them.
